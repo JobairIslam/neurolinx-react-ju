@@ -1,6 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.html"],
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
   theme: {
     container: {
       screens: {
@@ -42,23 +48,23 @@ module.exports = {
         "tropical-indigo": "#9A8DEC",
       },
       backgroundImage: () => ({
-        body: "url('../img/bg/body-bg.svg')",
-        solution: "url('../img/bg/solution-bg.svg')",
-        "how-it-work": "url('../img/bg/how-it-work-bg.svg')",
-        "our-story": "url('../img/bg/our-story-bg.svg')",
-        team: "url('../img/bg/team-bg.svg')",
-        service: "url('../img/bg/service-bg.svg')",
-        media: "url('../img/bg/media-bg.svg')",
-        patent: "url('../img/bg/patents-bg.svg')",
-        doc: "url('../img/bg/doc-bg.svg')",
-        blog: "url('../img/bg/blog-bg.svg')",
-        "blog-single": "url('../img/bg/blog-single-bg.svg')",
-        "case-study": "url('../img/bg/case-study-bg.svg')",
-        "case-study-single": "url('../img/bg/case-study-single-bg.svg')",
-        contact: "url('../img/bg/contact-bg.svg')",
-        sign: "url('../img/bg/sign-bg.svg')",
-        "term-of-services": "url('../img/bg/term-of-services-bg.svg')",
-        "privacy-policy": "url('../img/bg/privacy-policy-bg.svg')",
+        body: "url('/img/bg/body-bg.svg')",
+        solution: "url('/img/bg/solution-bg.svg')",
+        "how-it-work": "url('/img/bg/how-it-work-bg.svg')",
+        "our-story": "url('/img/bg/our-story-bg.svg')",
+        team: "url('/img/bg/team-bg.svg')",
+        service: "url('/img/bg/service-bg.svg')",
+        media: "url('/img/bg/media-bg.svg')",
+        patent: "url('/img/bg/patents-bg.svg')",
+        doc: "url('/img/bg/doc-bg.svg')",
+        blog: "url('/img/bg/blog-bg.svg')",
+        "blog-single": "url('/img/bg/blog-single-bg.svg')",
+        "case-study": "url('/img/bg/case-study-bg.svg')",
+        "case-study-single": "url('/img/bg/case-study-single-bg.svg')",
+        contact: "url('/img/bg/contact-bg.svg')",
+        sign: "url('/img/bg/sign-bg.svg')",
+        "term-of-services": "url('/img/bg/term-of-services-bg.svg')",
+        "privacy-policy": "url('/img/bg/privacy-policy-bg.svg')",
         "body-gd":
           "linear-gradient(to bottom, #19162B 0%, #0E0A25 50%, #1A162B 100%)",
         "gd-primary": "linear-gradient(to bottom, #C3C0D8 0%, #9A8DEC 100%);",
