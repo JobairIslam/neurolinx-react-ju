@@ -1,33 +1,98 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.gd-title {
+  background: linear-gradient(180deg, #c3c0d8 0%, #9b90df 50.13%, #7361e5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.btn-border {
+  border: 1px solid rgb(154, 141, 236);
+}
+@keyframes slides {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.animate-slides {
+  animation: slides 30s infinite linear;
+}
+.hero-brand {
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(0, 0, 0) 25%,
+    rgb(0, 0, 0) 75%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.hero-brand:hover .animate-slides {
+  animation-play-state: paused;
+}
+
+.corporate-values {
+  mask-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 15%,
+    #000000 50%,
+    rgba(0, 0, 0, 0) 85%
+  );
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 15%,
+    #000000 50%,
+    rgba(0, 0, 0, 0) 85%
+  );
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@keyframes scroll-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+.item-scroll-left {
+  display: flex;
+  animation: scroll-left 20s linear infinite;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.item-scroll-right {
+  animation: scroll-right 20s linear infinite;
+}
+
+@media screen and (max-width: 991px) {
+  .hero-brand .inline-flex.logo_items.animate-slides:first-child {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #nav-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+}
+
+@media (max-width: 767px) {
+  #nav-container {
+    position: relative;
   }
 }
