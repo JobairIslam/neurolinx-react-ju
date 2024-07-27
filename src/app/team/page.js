@@ -101,23 +101,24 @@ const Page = () => {
           </div>
         </div>
       </div>
-      <div class="py-24">
-        <div class="container px-5 mx-auto xl:px-0">
-          <h2 class="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
+      <div className="py-24">
+        <div className="container px-5 mx-auto xl:px-0">
+          <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
             Accomplishments in Data
-            <span class="inline-block lg:block"></span>Science &amp; Engineering
+            <span className="inline-block lg:block"></span>Science &amp;
+            Engineering
           </h2>
           <div>
-            <div class="flex flex-col md:flex-row justify-between gap-8 lg:gap-[126px] p-6 md:p-12 rounded-lg border border-b-600 bg-gd-tertiary">
-              <div class="flex flex-col items-start justify-between">
-                <span class="px-4 py-2 border rounded-full border-tropical-indigo text-tropical-indigo">
+            <div className="flex flex-col md:flex-row justify-between gap-8 lg:gap-[126px] p-6 md:p-12 rounded-lg border border-b-600 bg-gd-tertiary">
+              <div className="flex flex-col items-start justify-between">
+                <span className="px-4 py-2 border rounded-full border-tropical-indigo text-tropical-indigo">
                   2023
                 </span>
                 <div>
-                  <h3 class="mt-8 mb-4 text-2xl font-medium lg:mt-0 text-w-500">
+                  <h3 className="mt-8 mb-4 text-2xl font-medium lg:mt-0 text-w-500">
                     #1 Product on Product Hunt
                   </h3>
-                  <p class="text-base text-w-100">
+                  <p className="text-base text-w-100">
                     Founded in 2016 by experienced data scientists, engineers,
                     and consultants, Neurolinx AI is dedicated to maximizing the
                     business potential of data and AI.
@@ -134,15 +135,15 @@ const Page = () => {
           </div>
         </div>
       </div>
-      <div class="lg:py-24">
-        <div class="container px-5 mx-auto xl:px-0">
-          <h2 class="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
+      <div className="lg:py-24">
+        <div className="container px-5 mx-auto xl:px-0">
+          <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
             Milestones and
-            <span class="inline-block lg:block"></span>Accomplishments
+            <span className="inline-block lg:block"></span>Accomplishments
           </h2>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-[30px]">
-            <div class="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
-              <div class="inline-block p-6 rounded-full bg-primary btn-border">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-[30px]">
+            <div className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
+              <div className="inline-block p-6 rounded-full bg-primary btn-border">
                 <Image
                   width={48}
                   height={48}
@@ -151,14 +152,14 @@ const Page = () => {
                 />
               </div>
               <div>
-                <h3 class="mb-4 text-xl font-medium text-w-500">
+                <h3 className="mb-4 text-xl font-medium text-w-500">
                   Cutting-Edge Technology Partner
                 </h3>
-                <p class="text-sm text-w-100">Amazon Web Services (AWS)</p>
+                <p className="text-sm text-w-100">Amazon Web Services (AWS)</p>
               </div>
             </div>
-            <div class="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
-              <div class="inline-block p-6 rounded-full bg-primary btn-border">
+            <div className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
+              <div className="inline-block p-6 rounded-full bg-primary btn-border">
                 <Image
                   width={48}
                   height={48}
@@ -167,14 +168,14 @@ const Page = () => {
                 />
               </div>
               <div>
-                <h3 class="mb-4 text-xl font-medium text-w-500">
+                <h3 className="mb-4 text-xl font-medium text-w-500">
                   Accelerate Co-Sell Collaboration
                 </h3>
-                <p class="text-sm text-w-100">Amazon Web Service (AWS)</p>
+                <p className="text-sm text-w-100">Amazon Web Service (AWS)</p>
               </div>
             </div>
-            <div class="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
-              <div class="inline-block p-6 rounded-full bg-primary btn-border">
+            <div className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
+              <div className="inline-block p-6 rounded-full bg-primary btn-border">
                 <Image
                   width={48}
                   height={48}
@@ -183,14 +184,14 @@ const Page = () => {
                 />
               </div>
               <div>
-                <h3 class="mb-4 text-xl font-medium text-w-500">
+                <h3 className="mb-4 text-xl font-medium text-w-500">
                   Global Best Case Selection
                 </h3>
-                <p class="text-sm text-w-100">Amazon Web Service (AWS)</p>
+                <p className="text-sm text-w-100">Amazon Web Service (AWS)</p>
               </div>
             </div>
-            <div class="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
-              <div class="inline-block p-6 rounded-full bg-primary btn-border">
+            <div className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
+              <div className="inline-block p-6 rounded-full bg-primary btn-border">
                 <Image
                   width={48}
                   height={48}
@@ -199,14 +200,14 @@ const Page = () => {
                 />
               </div>
               <div>
-                <h3 class="mb-4 text-xl font-medium text-w-500">
+                <h3 className="mb-4 text-xl font-medium text-w-500">
                   Most Promising AI Startup
                 </h3>
-                <p class="text-sm text-w-100">NVIDIA (2019)</p>
+                <p className="text-sm text-w-100">NVIDIA (2019)</p>
               </div>
             </div>
-            <div class="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
-              <div class="inline-block p-6 rounded-full bg-primary btn-border">
+            <div className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
+              <div className="inline-block p-6 rounded-full bg-primary btn-border">
                 <Image
                   width={48}
                   height={48}
@@ -215,16 +216,16 @@ const Page = () => {
                 />
               </div>
               <div>
-                <h3 class="mb-4 text-xl font-medium text-w-500">
+                <h3 className="mb-4 text-xl font-medium text-w-500">
                   #1 Best Rated Product
                 </h3>
-                <p class="text-sm text-w-100">
+                <p className="text-sm text-w-100">
                   Product Hunt (2023)NVIDIA (2019)
                 </p>
               </div>
             </div>
-            <div class="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
-              <div class="inline-block p-6 rounded-full bg-primary btn-border">
+            <div className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
+              <div className="inline-block p-6 rounded-full bg-primary btn-border">
                 <Image
                   width={48}
                   height={48}
@@ -233,10 +234,12 @@ const Page = () => {
                 />
               </div>
               <div>
-                <h3 class="mb-4 text-xl font-medium text-w-500">
+                <h3 className="mb-4 text-xl font-medium text-w-500">
                   Registered 32 patents
                 </h3>
-                <p class="text-sm text-w-100">Plus 88 applications worldwide</p>
+                <p className="text-sm text-w-100">
+                  Plus 88 applications worldwide
+                </p>
               </div>
             </div>
           </div>

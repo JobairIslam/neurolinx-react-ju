@@ -173,14 +173,14 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div class="py-24">
-        <div class="container px-5 mx-auto xl:px-0">
-          <div class="flex flex-col items-center justify-center">
-            <h2 class="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
+      <div className="py-24">
+        <div className="container px-5 mx-auto xl:px-0">
+          <div className="flex flex-col items-center justify-center">
+            <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
               Updates &amp;
-              <span class="block"></span> Media Coverage
+              <span className="block"></span> Media Coverage
             </h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]">
               <UpdateCard
                 imageSrc="/img/blog1.png"
                 heading="AI Partners with Megazone Cloud to Enhance GenAI Adoption "

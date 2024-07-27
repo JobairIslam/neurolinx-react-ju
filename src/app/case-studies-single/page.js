@@ -9,7 +9,7 @@ import CustomCard from "../components/CustomCard";
 
 export default function page() {
   return (
-    <div class="font-normal bg-center bg-no-repeat bg-cover bg-body-gd lg:bg-case-study-single">
+    <div className="font-normal bg-center bg-no-repeat bg-cover bg-body-gd lg:bg-case-study-single">
       <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24">
         <div className="container px-5 mx-auto xl:px-0">
@@ -185,14 +185,14 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div class="py-24">
-        <div class="container px-5 mx-auto xl:px-0">
-          <div class="flex flex-col items-center justify-center">
-            <h2 class="gd-title font-semibold text-2xl sm:text-3xl md:text-4xl leading-8 sm:leading-10 md:leading-[64px] text-center tracking-[-0.02em] mb-16">
+      <div className="py-24">
+        <div className="container px-5 mx-auto xl:px-0">
+          <div className="flex flex-col items-center justify-center">
+            <h2 className="gd-title font-semibold text-2xl sm:text-3xl md:text-4xl leading-8 sm:leading-10 md:leading-[64px] text-center tracking-[-0.02em] mb-16">
               Explore other
-              <span class="block">Case Studies</span>
+              <span className="block">Case Studies</span>
             </h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px]">
               <CustomCard
                 imgSrc="/img/case-card1.png"
                 imgAlt="case card"

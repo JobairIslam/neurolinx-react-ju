@@ -1,14 +1,12 @@
 import React from "react";
-
 import Image from "next/image";
-
 import Header from "../components/Header";
 import FooterTop from "../components/FooterTop";
 import Footer from "../components/Footer";
 
 export default function page() {
   return (
-    <div class="overflow-x-hidden font-normal bg-body-gd lg:bg-how-it-work bg-center bg-no-repeat bg-cover">
+    <div className="overflow-x-hidden font-normal bg-body-gd lg:bg-how-it-work bg-center bg-no-repeat bg-cover">
       <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24">
         <div className="mx-auto px-5 xl:px-0 container">

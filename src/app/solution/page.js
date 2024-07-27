@@ -1,13 +1,11 @@
 import React from "react";
 import Image from "next/image";
-
 import Header from "../components/Header";
 import FooterTop from "../components/FooterTop";
 import Footer from "../components/Footer";
 import EnhancingCard from "../components/EnhancingCard";
 import CustomCard from "../components/CustomCard";
 import FAQAccordion from "../components/FAQSection";
-
 export default function page() {
   return (
     <div className="overflow-x-hidden font-normal bg-center bg-no-repeat bg-cover lg:bg-solution bg-body-gd">
@@ -25,14 +23,14 @@ export default function page() {
           </p>
         </div>
       </div>
-      <div class="lg:py-24">
-        <div class="mx-auto px-5 xl:px-0 container">
-          <h2 class="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
+      <div className="lg:py-24">
+        <div className="container px-5 mx-auto xl:px-0">
+          <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
             Enhancing Context-Aware
-            <span class="inline-block lg:block"></span>Natural Language
+            <span className="inline-block lg:block"></span>Natural Language
             Understanding
           </h2>
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]">
             <EnhancingCard
               imageSrc="/img/icons/1.svg"
               title="Streamlined Setup"
@@ -180,13 +178,13 @@ AI products with our flexible platform, allowing easy adjustments to align resul
           </div>
         </div>
       </div>
-      <div class="py-24">
-        <div class="mx-auto px-5 xl:px-0 container">
-          <h2 class="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
+      <div className="py-24">
+        <div className="container px-5 mx-auto xl:px-0">
+          <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
             Custom AI Solutions
-            <span class="inline-block lg:block"></span>Across Industries
+            <span className="inline-block lg:block"></span>Across Industries
           </h2>
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]">
             <CustomCard
               imgSrc="/img/case-card1.png"
               imgAlt="case card"

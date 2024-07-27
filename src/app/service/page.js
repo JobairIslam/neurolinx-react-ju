@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 export default function page() {
   return (
-    <div class="font-normal bg-center bg-no-repeat bg-cover bg-body-gd lg:bg-service">
+    <div className="font-normal bg-center bg-no-repeat bg-cover bg-body-gd lg:bg-service">
       <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24">
         <div className="container px-5 mx-auto xl:px-0">

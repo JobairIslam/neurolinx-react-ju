@@ -23,14 +23,14 @@ export default function page() {
           </p>
         </div>
       </div>
-      <div class="py-24">
-        <div class="container px-5 mx-auto xl:px-0">
-          <div class="flex flex-wrap items-start gap-[30px]">
-            <div class="lg:pe-[30px] w-full md:max-w-[850px] lg:border-r lg:border-r-border-r">
-              <h3 class="text-2xl font-medium text-w-500">
+      <div className="py-24">
+        <div className="container px-5 mx-auto xl:px-0">
+          <div className="flex flex-wrap items-start gap-[30px]">
+            <div className="lg:pe-[30px] w-full md:max-w-[850px] lg:border-r lg:border-r-border-r">
+              <h3 className="text-2xl font-medium text-w-500">
                 Unleash Operational Excellence for the AI Era with Neurolinx
               </h3>
-              <p class="mt-4 mb-6 text-base text-w-100">
+              <p className="mt-4 mb-6 text-base text-w-100">
                 At Neurolinx, we’re dedicated to revolutionizing the way you
                 interact with artificial intelligence. We believe AI should be
                 intuitive, seamless, and user-friendly. That’s why we&#39;ve
@@ -43,10 +43,10 @@ export default function page() {
                 src="/img/blog-single.png"
                 alt="blog single"
               />
-              <h3 class="mt-12 mb-4 text-2xl font-medium text-w-500">
+              <h3 className="mt-12 mb-4 text-2xl font-medium text-w-500">
                 What Makes Neurolinx Unique?
               </h3>
-              <p class="text-base text-w-100">
+              <p className="text-base text-w-100">
                 Imagine having a tireless assistant working 24/7 to streamline
                 your operations. That’s the power of our Neurolinx AI
                 Transformation Suite (NATS). NATS automates repetitive tasks,
@@ -59,15 +59,15 @@ export default function page() {
               <Image
                 width={850}
                 height={424}
-                class="mt-6 mb-12"
+                className="mt-6 mb-12"
                 src="/img/blog-single.png"
                 alt="blog single"
               />
-              <h3 class="text-2xl font-medium text-w-500">
+              <h3 className="text-2xl font-medium text-w-500">
                 How does Neurolinx simplify the interaction between users and
                 conversational AI?
               </h3>
-              <p class="mt-4 mb-6 text-w-100">
+              <p className="mt-4 mb-6 text-w-100">
                 Neurolinx Prompts are to Conversational AI what Icons and a
                 Mouse are to Computers. Just as icons and a mouse provide a
                 user-friendly interface for interacting with computers,
@@ -83,10 +83,10 @@ export default function page() {
                 src="/img/blog-single.png"
                 alt="blog single"
               />
-              <h3 class="mt-12 mb-4 text-2xl font-medium text-w-500">
+              <h3 className="mt-12 mb-4 text-2xl font-medium text-w-500">
                 The Evolution of Neurolinx
               </h3>
-              <p class="text-base text-w-100">
+              <p className="text-base text-w-100">
                 We started our journey in 2014, focused on enhancing AI
                 assistance for smart speakers. Over time, we’ve evolved into
                 industry experts, expanding our expertise across various
@@ -94,10 +94,10 @@ export default function page() {
                 enabling AI to understand users even with limited data. This
                 marks a significant milestone in our evolution.
               </p>
-              <h3 class="mt-12 mb-4 text-2xl font-medium text-w-500">
+              <h3 className="mt-12 mb-4 text-2xl font-medium text-w-500">
                 Who We Serve
               </h3>
-              <p class="text-base text-w-100">
+              <p className="text-base text-w-100">
                 Since our inception in 2016, we’ve forged strong partnerships
                 with leading consumer brands across diverse industries. Our
                 collaborations include industry giants like Booking.com, Sephora
@@ -107,10 +107,10 @@ export default function page() {
                 us as the go-to choice for businesses seeking AI-enhanced
                 solutions.
               </p>
-              <h3 class="mt-12 mb-4 text-2xl font-medium text-w-500">
+              <h3 className="mt-12 mb-4 text-2xl font-medium text-w-500">
                 Our Vision and Mission
               </h3>
-              <p class="text-base text-w-100">
+              <p className="text-base text-w-100">
                 At Neurolinx, our vision is clear: we’re simplifying
                 applications and naturalizing AI interactions. Our mission is to
                 make AI effortlessly understand you. We achieve this by
@@ -120,16 +120,16 @@ export default function page() {
               </p>
             </div>
 
-            <div class="w-full md:max-w-[380px]">
-              <div class="relative flex items-center justify-between w-full gap-2 px-4 py-3 border rounded-full border-b-600">
+            <div className="w-full md:max-w-[380px]">
+              <div className="relative flex items-center justify-between w-full gap-2 px-4 py-3 border rounded-full border-b-600">
                 <input
-                  class="w-full text-base bg-transparent focus:outline-none md:text-base text-w-900 placeholder:text-b-100"
+                  className="w-full text-base bg-transparent focus:outline-none md:text-base text-w-900 placeholder:text-b-100"
                   type="text"
                   placeholder="Search"
                 />
                 <Link href="#">
                   <svg
-                    class="mr-1"
+                    className="mr-1"
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
@@ -143,10 +143,10 @@ export default function page() {
                   </svg>
                 </Link>
               </div>
-              <h3 class="mt-12 mb-6 text-xl font-medium text-w-500">
+              <h3 className="mt-12 mb-6 text-xl font-medium text-w-500">
                 Related Articles
               </h3>
-              <div class="flex items-center gap-4 mb-4">
+              <div className="flex items-center gap-4 mb-4">
                 <Image
                   width={80}
                   height={80}
@@ -154,13 +154,16 @@ export default function page() {
                   alt="blog article"
                 />
                 <div>
-                  <Link href="blog-single.html" class="text-base text-w-500">
+                  <Link
+                    href="blog-single.html"
+                    className="text-base text-w-500"
+                  >
                     Enhanced Product Discovery through AI Merchandising
                   </Link>
-                  <p class="mt-2 text-xs text-w-100">December 19, 2023</p>
+                  <p className="mt-2 text-xs text-w-100">December 19, 2023</p>
                 </div>
               </div>
-              <div class="flex items-center gap-4 mb-4">
+              <div className="flex items-center gap-4 mb-4">
                 <Image
                   width={80}
                   height={80}
@@ -168,13 +171,16 @@ export default function page() {
                   alt="blog article"
                 />
                 <div>
-                  <Link href="blog-single.html" class="text-base text-w-500">
+                  <Link
+                    href="blog-single.html"
+                    className="text-base text-w-500"
+                  >
                     AI&#39;s Revolutionary Impact Transforming Drama Discovery
                   </Link>
-                  <p class="mt-2 text-xs text-w-100">September 28, 2023</p>
+                  <p className="mt-2 text-xs text-w-100">September 28, 2023</p>
                 </div>
               </div>
-              <div class="flex items-center gap-4 mb-4">
+              <div className="flex items-center gap-4 mb-4">
                 <Image
                   width={80}
                   height={80}
@@ -182,116 +188,123 @@ export default function page() {
                   alt="blog article"
                 />
                 <div>
-                  <Link href="blog-single.html" class="text-base text-w-500">
+                  <Link
+                    href="blog-single.html"
+                    className="text-base text-w-500"
+                  >
                     AI Partners with Megazone Cloud to Enhance GenAI Adoption
                   </Link>
-                  <p class="mt-2 text-xs text-w-100">July 27, 2023</p>
+                  <p className="mt-2 text-xs text-w-100">July 27, 2023</p>
                 </div>
               </div>
-              <h3 class="mt-12 mb-6 text-xl font-medium text-w-500">Tags</h3>
-              <div class="flex flex-wrap gap-2">
+              <h3 className="mt-12 mb-6 text-xl font-medium text-w-500">
+                Tags
+              </h3>
+              <div className="flex flex-wrap gap-2">
                 <Link
                   href="#"
-                  class="px-4 py-2 text-sm border rounded-full border-b-400 text-w-100 bg-b-600 hover:bg-tropical-indigo hover:text-w-900"
+                  className="px-4 py-2 text-sm border rounded-full border-b-400 text-w-100 bg-b-600 hover:bg-tropical-indigo hover:text-w-900"
                 >
                   AI Automation
                 </Link>
                 <Link
                   href="#"
-                  class="px-4 py-2 text-sm border rounded-full border-b-400 text-w-100 bg-b-600 hover:bg-tropical-indigo hover:text-w-900"
+                  className="px-4 py-2 text-sm border rounded-full border-b-400 text-w-100 bg-b-600 hover:bg-tropical-indigo hover:text-w-900"
                 >
                   Generative AI Use Cases
                 </Link>
                 <Link
                   href="#"
-                  class="px-4 py-2 text-sm border rounded-full border-b-400 text-w-100 bg-b-600 hover:bg-tropical-indigo hover:text-w-900"
+                  className="px-4 py-2 text-sm border rounded-full border-b-400 text-w-100 bg-b-600 hover:bg-tropical-indigo hover:text-w-900"
                 >
                   AI Prompt Engineering
                 </Link>
                 <Link
                   href="#"
-                  class="px-4 py-2 text-sm border rounded-full border-b-400 text-w-100 bg-b-600 hover:bg-tropical-indigo hover:text-w-900"
+                  className="px-4 py-2 text-sm border rounded-full border-b-400 text-w-100 bg-b-600 hover:bg-tropical-indigo hover:text-w-900"
                 >
                   AI Tools For Business
                 </Link>
                 <Link
                   href="#"
-                  class="px-4 py-2 text-sm border rounded-full border-b-400 text-w-100 bg-b-600 hover:bg-tropical-indigo hover:text-w-900"
+                  className="px-4 py-2 text-sm border rounded-full border-b-400 text-w-100 bg-b-600 hover:bg-tropical-indigo hover:text-w-900"
                 >
                   AI Ops
                 </Link>
                 <Link
                   href="#"
-                  class="px-4 py-2 text-sm border rounded-full border-b-400 text-w-100 bg-b-600 hover:bg-tropical-indigo hover:text-w-900"
+                  className="px-4 py-2 text-sm border rounded-full border-b-400 text-w-100 bg-b-600 hover:bg-tropical-indigo hover:text-w-900"
                 >
                   Generative AI Solution
                 </Link>
               </div>
-              <h3 class="mt-12 mb-6 text-xl font-medium text-w-500">
+              <h3 className="mt-12 mb-6 text-xl font-medium text-w-500">
                 Categories
               </h3>
-              <div class="flex flex-col items-start justify-start gap-2">
+              <div className="flex flex-col items-start justify-start gap-2">
                 <Link
                   href="#"
-                  class="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
+                  className="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
                 >
-                  <span class="text-base text-w-100">AI Planning</span>
-                  <span class="text-base text-w-100">23</span>
+                  <span className="text-base text-w-100">AI Planning</span>
+                  <span className="text-base text-w-100">23</span>
                 </Link>
                 <Link
                   href="#"
-                  class="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
+                  className="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
                 >
-                  <span class="text-base text-w-100">Computer Vision</span>
-                  <span class="text-base text-w-100">47</span>
+                  <span className="text-base text-w-100">Computer Vision</span>
+                  <span className="text-base text-w-100">47</span>
                 </Link>
                 <Link
                   href="#"
-                  class="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
+                  className="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
                 >
-                  <span class="text-base text-w-100">Speech Recognition</span>
-                  <span class="text-base text-w-100">89</span>
+                  <span className="text-base text-w-100">
+                    Speech Recognition
+                  </span>
+                  <span className="text-base text-w-100">89</span>
                 </Link>
                 <Link
                   href="#"
-                  class="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
+                  className="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
                 >
-                  <span class="text-base text-w-100">Machine Learning</span>
-                  <span class="text-base text-w-100">12</span>
+                  <span className="text-base text-w-100">Machine Learning</span>
+                  <span className="text-base text-w-100">12</span>
                 </Link>
                 <Link
                   href="#"
-                  class="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
+                  className="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
                 >
-                  <span class="text-base text-w-100">Deep Learning</span>
-                  <span class="text-base text-w-100">56</span>
+                  <span className="text-base text-w-100">Deep Learning</span>
+                  <span className="text-base text-w-100">56</span>
                 </Link>
                 <Link
                   href="#"
-                  class="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
+                  className="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
                 >
-                  <span class="text-base text-w-100">Neural Networks</span>
-                  <span class="text-base text-w-100">34</span>
+                  <span className="text-base text-w-100">Neural Networks</span>
+                  <span className="text-base text-w-100">34</span>
                 </Link>
                 <Link
                   href="#"
-                  class="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
+                  className="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
                 >
-                  <span class="text-base text-w-100">Expert Systems</span>
-                  <span class="text-base text-w-100">78</span>
+                  <span className="text-base text-w-100">Expert Systems</span>
+                  <span className="text-base text-w-100">78</span>
                 </Link>
                 <Link
                   href="#"
-                  class="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
+                  className="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
                 >
-                  <span class="text-base text-w-100">Virtual Agents</span>
-                  <span class="text-base text-w-100">91</span>
+                  <span className="text-base text-w-100">Virtual Agents</span>
+                  <span className="text-base text-w-100">91</span>
                 </Link>
               </div>
-              <h3 class="mt-12 mb-6 text-xl font-medium text-w-500">
+              <h3 className="mt-12 mb-6 text-xl font-medium text-w-500">
                 Share on Social
               </h3>
-              <div class="flex items-center justify-start gap-4">
+              <div className="flex items-center justify-start gap-4">
                 <Link href="https://www.facebook.com/">
                   <Image
                     width={24}
