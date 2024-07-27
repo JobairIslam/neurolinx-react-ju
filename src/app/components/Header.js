@@ -32,7 +32,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="solution.html"
+                    href="/solution"
                     className="inline-block text-sm font-semibold capitalize transition-all duration-300 text-w-100 hover:text-w-900"
                   >
                     solutions
@@ -58,13 +58,13 @@ export default function Header() {
             </nav>
             <div className="flex items-center justify-end gap-2">
               <Link
-                href="sign-in.html"
+                href="/sign-in"
                 className="inline-block px-4 py-2 text-sm font-medium capitalize transition-all duration-300 bg-transparent border border-transparent rounded-full text-w-900"
               >
                 sign in
               </Link>
               <Link
-                href="sign-up.html"
+                href="/sign-up"
                 className="inline-block px-4 py-2 text-sm font-medium capitalize transition-all duration-300 border rounded-full btn-border bg-gd-secondary hover:bg-transparent text-w-900"
               >
                 sign up
@@ -109,7 +109,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="solution.html"
+                    href="/solution"
                     className="inline-block text-sm font-semibold capitalize transition-all duration-300 text-w-100 hover:text-w-900"
                   >
                     solutions
@@ -135,13 +135,13 @@ export default function Header() {
             </nav>
             <div className="flex items-center gap-2 mt-8">
               <Link
-                href="sign-in.html"
+                href="sign-in"
                 className="inline-block px-4 py-2 rounded-full border border-w-500 hover:border-tropical-indigo border-opacity-[8%] capitalize text-sm font-medium bg-transparent hover:bg-gd-secondary text-w-900 transition-all duration-300"
               >
                 sign in
               </Link>
               <Link
-                href="sign-up.html"
+                href="sign-up"
                 className="inline-block px-4 py-2 rounded-full border border-tropical-indigo hover:border-transparent border-opacity-[8%] capitalize text-sm font-medium bg-gd-secondary hover:bg-transparent text-w-900 transition-all duration-300"
               >
                 sign up
