@@ -102,7 +102,7 @@ const Footer = () => {
                 documentation
               </Link>
               <Link
-                href="/how-it-works"
+                href="/how-it-work"
                 className="text-sm font-medium capitalize transition-all duration-300 text-w-100 hover:text-tropical-indigo"
               >
                 how it works
