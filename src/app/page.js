@@ -183,25 +183,31 @@ export default function Home() {
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]">
               <UpdateCard
                 imageSrc="/img/blog1.png"
-                heading="AI Partners with Megazone Cloud to Enhance GenAI Adoption"
-                headingHref="/blog-single"
+                heading="AI Partners with Megazone Cloud to Enhance GenAI Adoption "
+                headingHref="#"
                 tag1="Prompt Engineering"
+                tag1Href="#"
                 tag2="AI Use Cases"
+                tag2Href="#"
               />
               <UpdateCard
                 imageSrc="/img/blog2.png"
                 heading="AI's Revolutionary Impact Transforming Drama Discovery for Fans"
-                headingHref="/blog-single"
+                headingHref="#"
                 tag1="Streaming"
+                tag1Href="#"
                 tag2="AI Search"
+                tag2Href="#"
               />
               <UpdateCard
                 imageSrc="/img/blog3.png"
                 heading="Simplified AI Applications Streamlining Complexity
 for Enhanced Utility"
-                headingHref="/blog-single"
+                headingHref="#"
                 tag1="AI Automation"
+                tag1Href="#"
                 tag2="Generative AI Use Cases"
+                tag2Href="#"
               />
             </div>
           </div>

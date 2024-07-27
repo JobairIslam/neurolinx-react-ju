@@ -1,12 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+
 import Header from "../components/Header";
 import FooterTop from "../components/FooterTop";
 import Footer from "../components/Footer";
-import EnhancingCard from "../components/EnhancingCard";
-import CustomCard from "../components/CustomCard";
-import FAQAccordion from "../components/FAQSection";
+
 export default function page() {
   return (
     <div class="font-normal bg-center bg-no-repeat bg-cover bg-body-gd lg:bg-service">
