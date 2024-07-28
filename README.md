@@ -84,6 +84,7 @@ setActiveIndex(activeIndex === index ? null : index);
 };
 
 return (
+
 <div className="flex flex-col gap-4 w-full lg:max-w-[850px]">
 {faqs.map((faq, index) => (
 <div
@@ -155,6 +156,7 @@ videoRef.current.currentTime = 0;
 };
 
 return (
+
 <div className="py-24">
 <div className="container px-5 mx-auto xl:px-0">
 <div className="flex flex-col items-center justify-center">
@@ -218,3 +220,78 @@ Beyond Binary Uniquely
 };
 
 export default VideoSection;
+
+<UpdateCard
+              imageSrc="/img/blog1.png"
+              heading="AI Partners with Megazone Cloud to Enhance GenAI Adoption "
+              headingHref="#"
+              tag1="Prompt Engineering"
+              tag1Href="#"
+              tag2="AI Use Cases"
+              tag2Href="#"
+            />
+<UpdateCard
+              imageSrc="/img/blog2.png"
+              heading="AI's Revolutionary Impact Transforming Drama Discovery for Fans"
+              headingHref="#"
+              tag1="Streaming"
+              tag1Href="#"
+              tag2="AI Search"
+              tag2Href="#"
+            />
+<UpdateCard
+              imageSrc="/img/blog3.png"
+              heading="Simplified AI Applications Streamlining Complexity for Enhanced Utility "
+              headingHref="#"
+              tag1="AI Automation"
+              tag1Href="#"
+              tag2="Generative AI Use Cases"
+              tag2Href="#"
+            />
+<UpdateCard
+              imageSrc="/img/blog4.png"
+              heading="Enhanced Product Discovery through
+AI Merchandising"
+              headingHref="#"
+              tag1="Artificial Intelligence"
+              tag1Href="#"
+              tag2="Merchandising"
+              tag2Href="#"
+            />
+<UpdateCard
+              imageSrc="/img/blog1.png"
+              heading="AI's Revolutionary Impact Transforming Drama Discovery for Fans"
+              headingHref="#"
+              tag1="Streaming"
+              tag1Href="#"
+              tag2="AI Search"
+              tag2Href="#"
+            />
+<UpdateCard
+              imageSrc="/img/blog2.png"
+              heading="AI Partners with Megazone Cloud to Enhance GenAI Adoption "
+              headingHref="#"
+              tag1="Prompt Engineering"
+              tag1Href="#"
+              tag2="AI Use Cases"
+              tag2Href="#"
+            />
+<UpdateCard
+              imageSrc="/img/blog3.png"
+              heading="Enhanced Product Discovery through
+AI Merchandising"
+              headingHref="#"
+              tag1="Artificial Intelligence"
+              tag1Href="#"
+              tag2="Merchandising"
+              tag2Href="#"
+            />
+<UpdateCard
+              imageSrc="/img/blog4.png"
+              heading="Simplified AI Applications Streamlining Complexity for Enhanced Utility "
+              headingHref="#"
+              tag1="AI Automation"
+              tag1Href="#"
+              tag2="Generative AI Use Cases"
+              tag2Href="#"
+            />

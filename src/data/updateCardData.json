@@ -1,0 +1,122 @@
+[
+  {
+    "imageSrc": "/img/blog1.png",
+    "heading": "AI Partners with Megazone Cloud to Enhance GenAI Adoption",
+    "headingHref": "#",
+    "tags": [
+      {
+        "tag": "Prompt Engineering",
+        "tagHref": "#"
+      },
+      {
+        "tag": "AI Use Cases",
+        "tagHref": "#"
+      }
+    ]
+  },
+  {
+    "imageSrc": "/img/blog2.png",
+    "heading": "AI's Revolutionary Impact Transforming Drama Discovery for Fans",
+    "headingHref": "#",
+    "tags": [
+      {
+        "tag": "Streaming",
+        "tagHref": "#"
+      },
+      {
+        "tag": "AI Search",
+        "tagHref": "#"
+      }
+    ]
+  },
+  {
+    "imageSrc": "/img/blog3.png",
+    "heading": "Simplified AI Applications Streamlining Complexity for Enhanced Utility",
+    "headingHref": "#",
+    "tags": [
+      {
+        "tag": "AI Automation",
+        "tagHref": "#"
+      },
+      {
+        "tag": "Generative AI Use Cases",
+        "tagHref": "#"
+      }
+    ]
+  },
+  {
+    "imageSrc": "/img/blog4.png",
+    "heading": "Enhanced Product Discovery through AI Merchandising",
+    "headingHref": "#",
+    "tags": [
+      {
+        "tag": "Artificial Intelligence",
+        "tagHref": "#"
+      },
+      {
+        "tag": "Merchandising",
+        "tagHref": "#"
+      }
+    ]
+  },
+  {
+    "imageSrc": "/img/blog1.png",
+    "heading": "AI's Revolutionary Impact Transforming Drama Discovery for Fans",
+    "headingHref": "#",
+    "tags": [
+      {
+        "tag": "Streaming",
+        "tagHref": "#"
+      },
+      {
+        "tag": "AI Search",
+        "tagHref": "#"
+      }
+    ]
+  },
+  {
+    "imageSrc": "/img/blog2.png",
+    "heading": "AI Partners with Megazone Cloud to Enhance GenAI Adoption",
+    "headingHref": "#",
+    "tags": [
+      {
+        "tag": "Prompt Engineering",
+        "tagHref": "#"
+      },
+      {
+        "tag": "AI Use Cases",
+        "tagHref": "#"
+      }
+    ]
+  },
+  {
+    "imageSrc": "/img/blog3.png",
+    "heading": "Enhanced Product Discovery through AI Merchandising",
+    "headingHref": "#",
+    "tags": [
+      {
+        "tag": "Artificial Intelligence",
+        "tagHref": "#"
+      },
+      {
+        "tag": "Merchandising",
+        "tagHref": "#"
+      }
+    ]
+  },
+  {
+    "imageSrc": "/img/blog4.png",
+    "heading": "Simplified AI Applications Streamlining Complexity for Enhanced Utility",
+    "headingHref": "#",
+    "tags": [
+      {
+        "tag": "AI Automation",
+        "tagHref": "#"
+      },
+      {
+        "tag": "Generative AI Use Cases",
+        "tagHref": "#"
+      }
+    ]
+  }
+]

@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import FooterTop from "../components/FooterTop";
 import Footer from "../components/Footer";
 import UpdateCard from "../components/UpdateCard";
+import updateCardData from "../data/UpdateCardData.json";
 
 export default function page() {
   return (
@@ -29,80 +30,18 @@ export default function page() {
             <span className="block"></span>Engineering Approach
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[30px]">
-            <UpdateCard
-              imageSrc="/img/blog1.png"
-              heading="AI Partners with Megazone Cloud to Enhance GenAI Adoption "
-              headingHref="#"
-              tag1="Prompt Engineering"
-              tag1Href="#"
-              tag2="AI Use Cases"
-              tag2Href="#"
-            />
-            <UpdateCard
-              imageSrc="/img/blog2.png"
-              heading="AI's Revolutionary Impact Transforming Drama Discovery for Fans"
-              headingHref="#"
-              tag1="Streaming"
-              tag1Href="#"
-              tag2="AI Search"
-              tag2Href="#"
-            />
-            <UpdateCard
-              imageSrc="/img/blog3.png"
-              heading="Simplified AI Applications Streamlining Complexity for Enhanced Utility "
-              headingHref="#"
-              tag1="AI Automation"
-              tag1Href="#"
-              tag2="Generative AI Use Cases"
-              tag2Href="#"
-            />
-            <UpdateCard
-              imageSrc="/img/blog4.png"
-              heading="Enhanced Product Discovery through
-AI Merchandising"
-              headingHref="#"
-              tag1="Artificial Intelligence"
-              tag1Href="#"
-              tag2="Merchandising"
-              tag2Href="#"
-            />
-            <UpdateCard
-              imageSrc="/img/blog1.png"
-              heading="AI's Revolutionary Impact Transforming Drama Discovery for Fans"
-              headingHref="#"
-              tag1="Streaming"
-              tag1Href="#"
-              tag2="AI Search"
-              tag2Href="#"
-            />
-            <UpdateCard
-              imageSrc="/img/blog2.png"
-              heading="AI Partners with Megazone Cloud to Enhance GenAI Adoption "
-              headingHref="#"
-              tag1="Prompt Engineering"
-              tag1Href="#"
-              tag2="AI Use Cases"
-              tag2Href="#"
-            />
-            <UpdateCard
-              imageSrc="/img/blog3.png"
-              heading="Enhanced Product Discovery through
-AI Merchandising"
-              headingHref="#"
-              tag1="Artificial Intelligence"
-              tag1Href="#"
-              tag2="Merchandising"
-              tag2Href="#"
-            />
-            <UpdateCard
-              imageSrc="/img/blog4.png"
-              heading="Simplified AI Applications Streamlining Complexity for Enhanced Utility "
-              headingHref="#"
-              tag1="AI Automation"
-              tag1Href="#"
-              tag2="Generative AI Use Cases"
-              tag2Href="#"
-            />
+            {updateCardData.map((item, index) => (
+              <UpdateCard
+                key={index}
+                imageSrc={item.imageSrc}
+                heading={item.heading}
+                headingHref={item.headingHref}
+                tag1={item.tags[0].tag}
+                tag1Href={item.tags[0].tagHref}
+                tag2={item.tags[1].tag}
+                tag2Href={item.tags[1].tagHref}
+              />
+            ))}
           </div>
           <div className="flex justify-center mt-16">
             <nav className="flex items-center justify-center gap-1 p-3 border rounded-full border-b-600">
