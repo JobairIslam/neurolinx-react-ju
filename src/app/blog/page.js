@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import FooterTop from "../components/FooterTop";
 import Footer from "../components/Footer";
 import UpdateCard from "../components/UpdateCard";
-import updateCardData from "../data/UpdateCardData.json";
+import updateCardData from "/src/data/updateCardData.json";
 
 export default function page() {
   return (

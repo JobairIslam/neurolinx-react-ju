@@ -1,0 +1,29 @@
+[
+  {
+    "imgSrc": "/img/case-card1.png",
+    "imgAlt": "case card",
+    "title": "Global Personalized Product Discovery Platform for 360+ Beauty Brands",
+    "linkHref": "/team",
+    "linkText": "Read Case Study",
+    "arrowImgSrc": "/img/icons/arrow-right.svg",
+    "arrowImgAlt": "arrow"
+  },
+  {
+    "imgSrc": "/img/case-card2.png",
+    "imgAlt": "case card",
+    "title": "Fan-Powered Dynamic Music Chart Using Online Social Data",
+    "linkHref": "/team",
+    "linkText": "Read Case Study",
+    "arrowImgSrc": "/img/icons/arrow-right.svg",
+    "arrowImgAlt": "arrow"
+  },
+  {
+    "imgSrc": "/img/case-card3.png",
+    "imgAlt": "case card",
+    "title": "AI Voice Search Leaders: Transforming the Duty-Free Industry",
+    "linkHref": "/team",
+    "linkText": "Read Case Study",
+    "arrowImgSrc": "/img/icons/arrow-right.svg",
+    "arrowImgAlt": "arrow"
+  }
+]

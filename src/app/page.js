@@ -8,6 +8,7 @@ import FAQSection from "./components/FAQSection";
 import FooterTop from "./components/FooterTop";
 import Footer from "./components/Footer";
 import "./globals.css";
+import updateCardData from "/src/data/updateCardData.json";
 export default function Home() {
   return (
     <div className="font-normal bg-center bg-no-repeat bg-cover bg-body-gd lg:bg-body">
@@ -181,34 +182,18 @@ export default function Home() {
               <span className="block"></span> Media Coverage
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]">
-              <UpdateCard
-                imageSrc="/img/blog1.png"
-                heading="AI Partners with Megazone Cloud to Enhance GenAI Adoption "
-                headingHref="#"
-                tag1="Prompt Engineering"
-                tag1Href="#"
-                tag2="AI Use Cases"
-                tag2Href="#"
-              />
-              <UpdateCard
-                imageSrc="/img/blog2.png"
-                heading="AI's Revolutionary Impact Transforming Drama Discovery for Fans"
-                headingHref="#"
-                tag1="Streaming"
-                tag1Href="#"
-                tag2="AI Search"
-                tag2Href="#"
-              />
-              <UpdateCard
-                imageSrc="/img/blog3.png"
-                heading="Simplified AI Applications Streamlining Complexity
-for Enhanced Utility"
-                headingHref="#"
-                tag1="AI Automation"
-                tag1Href="#"
-                tag2="Generative AI Use Cases"
-                tag2Href="#"
-              />
+              {updateCardData.slice(0, 3).map((item, index) => (
+                <UpdateCard
+                  key={index}
+                  imageSrc={item.imageSrc}
+                  heading={item.heading}
+                  headingHref={item.headingHref}
+                  tag1={item.tags[0].tag}
+                  tag1Href={item.tags[0].tagHref}
+                  tag2={item.tags[1].tag}
+                  tag2Href={item.tags[1].tagHref}
+                />
+              ))}
             </div>
           </div>
         </div>

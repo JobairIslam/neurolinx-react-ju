@@ -6,6 +6,8 @@ import Footer from "../components/Footer";
 import EnhancingCard from "../components/EnhancingCard";
 import CustomCard from "../components/CustomCard";
 import FAQAccordion from "../components/FAQSection";
+import enhancingCardData from "/src/data/enhancingCardData.json";
+import customCardData from "/src/data/customCardData.json";
 export default function page() {
   return (
     <div className="overflow-x-hidden font-normal bg-center bg-no-repeat bg-cover lg:bg-solution bg-body-gd">
@@ -31,52 +33,14 @@ export default function page() {
             Understanding
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]">
-            <EnhancingCard
-              imageSrc="/img/icons/1.svg"
-              title="Streamlined Setup"
-              description="Automate data preprocessing, learning updates, and load balancing without extra infrastructure or manpower."
-            />
-            <EnhancingCard
-              imageSrc="/img/icons/2.svg"
-              title="Seamless Integration"
-              description="Easily integrate Neurolinx with your data catalogue and connect it to your existing search, recommendation, or AI systems."
-            />
-            <EnhancingCard
-              imageSrc="/img/icons/3.svg"
-              title="Recent Outcomes"
-              description="Utilize real-time updates to incorporate recent data changes seamlessly, without additional operational costs."
-            />
-            <EnhancingCard
-              imageSrc="/img/icons/4.svg"
-              title="Revenue Generation"
-              description="Drive revenue growth through Neurolinx by integrating its units into your ad system or offering valuable data insights to other businesses."
-            />
-            <EnhancingCard
-              imageSrc="/img/icons/5.svg"
-              title="Reducing Workload"
-              description="Neurolinx's data analytics expedite decision-making and time-to-market, minimizing workload and boosting efficiency."
-            />
-            <EnhancingCard
-              imageSrc="/img/icons/6.svg"
-              title="Customizable Outcomes"
-              description="Overcome the limitations of opaque
-AI products with our flexible platform, allowing easy adjustments to align results with your business strategy."
-            />
-            <EnhancingCard
-              imageSrc="/img/icons/7.svg"
-              title="Long-tail Recs"
-              description="Enhance the value of your data by leveraging social-powered recommendation data to deliver more personalized and relevant results."
-            />
-            <EnhancingCard
-              imageSrc="/img/icons/8.svg"
-              title="Tailored Outcomes"
-              description="Kick-start user profiling with social-based datasets to resolve the cold start problem and deliver personalized results."
-            />
-            <EnhancingCard
-              imageSrc="/img/icons/9.svg"
-              title="Voice Search Upgrade"
-              description="Optimize voice search with Neurolinx's NLP units that understand colloquial terms and phrases, ensuring precise and intuitive interactions."
-            />
+            {enhancingCardData.map((item, index) => (
+              <EnhancingCard
+                key={index}
+                imageSrc={item.imageSrc}
+                title={item.title}
+                description={item.description}
+              />
+            ))}
           </div>
         </div>
       </div>
