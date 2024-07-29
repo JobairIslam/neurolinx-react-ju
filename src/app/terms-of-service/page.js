@@ -2,7 +2,7 @@ import React from "react";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-
+import TermsOfService from "../components/TermsOfService";
 export default function page() {
   return (
     <div className="font-normal bg-center bg-no-repeat bg-cover bg-body-gd lg:bg-term-of-services">
@@ -18,6 +18,7 @@ export default function page() {
           </p>
         </div>
       </div>
+      <TermsOfService />
 
       <Footer />
     </div>
