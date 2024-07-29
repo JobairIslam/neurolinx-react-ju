@@ -44,5 +44,20 @@
     "imageSrc": "/img/icons/9.svg",
     "title": "Voice Search Upgrade",
     "description": "Optimize voice search with Neurolinx's NLP units that understand colloquial terms and phrases, ensuring precise and intuitive interactions."
+  },
+  {
+    "imageSrc": "/img/icons/10.svg",
+    "title": "Community Validation",
+    "description": "People seek others' opinions. We provides context-aware insights into public decisions, enabling AI-driven data-based referrals."
+  },
+  {
+    "imageSrc": "/img/icons/11.svg",
+    "title": "Collaborative Creation",
+    "description": "We empower users to discover and own their personal taste through interactive search and recommendations."
+  },
+  {
+    "imageSrc": "/img/icons/12.svg",
+    "title": "Real-Time Updates",
+    "description": "Change is constant, including user preferences. Neurolinx reflects the latest trends through automated updates."
   }
 ]

@@ -1,12 +1,10 @@
 import React from "react";
 import Image from "next/image";
-
 import Header from "../components/Header";
 import FooterTop from "../components/FooterTop";
 import Footer from "../components/Footer";
-
+import customCardData from "/src/data/customCardData.json";
 import CustomCard from "../components/CustomCard";
-
 export default function page() {
   return (
     <div className="font-normal bg-center bg-no-repeat bg-cover bg-body-gd lg:bg-case-study-single">
@@ -193,33 +191,18 @@ export default function page() {
               <span className="block">Case Studies</span>
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px]">
-              <CustomCard
-                imgSrc="/img/case-card1.png"
-                imgAlt="case card"
-                title="Global Personalized Product Discovery Platform for 360+ Beauty Brands"
-                linkHref="/team"
-                linkText="Read Case Study"
-                arrowImgSrc="/img/icons/arrow-right.svg"
-                arrowImgAlt="arrow"
-              />
-              <CustomCard
-                imgSrc="/img/case-card2.png"
-                imgAlt="case card"
-                title="Fan-Powered Dynamic Music Chart Using Online Social Data"
-                linkHref="/team"
-                linkText="Read Case Study"
-                arrowImgSrc="/img/icons/arrow-right.svg"
-                arrowImgAlt="arrow"
-              />
-              <CustomCard
-                imgSrc="/img/case-card3.png"
-                imgAlt="case card"
-                title="AI Voice Search Leaders: Transforming the Duty-Free Industry"
-                linkHref="/team"
-                linkText="Read Case Study"
-                arrowImgSrc="/img/icons/arrow-right.svg"
-                arrowImgAlt="arrow"
-              />
+              {customCardData.map((item, index) => (
+                <CustomCard
+                  key={index}
+                  imgSrc={item.imgSrc}
+                  imgAlt={item.imgAlt}
+                  title={item.title}
+                  linkHref={item.linkHref}
+                  linkText={item.linkText}
+                  arrowImgSrc={item.arrowImgSrc}
+                  arrowImgAlt={item.arrowImgAlt}
+                />
+              ))}
             </div>
           </div>
         </div>

@@ -4,6 +4,8 @@ import FooterTop from "../components/FooterTop";
 import Footer from "../components/Footer";
 import DiscoverCard from "../components/DiscoverCard";
 import CustomCard from "../components/CustomCard";
+import customCardData from "/src/data/customCardData.json";
+import discoverCardData from "/src/data/discoverCardData.json";
 export default function page() {
   return (
     <div className="font-normal bg-center bg-no-repeat bg-cover bg-body-gd lg:bg-case-study">
@@ -29,45 +31,28 @@ export default function page() {
             <span className="inline-block lg:block"></span>Faster with Neurolinx
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-[30px] mb-[30px]">
-            <DiscoverCard
-              imageSrc="/img/case-studies1.jpg"
-              title="KakaoPage Increases Long-Tail Consumption by 70% and Daily Transaction Value by 200%"
-              link="/case-studies-single"
-            />
-            <DiscoverCard
-              imageSrc="/img/case-studies2.jpg"
-              title="Optimized Travel Experiences through AI-driven Recommendations"
-              link="/case-studies-single"
-            />
+            {discoverCardData.map((item, index) => (
+              <DiscoverCard
+                key={index}
+                imageSrc={item.imageSrc}
+                title={item.title}
+                link={item.link}
+              />
+            ))}
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]">
-            <CustomCard
-              imgSrc="/img/case-card1.png"
-              imgAlt="case card"
-              title="Global Personalized Product Discovery Platform for 360+ Beauty Brands"
-              linkHref="/team"
-              linkText="Read Case Study"
-              arrowImgSrc="/img/icons/arrow-right.svg"
-              arrowImgAlt="arrow"
-            />
-            <CustomCard
-              imgSrc="/img/case-card2.png"
-              imgAlt="case card"
-              title="Fan-Powered Dynamic Music Chart Using Online Social Data"
-              linkHref="/team"
-              linkText="Read Case Study"
-              arrowImgSrc="/img/icons/arrow-right.svg"
-              arrowImgAlt="arrow"
-            />
-            <CustomCard
-              imgSrc="/img/case-card3.png"
-              imgAlt="case card"
-              title="AI Voice Search Leaders: Transforming the Duty-Free Industry"
-              linkHref="/team"
-              linkText="Read Case Study"
-              arrowImgSrc="/img/icons/arrow-right.svg"
-              arrowImgAlt="arrow"
-            />
+            {customCardData.map((item, index) => (
+              <CustomCard
+                key={index}
+                imgSrc={item.imgSrc}
+                imgAlt={item.imgAlt}
+                title={item.title}
+                linkHref={item.linkHref}
+                linkText={item.linkText}
+                arrowImgSrc={item.arrowImgSrc}
+                arrowImgAlt={item.arrowImgAlt}
+              />
+            ))}
           </div>
         </div>
       </div>

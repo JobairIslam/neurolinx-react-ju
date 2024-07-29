@@ -33,7 +33,7 @@ export default function page() {
             Understanding
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]">
-            {enhancingCardData.map((item, index) => (
+            {enhancingCardData.slice(0, 9).map((item, index) => (
               <EnhancingCard
                 key={index}
                 imageSrc={item.imageSrc}
@@ -149,33 +149,18 @@ export default function page() {
             <span className="inline-block lg:block"></span>Across Industries
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]">
-            <CustomCard
-              imgSrc="/img/case-card1.png"
-              imgAlt="case card"
-              title="Global Personalized Product Discovery Platform for 360+ Beauty Brands"
-              linkHref="/team"
-              linkText="Read Case Study"
-              arrowImgSrc="/img/icons/arrow-right.svg"
-              arrowImgAlt="arrow"
-            />
-            <CustomCard
-              imgSrc="/img/case-card2.png"
-              imgAlt="case card"
-              title="Fan-Powered Dynamic Music Chart Using Online Social Data"
-              linkHref="/team"
-              linkText="Read Case Study"
-              arrowImgSrc="/img/icons/arrow-right.svg"
-              arrowImgAlt="arrow"
-            />
-            <CustomCard
-              imgSrc="/img/case-card3.png"
-              imgAlt="case card"
-              title="AI Voice Search Leaders: Transforming the Duty-Free Industry"
-              linkHref="/team"
-              linkText="Read Case Study"
-              arrowImgSrc="/img/icons/arrow-right.svg"
-              arrowImgAlt="arrow"
-            />
+            {customCardData.map((item, index) => (
+              <CustomCard
+                key={index}
+                imgSrc={item.imgSrc}
+                imgAlt={item.imgAlt}
+                title={item.title}
+                linkHref={item.linkHref}
+                linkText={item.linkText}
+                arrowImgSrc={item.arrowImgSrc}
+                arrowImgAlt={item.arrowImgAlt}
+              />
+            ))}
           </div>
         </div>
       </div>

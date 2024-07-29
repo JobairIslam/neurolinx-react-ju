@@ -5,6 +5,7 @@ import FooterTop from "../components/FooterTop";
 import Footer from "../components/Footer";
 import Image from "next/image";
 import Link from "next/link";
+import teamCardData from "/src/data/teamData.json";
 
 const Page = () => {
   return (
@@ -30,74 +31,17 @@ const Page = () => {
             <span className="inline-block lg:block"></span>Business Team
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-[30px]">
-            <TeamCard
-              name="Wade Warren"
-              title="Founder & CEO"
-              profileImage="/img/team1.jpg"
-              linkedinUrl="https://www.linkedin.com/feed/"
-              twitterUrl="https://x.com/home?lang=en"
-              skills={[
-                "Digital Strategist",
-                "Chief Digital Officer",
-                "Corporate Restructuring",
-              ]}
-            />
-            <TeamCard
-              name="Theresa Webb"
-              title="Data-SCM"
-              profileImage="/img/team2.jpg"
-              linkedinUrl="https://www.linkedin.com/feed/"
-              twitterUrl="https://x.com/home?lang=en"
-              skills={[
-                "Head of Big Data Center",
-                "Strategy Head",
-                "External Specialist",
-              ]}
-            />
-            <TeamCard
-              name="Jane Cooper"
-              title="IPR Management"
-              profileImage="/img/team3.jpg"
-              linkedinUrl="https://www.linkedin.com/feed/"
-              twitterUrl="https://x.com/home?lang=en"
-              skills={[
-                "Patent Attorney",
-                "Search Engine Specialist",
-                "Caltech Graduate",
-              ]}
-            />
-            <TeamCard
-              name="Guy Hawkins"
-              title="Product Management"
-              profileImage="/img/team4.jpg"
-              linkedinUrl="https://www.linkedin.com/feed/"
-              twitterUrl="https://x.com/home?lang=en"
-              skills={["Sales Director", "Brand Manager", "Product Manager"]}
-            />
-            <TeamCard
-              name="Ralph Edwards"
-              title="PR/MKT Lead"
-              profileImage="/img/team5.jpg"
-              linkedinUrl="https://www.linkedin.com/feed/"
-              twitterUrl="https://x.com/home?lang=en"
-              skills={[
-                "PR Specialist, Apple",
-                "PR Consultant, eBay",
-                "PR Consultant, IBM",
-              ]}
-            />
-            <TeamCard
-              name="Jenny Wilson"
-              title="Finance Lead"
-              profileImage="/img/team6.jpg"
-              linkedinUrl="https://www.linkedin.com/feed/"
-              twitterUrl="https://x.com/home?lang=en"
-              skills={[
-                "CFO, MasterCard",
-                "Lead, Bank of America",
-                "Analyst, S&P 500 ",
-              ]}
-            />
+            {teamCardData.map((item, index) => (
+              <TeamCard
+                key={index}
+                name={item.name}
+                title={item.title}
+                profileImage={item.profileImage}
+                linkedinUrl={item.linkedinUrl}
+                twitterUrl={item.twitterUrl}
+                skills={item.skills}
+              />
+            ))}
           </div>
         </div>
       </div>
