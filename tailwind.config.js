@@ -48,6 +48,7 @@ module.exports = {
         "tropical-indigo": "#9A8DEC",
       },
       backgroundImage: () => ({
+        videoBg: "url('/img/bg/video-section-bg.svg')",
         body: "url('/img/bg/body-bg.svg')",
         solution: "url('/img/bg/solution-bg.svg')",
         "how-it-work": "url('/img/bg/how-it-work-bg.svg')",
