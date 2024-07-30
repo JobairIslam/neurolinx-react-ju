@@ -85,6 +85,7 @@ module.exports = {
         "sign-in-bg": "url('/img/bg/sign-in-bg.svg')",
         "sign-up-bg": "url('/img/bg/sign-up-bg.svg')",
         "not-found-bg": "url('/img/bg/not-found-bg.svg')",
+        "media-kit-bg": "url('/img/bg/media-kit-bg.svg')",
         "Explore-other-Case-studies":
           "url('/img/bg/Explore-other-Case-studies.svg')",
         form: "url('/img/bg/form.svg')",
