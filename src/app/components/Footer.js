@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="pt-24 bg-footer  bg-cover bg-no-repeat bg-center">
+    <footer className="pt-24 bg-center bg-no-repeat bg-cover bg-footer">
       <div className="container px-5 pb-24 mx-auto xl:px-0">
         <div className="flex flex-col items-start justify-between gap-12 lg:flex-row lg:gap-24">
           <div className="flex flex-col justify-start items-start gap-8 lg:gap-[112px]">
@@ -148,22 +148,22 @@ const Footer = () => {
                 about us
               </h4>
               <Link
-                href="/blog"
+                href="/patent"
                 className="text-sm font-medium capitalize transition-all duration-300 text-w-100 hover:text-tropical-indigo"
               >
-                blog
+                Our Patents
               </Link>
               <Link
-                href="/blog-single"
+                href="/service"
                 className="text-sm font-medium capitalize transition-all duration-300 text-w-100 hover:text-tropical-indigo"
               >
-                blog Single
+                Our Services
               </Link>
               <Link
-                href="/case-studies"
+                href="/story"
                 className="text-sm font-medium capitalize transition-all duration-300 text-w-100 hover:text-tropical-indigo"
               >
-                case studies
+                Our Story
               </Link>
               <Link
                 href="/team"

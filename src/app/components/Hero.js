@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <div className="py-24 md:pt-[164px] bg-hero bg-cover bg-no-repeat bg-center">
       <div className="container px-5 mx-auto xl:px-0">
-        <div className="flex flex-col items-center justify-center">
-          <span className="inline-block px-4 py-2 text-sm font-medium border rounded-full border-b-400 bg-b-600 text-tropical-indigo">
+        <div className="flex flex-col items-center justify-center ">
+          <span className="inline-block px-4 py-2 text-sm font-medium transition-colors duration-300 ease-in-out border rounded-full border-b-400 bg-b-600 text-tropical-indigo hover:bg-tropical-indigo hover:text-w-800">
             Neurolinx Deep Dive AI Search
           </span>
           <h1 className="gd-title mt-4 mb-6 tracking-[-0.02em] text-center text-3xl md:text-5xl lg:text-8xl lg:leading-[112px] font-semibold">
@@ -20,7 +20,7 @@ const Hero = () => {
             Industry-specific Decision Support Systems
           </p>
           <Link href="sign-in.html" legacyBehavior>
-            <a className="flex justify-center items-center gap-2 mb-8 lg:mb-16 px-6 py-[14px] rounded-full border btn-border text-base font-medium bg-gd-secondary text-w-900">
+            <a className="flex justify-center items-center gap-2 mb-8 lg:mb-16 px-6 py-3.5 rounded-full border border-black text-base font-medium bg-gd-secondary bg-blue-500 text-w-900 ">
               Get Started Now
               <Image
                 src="/img/icons/arrow-right.svg"
