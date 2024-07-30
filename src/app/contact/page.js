@@ -10,7 +10,7 @@ export default function page() {
   return (
     <div className="font-normal bg-center bg-no-repeat bg-cover bg-body-gd lg:bg-contact">
       <Header />
-      <div className="pt-[135px] lg:pt-[164px] pb-24">
+      <div className="pt-[135px] lg:pt-[164px] pb-24 bg-center bg-no-repeat bg-cover bg-primary-hero">
         <div className="container px-5 mx-auto xl:px-0">
           <h2 className="gd-title text-center tracking-[-0.02em] lg:leading-[84px] text-3xl md:text-64x font-semibold">
             Get in Touch with
@@ -23,7 +23,7 @@ export default function page() {
           </p>
         </div>
       </div>
-      <div className="lg:py-24">
+      <div className="lg:py-24 bg-center bg-no-repeat bg-cover bg-form">
         <div className="container px-5 mx-auto xl:px-0">
           <div className="flex flex-col md:flex-row justify-start md:justify-center items-start md:items-center gap-[30px]">
             <div className="px-6 md:px-12">

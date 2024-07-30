@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function page() {
   return (
-    <div className="font-normal bg-center bg-no-repeat bg-cover bg-body-gd lg:bg-sign">
+    <div className="font-normal bg-center bg-no-repeat bg-cover bg-sign-up-bg bg-b-900">
       <div className="py-12">
         <div className="container px-5 mx-auto xl:px-0">
           <div className="flex flex-col lg:flex-row justify-center items-center gap-[30px] h-full lg:h-screen">

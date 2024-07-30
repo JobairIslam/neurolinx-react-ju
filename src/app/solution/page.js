@@ -164,7 +164,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="lg:py-24 bg-counter  bg-cover bg-no-repeat bg-center">
+      <div cla ssName="lg:py-24 bg-counter  bg-cover bg-no-repeat bg-center">
         <div className="container px-5 mx-auto xl:px-0">
           <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
             Unlocking Unparalleled

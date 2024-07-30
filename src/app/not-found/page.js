@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function page() {
   return (
-    <div className="font-normal bg-center bg-no-repeat bg-cover bg-body-gd lg:bg-sign">
+    <div className="font-normal bg-center bg-no-repeat bg-cover bg-not-found bg-b-900 lg:bg-sign">
       <div className="container flex flex-col items-center justify-center h-screen px-5 mx-auto xl:px-0 ">
         <h1 className="text-center leading-tight md:leading-[42px] lg:leading-[84px] text-3xl md:text-32x lg:text-64x font-medium gd-title">
           404 <span className="block"></span> Page Not Found

@@ -7,9 +7,9 @@ import customCardData from "/src/data/customCardData.json";
 import CustomCard from "../components/CustomCard";
 export default function page() {
   return (
-    <div className="font-normal bg-center bg-no-repeat bg-cover bg-body-gd lg:bg-case-study-single">
+    <div className="font-normal bg-b-900">
       <Header />
-      <div className="pt-[135px] lg:pt-[164px] pb-24">
+      <div className="pt-[135px] lg:pt-[164px] pb-24  bg-center bg-no-repeat bg-cover bg-secondary-hero">
         <div className="container px-5 mx-auto xl:px-0">
           <h1 className="tracking-[-0.02em] text-center text-3xl md:text-4xl lg:text-5xl leading-tight md:leading-relaxed lg:leading-[64px] font-semibold text-w-500">
             Optimized Travel Experiences through
@@ -21,7 +21,7 @@ export default function page() {
           </p>
         </div>
       </div>
-      <div className="lg:py-24">
+      <div className="lg:py-24  bg-center bg-no-repeat bg-cover bg-case-single">
         <div className="container px-5 mx-auto xl:px-0">
           <div className="flex flex-col md:flex-row gap-[30px]">
             <div className="w-full md:max-w-[850px]">
@@ -183,7 +183,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="py-24">
+      <div className="py-24  bg-center bg-no-repeat bg-cover bg-Explore-other-Case-studies ">
         <div className="container px-5 mx-auto xl:px-0">
           <div className="flex flex-col items-center justify-center">
             <h2 className="gd-title font-semibold text-2xl sm:text-3xl md:text-4xl leading-8 sm:leading-10 md:leading-[64px] text-center tracking-[-0.02em] mb-16">

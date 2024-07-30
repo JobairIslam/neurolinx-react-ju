@@ -8,9 +8,9 @@ import customCardData from "/src/data/customCardData.json";
 import discoverCardData from "/src/data/discoverCardData.json";
 export default function page() {
   return (
-    <div className="font-normal bg-center bg-no-repeat bg-cover bg-body-gd lg:bg-case-study">
+    <div className="font-normal bg-b-900">
       <Header />
-      <div className="pt-[135px] lg:pt-[164px] pb-24">
+      <div className="pt-[135px] lg:pt-[164px] pb-24 bg-center bg-no-repeat bg-cover bg-secondary-hero">
         <div className="container px-5 mx-auto xl:px-0">
           <h1 className="gd-title tracking-[-0.02em] text-center text-3xl md:text-4xl lg:text-64x leading-tight md:leading-relaxed lg:leading-[84px] font-semibold">
             Case Studies
@@ -24,7 +24,7 @@ export default function page() {
           </p>
         </div>
       </div>
-      <div className="lg:py-24">
+      <div className="lg:py-24 bg-center bg-no-repeat bg-cover bg-case-studies">
         <div className="container px-5 mx-auto xl:px-0">
           <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
             Discover Business Grow

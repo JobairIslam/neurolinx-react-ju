@@ -24,7 +24,7 @@ const TermsSection = () => {
   };
 
   return (
-    <div className="lg:py-24">
+    <div className="lg:py-24 pb-24 bg-center bg-no-repeat bg-cover bg-terms">
       <div className="container px-5 mx-auto xl:px-0">
         <div className="flex flex-col md:flex-row justify-start items-start gap-[30px]">
           <div

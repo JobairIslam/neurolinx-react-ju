@@ -4,9 +4,9 @@ import Footer from "../components/Footer";
 import PrivacyPolicy from "../components/PrivacyPolicy";
 export default function page() {
   return (
-    <div className="font-normal bg-center bg-no-repeat bg-cover bg-body-gd lg:bg-blog">
+    <div className="font-normal bg-b-900">
       <Header />
-      <div className="pt-[135px] lg:pt-[164px] pb-24">
+      <div className="pt-[135px] lg:pt-[164px] pb-24 bg-center bg-no-repeat bg-cover bg-primary-hero">
         <div className="container px-5 mx-auto xl:px-0">
           <h2 className="gd-title text-center tracking-[-0.02em] md:leading-[84px] text-3xl md:text-64x font-semibold">
             Neurolinx
