@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const FooterTop = () => {
   return (
-    <div className="py-24">
+    <div className="py-24 bg-cta  bg-cover bg-no-repeat bg-center">
       <div className="container px-5 mx-auto xl:px-0">
         <div className="flex flex-col items-center justify-center">
           <Image

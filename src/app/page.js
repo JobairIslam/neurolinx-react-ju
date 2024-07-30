@@ -11,11 +11,10 @@ import "./globals.css";
 import updateCardData from "/src/data/updateCardData.json";
 export default function Home() {
   return (
-    <div className="font-normal bg-center bg-no-repeat bg-cover bg-body-gd lg:bg-body">
+    <div className="font-normal bg-b-900">
       <Header />
       <Hero />
-      {/* revolution section */}
-      <div className="lg:py-24">
+      <div className="lg:py-24 bg-semantic  bg-cover bg-no-repeat bg-center">
         <div className="container px-5 mx-auto xl:px-0">
           <div className="flex flex-col items-center justify-center">
             <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
@@ -92,7 +91,7 @@ export default function Home() {
         </div>
       </div>
       <VideoSection />
-      <div className="lg:py-24">
+      <div className="lg:py-24 bg-linked  bg-cover bg-no-repeat bg-center">
         <div className="container px-5 mx-auto xl:px-0">
           <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
             Enhance Product Discovery
@@ -174,7 +173,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="py-24">
+      <div className="py-24 bg-media  bg-cover bg-no-repeat bg-center">
         <div className="container px-5 mx-auto xl:px-0">
           <div className="flex flex-col items-center justify-center">
             <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">

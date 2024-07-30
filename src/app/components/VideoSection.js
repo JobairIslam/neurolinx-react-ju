@@ -26,7 +26,7 @@ const VideoSection = () => {
   }, []);
 
   return (
-    <div className="py-24">
+    <div className="py-24 bg-binary  bg-cover bg-no-repeat bg-center">
       <div className="container px-5 mx-auto xl:px-0">
         <div className="flex flex-col items-center justify-center">
           <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
