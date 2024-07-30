@@ -65,6 +65,9 @@ module.exports = {
         counter: "url('/img/bg/counter-bg.svg')",
         source: "url('/img/bg/source-bg.svg')",
         ai: "url('/img/bg/ai-bg.svg')",
+        core: "url('/img/bg/core-bg.svg')",
+        philosophy: "url('/img/bg/philosophy-bg.svg')",
+        "ai-corp": "url('/img/bg/ai-corp-bg.svg')",
         sign: "url('/img/bg/sign-bg.svg')",
         //here
         "how-it-work": "url('/img/bg/how-it-work-bg.svg')",
