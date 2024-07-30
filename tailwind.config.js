@@ -75,6 +75,7 @@ module.exports = {
         corporate: "url('/img/bg/corporate-bg.svg')",
         powered: "url('/img/bg/powered-bg.svg')",
         patent: "url('/img/bg/patent-bg.svg')",
+        doc: "url('/img/bg/doc-bg.svg')",
         sign: "url('/img/bg/sign-bg.svg')",
         //here
         "how-it-work": "url('/img/bg/how-it-work-bg.svg')",

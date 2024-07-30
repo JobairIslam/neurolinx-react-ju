@@ -7,9 +7,9 @@ import CustomCard from "../components/CustomCard";
 import FAQAccordion from "../components/FAQSection";
 export default function page() {
   return (
-    <div className="font-normal bg-center bg-no-repeat bg-cover bg-body-gd lg:bg-doc">
+    <div className="font-normal bg-b-900">
       <Header />
-      <div className="pt-[135px] lg:pt-[164px] pb-24">
+      <div className="pt-[135px] lg:pt-[164px] pb-24  bg-center bg-no-repeat bg-cover bg-primary-hero">
         <div className="container px-5 mx-auto xl:px-0">
           <h1 className="gd-title tracking-[-0.02em] text-center text-3xl md:text-4xl lg:text-64x leading-tight md:leading-relaxed lg:leading-[84px] font-semibold">
             Neurolinx
@@ -23,7 +23,7 @@ export default function page() {
           </p>
         </div>
       </div>
-      <div className="container px-5 mx-auto lg:py-24 xl:px-0">
+      <div className="container px-5 mx-auto lg:py-24 xl:px-0 pb-24  bg-center bg-no-repeat bg-cover bg-doc">
         <div className="flex flex-col md:flex-row gap-[30px]">
           <div className="w-full md:max-w-[380px]">
             <h4 className="mb-6 text-xl font-medium text-w-500">Overview</h4>
