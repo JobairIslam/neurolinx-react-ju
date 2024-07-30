@@ -48,7 +48,6 @@ module.exports = {
         "tropical-indigo": "#9A8DEC",
       },
       backgroundImage: () => ({
-        hero: "url('/img/bg/hero-bg.svg')",
         semantic: "url('/img/bg/semantic-bg.svg')",
         binary: "url('/img/bg/binary-bg.svg')",
         linked: "url('/img/bg/linked-bg.svg')",

@@ -37,7 +37,6 @@ const VideoSection = () => {
             <Image
               src="/img/video.png"
               alt="video image demo"
-              className="w-full"
               width={1290}
               height={640}
             />
