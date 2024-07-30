@@ -74,6 +74,7 @@ module.exports = {
         "lead-ai": "url('/img/bg/lead-ai-bg.svg')",
         corporate: "url('/img/bg/corporate-bg.svg')",
         powered: "url('/img/bg/powered-bg.svg')",
+        patent: "url('/img/bg/patent-bg.svg')",
         sign: "url('/img/bg/sign-bg.svg')",
         //here
         "how-it-work": "url('/img/bg/how-it-work-bg.svg')",
@@ -84,7 +85,7 @@ module.exports = {
         patent: "url('/img/bg/patents-bg.svg')",
         doc: "url('/img/bg/doc-bg.svg')",
         blog: "url('/img/bg/blog-bg.svg')",
-        "blog-single": "url('/img/bg/blog-single-bg.svg')",
+        "blog-single": "url('/img/bg/blog-si ngle-bg.svg')",
         "case-study": "url('/img/bg/case-study-bg.svg')",
         "case-study-single": "url('/img/bg/case-study-single-bg.svg')",
         contact: "url('/img/bg/contact-bg.svg')",

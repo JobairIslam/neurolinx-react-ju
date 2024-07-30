@@ -110,7 +110,7 @@ const GlobalPatentSection = () => {
   };
 
   return (
-    <div className="lg:py-24">
+    <div className="lg:py-24 bg-center bg-no-repeat bg-cover bg-patent">
       <div className="container px-5 mx-auto xl:px-0">
         <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
           Global Patent
