@@ -64,6 +64,7 @@ module.exports = {
         "ai-solution": "url('/img/bg/ai-solution-bg.svg')",
         counter: "url('/img/bg/counter-bg.svg')",
         source: "url('/img/bg/source-bg.svg')",
+        ai: "url('/img/bg/ai-bg.svg')",
         sign: "url('/img/bg/sign-bg.svg')",
         //here
         "how-it-work": "url('/img/bg/how-it-work-bg.svg')",
