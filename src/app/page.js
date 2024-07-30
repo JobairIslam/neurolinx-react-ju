@@ -14,7 +14,7 @@ export default function Home() {
     <div className="font-normal bg-b-900">
       <Header />
       <Hero />
-      <div className="lg:py-24 bg-semantic  bg-cover bg-no-repeat bg-center">
+      <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-semantic">
         <div className="container px-5 mx-auto xl:px-0">
           <div className="flex flex-col items-center justify-center">
             <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
@@ -23,7 +23,7 @@ export default function Home() {
             </h2>
             <div className="flex flex-col gap-[30px]">
               <div className="flex flex-col lg:flex-row gap-[30px]">
-                <div className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
+                <div className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[740px] max-h-[640px]">
                   <h3 className="mb-4 md:leading-[42px] text-2xl md:text-32x font-medium text-w-500">
                     AI Prompt Engine
                   </h3>
@@ -33,12 +33,12 @@ export default function Home() {
                   </p>
                   <Image
                     src="/img/revolution-card1.png"
-                    alt="revolution-card1.png"
-                    width={644} // specify the width as required
-                    height={390} // specify the height as required
+                    alt="AI Prompt Engine"
+                    width={644}
+                    height={390}
                   />
                 </div>
-                <div className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
+                <div className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[520px] max-h-[640px]">
                   <h3 className="mb-4 md:leading-[42px] text-2xl md:text-32x font-medium text-w-500">
                     Smart Search
                   </h3>
@@ -48,41 +48,42 @@ export default function Home() {
                   </p>
                   <Image
                     src="/img/revolution-card2.png"
-                    alt="revolution-card2.png"
-                    width={424} // specify the width as required
-                    height={390} // specify the height as required
+                    alt="Smart Search"
+                    width={424}
+                    height={390}
                   />
                 </div>
               </div>
               <div className="flex flex-col-reverse lg:flex-row-reverse gap-[30px]">
-                <div className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
+                <div className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[740px] max-h-[640px]">
                   <h3 className="mb-4 md:leading-[42px] text-3xl md:text-32x font-medium text-w-500">
-                    AI Prompt Engine
+                    AI Guided Suggestions
                   </h3>
                   <p className="mb-12 text-base text-w-100">
-                    Explore our AI Prompt Engine transforming data interaction
-                    with precision and speed for unparalleled productivity.
+                    Discover personalized recommendations powered by AI.
+                    Tailored just for you, effortlessly find what you&#39;re
+                    looking for.
                   </p>
                   <Image
                     src="/img/revolution-card3.png"
-                    alt="revolution-card3.png"
-                    width={424} // specify the width as required
-                    height={390} // specify the height as required
+                    alt="AI Prompt Engine"
+                    width={644}
+                    height={390}
                   />
                 </div>
-                <div className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
+                <div className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[520px] max-h-[640px]">
                   <h3 className="mb-4 md:leading-[42px] text-3xl md:text-32x font-medium text-w-500">
-                    Smart Search
+                    AI Profitization
                   </h3>
                   <p className="mb-12 text-base text-w-100">
-                    Experience precise search results with our semantic search
-                    technology.
+                    Boost revenue with AI-driven monetization. Unlock new income
+                    streams and grow your business.
                   </p>
                   <Image
                     src="/img/revolution-card4.png"
-                    alt="revolution-card4.png"
-                    width={644} // specify the width as required
-                    height={390} // specify the height as required
+                    alt="Smart Search"
+                    width={424}
+                    height={390}
                   />
                 </div>
               </div>
@@ -91,7 +92,7 @@ export default function Home() {
         </div>
       </div>
       <VideoSection />
-      <div className="lg:py-24 bg-linked  bg-cover bg-no-repeat bg-center">
+      <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-linked">
         <div className="container px-5 mx-auto xl:px-0">
           <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
             Enhance Product Discovery
@@ -164,8 +165,8 @@ export default function Home() {
                     className="w-full rounded-lg"
                     src="/img/prompts2.png"
                     alt="prompts-img"
-                    width={362}
-                    height={176}
+                    width={534}
+                    height={464}
                   />
                 </div>
               </div>
@@ -173,7 +174,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="py-24 bg-media  bg-cover bg-no-repeat bg-center">
+      <div className="py-24 bg-center bg-no-repeat bg-cover bg-media">
         <div className="container px-5 mx-auto xl:px-0">
           <div className="flex flex-col items-center justify-center">
             <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">

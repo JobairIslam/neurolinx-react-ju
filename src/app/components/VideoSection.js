@@ -26,7 +26,7 @@ const VideoSection = () => {
   }, []);
 
   return (
-    <div className="py-24 bg-binary  bg-cover bg-no-repeat bg-center">
+    <div className="py-24 bg-center bg-no-repeat bg-cover bg-binary">
       <div className="container px-5 mx-auto xl:px-0">
         <div className="flex flex-col items-center justify-center">
           <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
@@ -40,15 +40,13 @@ const VideoSection = () => {
               width={1290}
               height={640}
             />
-            <div className="absolute flex items-center justify-center w-16 h-16 -translate-x-1/2 -translate-y-1/2 bg-white rounded-full cursor-pointer top-1/2 left-1/2 play-btn">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                className="w-8 h-8 text-black"
-                viewBox="0 0 16 16"
-              >
-                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
-              </svg>
+            <div className="absolute flex items-center justify-center w-16 h-16 -translate-x-1/2 -translate-y-1/2 cursor-pointer top-1/2 left-1/2 play-btn">
+              <Image
+                src="/img/play.svg"
+                width={96}
+                height={72}
+                alt="video image demo"
+              />
             </div>
             <div id="videoContainer" className="hidden">
               <video
