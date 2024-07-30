@@ -10,9 +10,9 @@ import enhancingCardData from "/src/data/enhancingCardData.json";
 import customCardData from "/src/data/customCardData.json";
 export default function page() {
   return (
-    <div className="overflow-x-hidden font-normal bg-center bg-no-repeat bg-cover lg:bg-solution bg-body-gd">
+    <div className="font-normal bg-b-900">
       <Header />
-      <div className="pt-[135px] lg:pt-[164px] pb-24">
+      <div className="pt-[135px] lg:pt-[164px] pb-24 bg-secondary-hero  bg-cover bg-no-repeat bg-center">
         <div className="container px-5 mx-auto xl:px-0">
           <h1 className="gd-title tracking-[-0.02em] text-center text-3xl md:text-4xl lg:text-64x leading-tight md:leading-relaxed lg:leading-[84px] font-semibold">
             Personalized Experiences
@@ -25,7 +25,7 @@ export default function page() {
           </p>
         </div>
       </div>
-      <div className="lg:py-24">
+      <div className="lg:py-24 bg-enhance  bg-cover bg-no-repeat bg-center">
         <div className="container px-5 mx-auto xl:px-0">
           <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
             Enhancing Context-Aware
@@ -44,7 +44,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="py-24">
+      <div className="py-24 bg-problems  bg-cover bg-no-repeat bg-center">
         <div className="container px-5 mx-auto xl:px-0">
           <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
             Neurolinx Solves Industry
@@ -61,7 +61,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="lg:py-24">
+      <div className="lg:py-24 bg-diverse  bg-cover bg-no-repeat bg-center">
         <div className="container px-5 mx-auto xl:px-0">
           <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
             Leverage Any Data Source
@@ -142,7 +142,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="py-24">
+      <div className="py-24 bg-ai-solution  bg-cover bg-no-repeat bg-center">
         <div className="container px-5 mx-auto xl:px-0">
           <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
             Custom AI Solutions
@@ -164,7 +164,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="lg:py-24">
+      <div className="lg:py-24 bg-counter  bg-cover bg-no-repeat bg-center">
         <div className="container px-5 mx-auto xl:px-0">
           <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
             Unlocking Unparalleled
@@ -199,7 +199,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="py-24">
+      <div className="py-24 bg-source  bg-cover bg-no-repeat bg-center">
         <div className="container px-5 mx-auto xl:px-0">
           <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
             Step-by-Step Guide

@@ -48,6 +48,9 @@ module.exports = {
         "tropical-indigo": "#9A8DEC",
       },
       backgroundImage: () => ({
+        hero: "url('/img/bg/hero-bg.svg')",
+        "primary-hero": "url('/img/bg/primary-hero-bg.svg')",
+        "secondary-hero": "url('/img/bg/secondary-hero-bg.svg')",
         semantic: "url('/img/bg/semantic-bg.svg')",
         binary: "url('/img/bg/binary-bg.svg')",
         linked: "url('/img/bg/linked-bg.svg')",
@@ -55,6 +58,12 @@ module.exports = {
         according: "url('/img/bg/according-bg.svg')",
         cta: "url('/img/bg/cta-bg.svg')",
         footer: "url('/img/bg/footer-bg.svg')",
+        enhance: "url('/img/bg/enhance-bg.svg')",
+        problems: "url('/img/bg/problems-bg.svg')",
+        diverse: "url('/img/bg/diverse-bg.svg')",
+        "ai-solution": "url('/img/bg/ai-solution-bg.svg')",
+        counter: "url('/img/bg/counter-bg.svg')",
+        source: "url('/img/bg/source-bg.svg')",
         sign: "url('/img/bg/sign-bg.svg')",
         //here
         "how-it-work": "url('/img/bg/how-it-work-bg.svg')",
