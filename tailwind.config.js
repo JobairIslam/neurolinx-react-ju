@@ -68,6 +68,12 @@ module.exports = {
         core: "url('/img/bg/core-bg.svg')",
         philosophy: "url('/img/bg/philosophy-bg.svg')",
         "ai-corp": "url('/img/bg/ai-corp-bg.svg')",
+        team: "url('/img/bg/team-bg.svg')",
+        "data-science": "url('/img/bg/data-science-bg.svg')",
+        milestone: "url('/img/bg/milestone-bg.svg')",
+        "lead-ai": "url('/img/bg/lead-ai-bg.svg')",
+        corporate: "url('/img/bg/corporate-bg.svg')",
+        powered: "url('/img/bg/powered-bg.svg')",
         sign: "url('/img/bg/sign-bg.svg')",
         //here
         "how-it-work": "url('/img/bg/how-it-work-bg.svg')",

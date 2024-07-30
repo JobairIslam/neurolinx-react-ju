@@ -1,0 +1,37 @@
+<svg width="1920" height="688" viewBox="0 0 1920 688" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_5533_1991" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1920" height="688">
+<rect width="1920" height="688" fill="url(#paint0_linear_5533_1991)"/>
+</mask>
+<g mask="url(#mask0_5533_1991)">
+<g filter="url(#filter0_f_5533_1991)">
+<rect x="-640" y="368" width="640" height="320" rx="160" fill="url(#paint1_linear_5533_1991)"/>
+</g>
+<g filter="url(#filter1_f_5533_1991)">
+<rect x="1888" y="1" width="640" height="320" rx="160" fill="url(#paint2_linear_5533_1991)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_5533_1991" x="-1440" y="-432" width="2240" height="1920" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="400" result="effect1_foregroundBlur_5533_1991"/>
+</filter>
+<filter id="filter1_f_5533_1991" x="1088" y="-799" width="2240" height="1920" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="400" result="effect1_foregroundBlur_5533_1991"/>
+</filter>
+<linearGradient id="paint0_linear_5533_1991" x1="960" y1="0" x2="960" y2="688" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#D9D9D9"/>
+<stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_5533_1991" x1="-320" y1="152.615" x2="-320" y2="688" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9A8DEC"/>
+<stop offset="1" stop-color="#7361E5"/>
+</linearGradient>
+<linearGradient id="paint2_linear_5533_1991" x1="2208" y1="-214.385" x2="2208" y2="321" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9A8DEC"/>
+<stop offset="1" stop-color="#7361E5"/>
+</linearGradient>
+</defs>
+</svg>
