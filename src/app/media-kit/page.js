@@ -3,9 +3,6 @@ import Header from "../components/Header";
 import FooterTop from "../components/FooterTop";
 import Footer from "../components/Footer";
 import Image from "next/image";
-import EnhancingCard from "../components/EnhancingCard";
-import CustomCard from "../components/CustomCard";
-import FAQAccordion from "../components/FAQSection";
 
 export default function Page() {
   return (
