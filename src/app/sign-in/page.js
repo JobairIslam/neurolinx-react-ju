@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function page() {
   return (
@@ -69,14 +70,14 @@ export default function page() {
               />
             </div>
             <div className="p-6 lg:p-12 rounded-lg w-full md:max-w-[410px] bg-gd-tertiary">
-              <a href="/">
+              <Link href="/">
                 <Image
                   width={53.24}
                   height={48}
                   src="/img/sign-logo.svg"
                   alt="brand logo"
                 />
-              </a>
+              </Link>
               <h3 className="mt-6 mb-2 text-2xl font-medium capitalize text-w-500">
                 welcome
               </h3>
@@ -133,9 +134,12 @@ export default function page() {
                 </button>
                 <h4 className="text-sm text-w-100">
                   Don&apos;t have an account&quest;
-                  <a href="/sign-up" className="underline capitalize gd-title">
+                  <Link
+                    href="/sign-up"
+                    className="underline capitalize gd-title"
+                  >
                     sign up
-                  </a>
+                  </Link>
                 </h4>
               </form>
             </div>

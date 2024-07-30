@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const EnhancingCard = ({ imageSrc, title, description }) => {
   return (
-    <div className="p-6 rounded-lg md:p-12 bg-gd-tertiary">
+    <div className="p-6 border rounded-lg md:p-12 bg-gd-tertiary border-b-600">
       <div className="inline-block p-4 rounded-full bg-primary btn-border">
         <Image src={imageSrc} alt="icons" width={32} height={32} />
       </div>

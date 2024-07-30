@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
+import Link from "next/link";
 export default function page() {
   return (
     <div className="font-normal bg-center bg-no-repeat bg-cover bg-sign-up-bg bg-b-900">
@@ -133,9 +133,12 @@ export default function page() {
                 </button>
                 <h4 className="text-sm text-w-100">
                   Don&apos;t have an account&quest;
-                  <a href="/sign-up" className="underline capitalize gd-title">
-                    sign up
-                  </a>
+                  <Link
+                    href="/sign-in"
+                    className="underline capitalize gd-title"
+                  >
+                    sign in
+                  </Link>
                 </h4>
               </form>
             </div>

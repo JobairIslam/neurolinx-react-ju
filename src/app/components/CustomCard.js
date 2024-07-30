@@ -11,7 +11,7 @@ const CustomCard = ({
   arrowImgAlt,
 }) => {
   return (
-    <div className="p-6 rounded-lg border-b-600 bg-gd-tertiary">
+    <div className="p-6 border rounded-lg border-b-600 bg-gd-tertiary">
       <Image
         src={imgSrc}
         className="w-full"
