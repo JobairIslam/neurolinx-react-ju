@@ -46,14 +46,20 @@ const FAQAccordion = () => {
   ];
 
   return (
-    <div className="lg:py-24 bg-according  bg-cover bg-no-repeat bg-center">
+    <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-according">
       <div className="container px-5 mx-auto xl:px-0">
         <div className="flex flex-col items-center justify-center">
-          <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
+          <h2
+            data-aos="fade-down"
+            className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold"
+          >
             Frequently Asked
             <span className="inline-block lg:block"></span>Questions
           </h2>
-          <div className="flex flex-col gap-4 w-full lg:max-w-[850px]">
+          <div
+            data-aos="fade-up"
+            className="flex flex-col gap-4 w-full lg:max-w-[850px]"
+          >
             {faqs.map((faq, index) => (
               <div
                 key={index}

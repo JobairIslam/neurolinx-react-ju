@@ -1,9 +1,13 @@
 "use client";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Image from "next/image";
 
 const VideoSection = () => {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
   useEffect(() => {
     const playBtn = document.querySelector(".play-btn");
     const videoContainer = document.getElementById("videoContainer");
@@ -29,11 +33,14 @@ const VideoSection = () => {
     <div className="py-24 bg-center bg-no-repeat bg-cover bg-binary">
       <div className="container px-5 mx-auto xl:px-0">
         <div className="flex flex-col items-center justify-center">
-          <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
+          <h2
+            data-aos="fade-up"
+            className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold"
+          >
             Beyond Binary Uniquely
             <span className="inline-block lg:block"></span>Inclusive Prompt
           </h2>
-          <div className="relative">
+          <div data-aos="fade-up-right" className="relative">
             <Image
               src="/img/video.png"
               alt="video image demo"

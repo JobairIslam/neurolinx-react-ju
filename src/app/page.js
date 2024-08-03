@@ -1,5 +1,7 @@
 "use client";
+import AOS from "aos";
 import "aos/dist/aos.css";
+import { useEffect } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Image from "next/image";
@@ -12,6 +14,9 @@ import Footer from "./components/Footer";
 import "./globals.css";
 import updateCardData from "/src/data/updateCardData.json";
 export default function Home() {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
   return (
     <div className="font-normal bg-b-900">
       <Header />
@@ -19,13 +24,21 @@ export default function Home() {
       <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-semantic">
         <div className="container px-5 mx-auto xl:px-0">
           <div className="flex flex-col items-center justify-center">
-            <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
+            <h2
+              data-aos="fade-up"
+              className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold"
+            >
               Revolutionize Your Business
               <span className="inline-block md:block"></span> with Semantic AI
             </h2>
             <div className="flex flex-col gap-[30px] overflow-x-hidden">
               <div className="flex flex-col lg:flex-row gap-[30px]">
-                <div className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[740px] max-h-[640px]">
+                <div
+                  data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                  className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[740px] max-h-[640px]"
+                >
                   <h3 className="mb-4 md:leading-[42px] text-2xl md:text-32x font-medium text-w-500">
                     AI Prompt Engine
                   </h3>
@@ -40,7 +53,12 @@ export default function Home() {
                     height={390}
                   />
                 </div>
-                <div className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[520px] max-h-[640px]">
+                <div
+                  data-aos="fade-left"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                  className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[520px] max-h-[640px]"
+                >
                   <h3 className="mb-4 md:leading-[42px] text-2xl md:text-32x font-medium text-w-500">
                     Smart Search
                   </h3>
@@ -57,7 +75,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex flex-col-reverse lg:flex-row-reverse gap-[30px]">
-                <div className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[740px] max-h-[640px]">
+                <div
+                  data-aos="fade-left"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                  className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[740px] max-h-[640px]"
+                >
                   <h3 className="mb-4 md:leading-[42px] text-3xl md:text-32x font-medium text-w-500">
                     AI Guided Suggestions
                   </h3>
@@ -73,7 +96,12 @@ export default function Home() {
                     height={390}
                   />
                 </div>
-                <div className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[520px] max-h-[640px]">
+                <div
+                  data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                  className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[520px] max-h-[640px]"
+                >
                   <h3 className="mb-4 md:leading-[42px] text-3xl md:text-32x font-medium text-w-500">
                     AI Profitization
                   </h3>
@@ -96,13 +124,19 @@ export default function Home() {
       <VideoSection />
       <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-linked">
         <div className="container px-5 mx-auto xl:px-0">
-          <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
+          <h2
+            data-aos="fade-up"
+            className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold"
+          >
             Enhance Product Discovery
             <span className="inline-block lg:block"></span> with Linked Prompts
           </h2>
           <div className="flex flex-col">
             <div className="flex flex-col gap-[30px]">
-              <div className="flex flex-col-reverse lg:flex-row justify-start lg:justify-between gap-[30px] lg:gap-[126px] p-6 md:p-12 rounded-lg border border-b-600 bg-gd-tertiary">
+              <div
+                data-aos="fade-up-right"
+                className="flex flex-col-reverse lg:flex-row justify-start lg:justify-between gap-[30px] lg:gap-[126px] p-6 md:p-12 rounded-lg border border-b-600 bg-gd-tertiary"
+              >
                 <div className="flex flex-col items-start justify-center">
                   <h3 className="mb-4 md:leading-[42px] text-2xl md:text-32x font-medium text-w-500">
                     Masters of Data
@@ -137,7 +171,10 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <div className="flex flex-col-reverse lg:flex-row-reverse justify-start lg:justify-between gap-[30px] lg:gap-[126px] p-6 md:p-12 rounded-lg border border-b-600 bg-gd-tertiary">
+              <div
+                data-aos="fade-up-left"
+                className="flex flex-col-reverse lg:flex-row-reverse justify-start lg:justify-between gap-[30px] lg:gap-[126px] p-6 md:p-12 rounded-lg border border-b-600 bg-gd-tertiary"
+              >
                 <div className="flex flex-col items-start justify-center">
                   <h3 className="mb-4 md:leading-[42px] text-2xl md:text-32x font-medium text-w-500">
                     Powered by
@@ -179,11 +216,17 @@ export default function Home() {
       <div className="py-24 bg-center bg-no-repeat bg-cover bg-media">
         <div className="container px-5 mx-auto xl:px-0">
           <div className="flex flex-col items-center justify-center">
-            <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
+            <h2
+              data-aos="fade-down"
+              className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold"
+            >
               Updates &amp;
               <span className="block"></span> Media Coverage
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]">
+            <div
+              data-aos="fade-up"
+              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]"
+            >
               {updateCardData.slice(0, 3).map((item, index) => (
                 <UpdateCard
                   key={index}
