@@ -8,7 +8,7 @@ export default function page() {
         <div className="container px-5 mx-auto xl:px-0">
           <div className="flex flex-col lg:flex-row justify-center items-center gap-[30px] h-full lg:h-screen">
             <div className="w-full lg:max-w-[850px]">
-              <a href="/" className="flex items-center justify-start gap-2">
+              <Link href="/" className="flex items-center justify-start gap-2">
                 <Image
                   width={35.49}
                   height={32}
@@ -18,7 +18,7 @@ export default function page() {
                 <span className="text-xl font-medium text-w-900">
                   Neurolinx
                 </span>
-              </a>
+              </Link>
               <h2 className="mt-6 lg:mt-12 mb-4 leading-8 md:leading-[42px] text-2xl lg:text-32x font-medium gd-title">
                 Unlock AI Potential with
                 <span className="inline-block lg:block"></span> Context-Rich
