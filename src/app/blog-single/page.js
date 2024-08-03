@@ -1,11 +1,9 @@
 import React from "react";
-
 import Image from "next/image";
 import Link from "next/link";
 import Header from "../components/Header";
 import FooterTop from "../components/FooterTop";
 import Footer from "../components/Footer";
-
 export default function page() {
   return (
     <div className="font-normal bg-b-900">
@@ -23,7 +21,7 @@ export default function page() {
           </p>
         </div>
       </div>
-      <div className="py-24  bg-center bg-no-repeat bg-cover bg-blog-single">
+      <div className="py-24 bg-center bg-no-repeat bg-cover bg-blog-single">
         <div className="container px-5 mx-auto xl:px-0">
           <div className="flex flex-wrap items-start gap-[30px]">
             <div className="lg:pe-[30px] w-full md:max-w-[850px] lg:border-r lg:border-r-border-r">

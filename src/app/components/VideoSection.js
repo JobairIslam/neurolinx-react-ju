@@ -41,13 +41,6 @@ const VideoSection = () => {
               height={640}
             />
             <div className="absolute flex items-center justify-center w-16 h-16 -translate-x-1/2 -translate-y-1/2 cursor-pointer top-1/2 left-1/2 play-btn">
-              {/* <Image
-                src="/img/play.svg"
-                width={96}
-                height={72}
-                alt="video image demo"
-              /> */}
-
               <svg
                 width="96"
                 height="72"

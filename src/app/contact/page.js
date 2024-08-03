@@ -4,7 +4,6 @@ import Form from "../components/Form";
 import Header from "../components/Header";
 import FooterTop from "../components/FooterTop";
 import Footer from "../components/Footer";
-
 import Link from "next/link";
 export default function page() {
   return (
