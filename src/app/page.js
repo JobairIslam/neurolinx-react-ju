@@ -113,7 +113,7 @@ export default function Home() {
                     and consultants, Neurolinx AI is dedicated to maximizing the
                     business potential of data and AI.
                   </p>
-                  <Link href="team" legacyBehavior>
+                  <Link href="/team" legacyBehavior>
                     <a className="flex flex-row items-center gap-2 px-4 py-2 text-sm font-medium border rounded-full border-tropical-indigo bg-gd-secondary text-w-900">
                       Meet Our Team
                       <Image
@@ -148,7 +148,7 @@ export default function Home() {
                     portfolio in AI technology, comprising 32 granted patents
                     and 88 patent applications spanning the globe.
                   </p>
-                  <Link href="patents" legacyBehavior>
+                  <Link href="/patent" legacyBehavior>
                     <a className="flex flex-row items-center gap-2 px-4 py-2 text-sm font-medium border rounded-full border-tropical-indigo bg-gd-secondary text-w-900">
                       Check Our Patents
                       <Image

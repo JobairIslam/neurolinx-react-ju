@@ -19,7 +19,7 @@ const CustomCard = ({
         width={362}
         height={176}
       />
-      <h3 className="mt-8 mb-6 text-2xl text-w-500">{title}</h3>
+      <h3 className="mt-8 mb-6 text-2xl text-w-500 ">{title}</h3>
       <Link href={linkHref} legacyBehavior>
         <a className="inline-block px-4 py-2 text-sm font-medium capitalize bg-transparent border rounded-full border-tropical-indigo text-w-900 hover:bg-tropical-indigo">
           {linkText}

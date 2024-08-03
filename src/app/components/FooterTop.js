@@ -1,5 +1,5 @@
-// components/FooterTop.js
 import Image from "next/image";
+import Link from "next/link";
 
 const FooterTop = () => {
   return (
@@ -21,7 +21,7 @@ const FooterTop = () => {
               Enhance Your Discoveries Unleash the Power of AI Neurolinx Deep
               Search
             </p>
-            <a
+            <Link
               href="/sign-in"
               className="flex justify-center items-center gap-2 px-6 py-[14px] rounded-full border border-tropical-indigo capitalize text-base font-medium bg-gd-secondary text-w-900"
             >
@@ -32,7 +32,7 @@ const FooterTop = () => {
                 width={24}
                 height={24}
               />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

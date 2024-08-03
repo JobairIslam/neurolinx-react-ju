@@ -19,7 +19,7 @@ const Hero = () => {
             Insights <span className="inline-block lg:block"></span> to Power
             Industry-specific Decision Support Systems
           </p>
-          <Link href="sign-in.html" legacyBehavior>
+          <Link href="sign-in" legacyBehavior>
             <a className="flex justify-center items-center gap-2 mb-8 lg:mb-16 px-6 py-3.5 rounded-full border border-black text-base font-medium bg-gd-secondary bg-blue-500 text-w-900 ">
               Get Started Now
               <Image
