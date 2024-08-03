@@ -2,7 +2,7 @@
   {
     "imageSrc": "/img/blog1.png",
     "heading": "AI Partners with Megazone Cloud to Enhance GenAI Adoption",
-    "headingHref": "#",
+    "headingHref": "/blog-single",
     "tags": [
       {
         "tag": "Prompt Engineering",
@@ -17,105 +17,105 @@
   {
     "imageSrc": "/img/blog2.png",
     "heading": "AI's Revolutionary Impact Transforming Drama Discovery for Fans",
-    "headingHref": "#",
+    "headingHref": "/blog-single",
     "tags": [
       {
         "tag": "Streaming",
-        "tagHref": "#"
+        "tagHref": "/blog-single"
       },
       {
         "tag": "AI Search",
-        "tagHref": "#"
+        "tagHref": "/blog-single"
       }
     ]
   },
   {
     "imageSrc": "/img/blog3.png",
     "heading": "Simplified AI Applications Streamlining Complexity for Enhanced Utility",
-    "headingHref": "#",
+    "headingHref": "/blog-single",
     "tags": [
       {
         "tag": "AI Automation",
-        "tagHref": "#"
+        "tagHref": "/blog-single"
       },
       {
         "tag": "Generative AI Use Cases",
-        "tagHref": "#"
+        "tagHref": "/blog-single"
       }
     ]
   },
   {
     "imageSrc": "/img/blog4.png",
     "heading": "Enhanced Product Discovery through AI Merchandising",
-    "headingHref": "#",
+    "headingHref": "/blog-single",
     "tags": [
       {
         "tag": "Artificial Intelligence",
-        "tagHref": "#"
+        "tagHref": "/blog-single"
       },
       {
         "tag": "Merchandising",
-        "tagHref": "#"
+        "tagHref": "/blog-single"
       }
     ]
   },
   {
     "imageSrc": "/img/blog1.png",
     "heading": "AI's Revolutionary Impact Transforming Drama Discovery for Fans",
-    "headingHref": "#",
+    "headingHref": "/blog-single",
     "tags": [
       {
         "tag": "Streaming",
-        "tagHref": "#"
+        "tagHref": "/blog-single"
       },
       {
         "tag": "AI Search",
-        "tagHref": "#"
+        "tagHref": "/blog-single"
       }
     ]
   },
   {
     "imageSrc": "/img/blog2.png",
     "heading": "AI Partners with Megazone Cloud to Enhance GenAI Adoption",
-    "headingHref": "#",
+    "headingHref": "/blog-single",
     "tags": [
       {
         "tag": "Prompt Engineering",
-        "tagHref": "#"
+        "tagHref": "/blog-single"
       },
       {
         "tag": "AI Use Cases",
-        "tagHref": "#"
+        "tagHref": "/blog-single"
       }
     ]
   },
   {
     "imageSrc": "/img/blog3.png",
     "heading": "Enhanced Product Discovery through AI Merchandising",
-    "headingHref": "#",
+    "headingHref": "/blog-single",
     "tags": [
       {
         "tag": "Artificial Intelligence",
-        "tagHref": "#"
+        "tagHref": "/blog-single"
       },
       {
         "tag": "Merchandising",
-        "tagHref": "#"
+        "tagHref": "/blog-single"
       }
     ]
   },
   {
     "imageSrc": "/img/blog4.png",
     "heading": "Simplified AI Applications Streamlining Complexity for Enhanced Utility",
-    "headingHref": "#",
+    "headingHref": "/blog-single",
     "tags": [
       {
         "tag": "AI Automation",
-        "tagHref": "#"
+        "tagHref": "/blog-single"
       },
       {
         "tag": "Generative AI Use Cases",
-        "tagHref": "#"
+        "tagHref": "/blog-single"
       }
     ]
   }
