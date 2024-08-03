@@ -41,12 +41,26 @@ const VideoSection = () => {
               height={640}
             />
             <div className="absolute flex items-center justify-center w-16 h-16 -translate-x-1/2 -translate-y-1/2 cursor-pointer top-1/2 left-1/2 play-btn">
-              <Image
+              {/* <Image
                 src="/img/play.svg"
                 width={96}
                 height={72}
                 alt="video image demo"
-              />
+              /> */}
+
+              <svg
+                width="96"
+                height="72"
+                viewBox="0 0 96 72"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="96" height="72" rx="36" fill="white" />
+                <path
+                  d="M43.0738 48.044C41.7423 48.8913 40 47.9348 40 46.3567V25.6433C40 24.0652 41.7423 23.1087 43.0738 23.956L59.3485 34.3127C60.5835 35.0986 60.5835 36.9014 59.3485 37.6873L43.0738 48.044Z"
+                  fill="black"
+                />
+              </svg>
             </div>
             <div id="videoContainer" className="hidden">
               <video

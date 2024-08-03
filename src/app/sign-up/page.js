@@ -119,9 +119,9 @@ export default function page() {
                   className="mb-3 py-[14px] px-6 rounded-full border border-b-500 w-full outline-none capitalize text-left text-w-900 bg-transparent"
                   required
                 />
-                <a href="#" className="text-sm gd-title">
+                <Link href="#" className="text-sm gd-title">
                   Forgot Password&quest;
-                </a>
+                </Link>
                 <button className="flex justify-center items-center gap-2 mt-6 mb-3 py-[14px] px-6 rounded-full w-full text-base font-medium text-w-900 bg-gd-secondary">
                   Continue
                   <Image
