@@ -29,7 +29,7 @@ export default function Home() {
               Revolutionize Your Business
               <span className="inline-block md:block"></span> with Semantic AI
             </h2>
-            <div className="flex flex-col gap-[30px]">
+            <div className="flex flex-col gap-[30px] overflow-x-hidden">
               <div className="flex flex-col lg:flex-row gap-[30px]">
                 <div
                   data-aos="fade-right"
