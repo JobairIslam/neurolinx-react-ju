@@ -120,7 +120,7 @@ export default function page() {
                   required
                 />
                 <Link href="#" className="text-sm gd-title">
-                  Forgot Password&quest;
+                  Forgot Password?
                 </Link>
                 <button className="flex justify-center items-center gap-2 mt-6 mb-3 py-[14px] px-6 rounded-full w-full text-base font-medium text-w-900 bg-gd-secondary">
                   Continue
@@ -132,7 +132,7 @@ export default function page() {
                   />
                 </button>
                 <h4 className="text-sm text-w-100">
-                  Don&apos;t have an account&quest;
+                  Don&apos;t have an account?
                   <Link
                     href="/sign-in"
                     className="underline capitalize gd-title"

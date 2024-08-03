@@ -171,7 +171,7 @@ export default function page() {
             <span className="inline-block lg:block"></span>Semantic Capabilities
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]">
-            <div className="flex gap-6 p-6 lg:p-12 bg-gd-tertiary">
+            <div className="flex gap-6 p-6 border rounded-lg lg:p-12 bg-gd-tertiary border-b-600">
               <h3 className="leading-[52px] text-40x font-medium text-w-900">
                 16M+
               </h3>
@@ -180,14 +180,14 @@ export default function page() {
                 Revolutionizing AI Integration
               </p>
             </div>
-            <div className="flex gap-6 p-6 lg:p-12 bg-gd-tertiary">
+            <div className="flex gap-6 p-6 border rounded-lg lg:p-12 bg-gd-tertiary border-b-600">
               <h3 className="leading-[52px] text-40x font-medium text-w-900">
                 64T+
               </h3>
               <span className="inline-block w-[1px] h-full bg-tropical-indigo"></span>
               <p className="text-base text-w-100">Advanced AI Solutions</p>
             </div>
-            <div className="flex gap-6 p-6 lg:p-12 bg-gd-tertiary">
+            <div className="flex gap-6 p-6 border rounded-lg lg:p-12 bg-gd-tertiary border-b-600">
               <h3 className="leading-[52px] text-40x font-medium text-w-900">
                 248+
               </h3>

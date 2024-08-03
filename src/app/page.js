@@ -1,8 +1,5 @@
 "use client";
-import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
-
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Image from "next/image";
@@ -15,9 +12,6 @@ import Footer from "./components/Footer";
 import "./globals.css";
 import updateCardData from "/src/data/updateCardData.json";
 export default function Home() {
-  useEffect(() => {
-    AOS.init({});
-  }, []);
   return (
     <div className="font-normal bg-b-900">
       <Header />
@@ -31,10 +25,7 @@ export default function Home() {
             </h2>
             <div className="flex flex-col gap-[30px] overflow-x-hidden">
               <div className="flex flex-col lg:flex-row gap-[30px]">
-                <div
-                  data-aos="fade-right"
-                  className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[740px] max-h-[640px]"
-                >
+                <div className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[740px] max-h-[640px]">
                   <h3 className="mb-4 md:leading-[42px] text-2xl md:text-32x font-medium text-w-500">
                     AI Prompt Engine
                   </h3>
@@ -49,10 +40,7 @@ export default function Home() {
                     height={390}
                   />
                 </div>
-                <div
-                  data-aos="fade-left"
-                  className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[520px] max-h-[640px]"
-                >
+                <div className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[520px] max-h-[640px]">
                   <h3 className="mb-4 md:leading-[42px] text-2xl md:text-32x font-medium text-w-500">
                     Smart Search
                   </h3>
@@ -69,10 +57,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex flex-col-reverse lg:flex-row-reverse gap-[30px]">
-                <div
-                  data-aos="fade-left"
-                  className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[740px] max-h-[640px]"
-                >
+                <div className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[740px] max-h-[640px]">
                   <h3 className="mb-4 md:leading-[42px] text-3xl md:text-32x font-medium text-w-500">
                     AI Guided Suggestions
                   </h3>
@@ -88,10 +73,7 @@ export default function Home() {
                     height={390}
                   />
                 </div>
-                <div
-                  data-aos="fade-right"
-                  className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[520px] max-h-[640px]"
-                >
+                <div className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[520px] max-h-[640px]">
                   <h3 className="mb-4 md:leading-[42px] text-3xl md:text-32x font-medium text-w-500">
                     AI Profitization
                   </h3>
