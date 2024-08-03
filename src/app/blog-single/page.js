@@ -152,10 +152,7 @@ export default function page() {
                   alt="blog article"
                 />
                 <div>
-                  <Link
-                    href="blog-single.html"
-                    className="text-base text-w-500"
-                  >
+                  <Link href="/blog-single" className="text-base text-w-500">
                     Enhanced Product Discovery through AI Merchandising
                   </Link>
                   <p className="mt-2 text-xs text-w-100">December 19, 2023</p>
@@ -169,10 +166,7 @@ export default function page() {
                   alt="blog article"
                 />
                 <div>
-                  <Link
-                    href="blog-single.html"
-                    className="text-base text-w-500"
-                  >
+                  <Link href="/blog-single" className="text-base text-w-500">
                     AI&#39;s Revolutionary Impact Transforming Drama Discovery
                   </Link>
                   <p className="mt-2 text-xs text-w-100">September 28, 2023</p>
@@ -186,10 +180,7 @@ export default function page() {
                   alt="blog article"
                 />
                 <div>
-                  <Link
-                    href="blog-single.html"
-                    className="text-base text-w-500"
-                  >
+                  <Link href="/blog-single" className="text-base text-w-500">
                     AI Partners with Megazone Cloud to Enhance GenAI Adoption
                   </Link>
                   <p className="mt-2 text-xs text-w-100">July 27, 2023</p>

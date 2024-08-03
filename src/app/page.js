@@ -127,13 +127,13 @@ export default function Home() {
                     </a>
                   </Link>
                 </div>
-                <div className="rounded-lg">
+                <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
-                    className="w-full rounded-lg"
+                    className="rounded-lg"
                     src="/img/prompts1.png"
                     alt="prompts-img"
-                    width={534}
-                    height={464}
+                    layout="fill"
+                    objectFit="contain"
                   />
                 </div>
               </div>
@@ -162,13 +162,13 @@ export default function Home() {
                     </a>
                   </Link>
                 </div>
-                <div className="rounded-lg">
+                <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
-                    className="w-full rounded-lg"
+                    className="rounded-lg"
                     src="/img/prompts2.png"
                     alt="prompts-img"
-                    width={534}
-                    height={464}
+                    layout="fill"
+                    objectFit="contain"
                   />
                 </div>
               </div>
