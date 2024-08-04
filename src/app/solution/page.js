@@ -1,7 +1,4 @@
 "use client";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 import React from "react";
 import Image from "next/image";
 import Header from "../components/Header";
@@ -13,9 +10,6 @@ import FAQAccordion from "../components/FAQSection";
 import enhancingCardData from "/src/data/enhancingCardData.json";
 import customCardData from "/src/data/customCardData.json";
 export default function page() {
-  useEffect(() => {
-    AOS.init({});
-  }, []);
   return (
     <div className="font-normal bg-b-900">
       <Header />
