@@ -82,13 +82,13 @@ export default function page() {
                     informed on current affairs and exploring nuanced opinions.
                   </p>
                 </div>
-                <div className="rounded-lg">
+                <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
-                    className="w-full rounded-lg"
+                    className="rounded-lg"
                     src="/img/diverse1.png"
                     alt="diverse"
-                    width={534}
-                    height={464}
+                    layout="fill"
+                    objectFit="contain"
                   />
                 </div>
               </div>
@@ -105,13 +105,13 @@ export default function page() {
                     sentiment.
                   </p>
                 </div>
-                <div className="rounded-lg">
+                <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
-                    className="w-full rounded-lg"
+                    className="rounded-lg"
                     src="/img/diverse2.png"
                     alt="diverse"
-                    width={534}
-                    height={464}
+                    layout="fill"
+                    objectFit="contain"
                   />
                 </div>
               </div>
@@ -128,13 +128,13 @@ export default function page() {
                     operational efficiency across different domains.
                   </p>
                 </div>
-                <div className="rounded-lg">
+                <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
-                    className="w-full rounded-lg"
-                    src="/img/diverse3.png"
+                    className="rounded-lg"
+                    src="/img/diverse1.png"
                     alt="diverse"
-                    width={534}
-                    height={464}
+                    layout="fill"
+                    objectFit="contain"
                   />
                 </div>
               </div>
