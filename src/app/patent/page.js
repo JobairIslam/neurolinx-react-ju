@@ -11,11 +11,17 @@ export default function page() {
       <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24  bg-center bg-no-repeat bg-cover bg-primary-hero">
         <div className="container px-5 mx-auto xl:px-0">
-          <h1 className="gd-title tracking-[-0.02em] text-center text-3xl md:text-4xl lg:text-64x leading-tight md:leading-relaxed lg:leading-[84px] font-semibold">
+          <h1
+            data-aos="fade-up"
+            className="gd-title tracking-[-0.02em] text-center text-3xl md:text-4xl lg:text-64x leading-tight md:leading-relaxed lg:leading-[84px] font-semibold"
+          >
             Patents Registered
             <span className="inline-block lg:block"></span>by Neurolinx
           </h1>
-          <p className="mt-6 text-base text-center md:text-xl text-w-100">
+          <p
+            data-aos="fade-up"
+            className="mt-6 text-base text-center md:text-xl text-w-100"
+          >
             Neurolinx holds a strong global patent portfolio covering AI search
             solutions,
             <span className="inline-block lg:block"></span>AI recommendation

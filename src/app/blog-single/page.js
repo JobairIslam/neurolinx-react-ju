@@ -10,12 +10,18 @@ export default function page() {
       <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24  bg-center bg-no-repeat bg-cover bg-secondary-hero">
         <div className="container px-5 mx-auto xl:px-0">
-          <h1 className="text-w-500 tracking-[-0.02em] text-center text-3xl md:text-4xl lg:text-64x leading-tight md:leading-relaxed lg:leading-[84px] font-semibold">
+          <h1
+            data-aos="fade-up"
+            className="text-w-500 tracking-[-0.02em] text-center text-3xl md:text-4xl lg:text-64x leading-tight md:leading-relaxed lg:leading-[84px] font-semibold"
+          >
             Simplified AI Applications Streamlining
             <span className="inline-block lg:block"></span>Complexity for
             Enhanced Utility
           </h1>
-          <p className="mt-6 text-base text-center text-w-100">
+          <p
+            data-aos="fade-up"
+            className="mt-6 text-base text-center text-w-100"
+          >
             By <span className="text-w-900">Hannah Wren</span>・December 28,
             2023
           </p>
@@ -25,10 +31,13 @@ export default function page() {
         <div className="container px-5 mx-auto xl:px-0">
           <div className="flex flex-wrap items-start gap-[30px]">
             <div className="lg:pe-[30px] w-full md:max-w-[850px] lg:border-r lg:border-r-border-r">
-              <h3 className="text-2xl font-medium text-w-500">
+              <h3
+                data-aos="fade-up"
+                className="text-2xl font-medium text-w-500"
+              >
                 Unleash Operational Excellence for the AI Era with Neurolinx
               </h3>
-              <p className="mt-4 mb-6 text-base text-w-100">
+              <p data-aos="fade-up" className="mt-4 mb-6 text-base text-w-100">
                 At Neurolinx, we’re dedicated to revolutionizing the way you
                 interact with artificial intelligence. We believe AI should be
                 intuitive, seamless, and user-friendly. That’s why we&#39;ve
@@ -36,15 +45,19 @@ export default function page() {
                 and the AI world.
               </p>
               <Image
+                data-aos="fade-up"
                 width={850}
                 height={424}
                 src="/img/blog-single.png"
                 alt="blog single"
               />
-              <h3 className="mt-12 mb-4 text-2xl font-medium text-w-500">
+              <h3
+                data-aos="fade-up"
+                className="mt-12 mb-4 text-2xl font-medium text-w-500"
+              >
                 What Makes Neurolinx Unique?
               </h3>
-              <p className="text-base text-w-100">
+              <p data-aos="fade-up" className="text-base text-w-100">
                 Imagine having a tireless assistant working 24/7 to streamline
                 your operations. That’s the power of our Neurolinx AI
                 Transformation Suite (NATS). NATS automates repetitive tasks,
@@ -55,17 +68,21 @@ export default function page() {
                 with commercial viability.
               </p>
               <Image
+                data-aos="fade-up"
                 width={850}
                 height={424}
                 className="mt-6 mb-12"
                 src="/img/blog-single.png"
                 alt="blog single"
               />
-              <h3 className="text-2xl font-medium text-w-500">
+              <h3
+                data-aos="fade-up"
+                className="text-2xl font-medium text-w-500"
+              >
                 How does Neurolinx simplify the interaction between users and
                 conversational AI?
               </h3>
-              <p className="mt-4 mb-6 text-w-100">
+              <p data-aos="fade-up" className="mt-4 mb-6 text-w-100">
                 Neurolinx Prompts are to Conversational AI what Icons and a
                 Mouse are to Computers. Just as icons and a mouse provide a
                 user-friendly interface for interacting with computers,
@@ -76,15 +93,19 @@ export default function page() {
                 easy for users to communicate with AI systems.
               </p>
               <Image
+                data-aos="fade-up"
                 width={850}
                 height={424}
                 src="/img/blog-single.png"
                 alt="blog single"
               />
-              <h3 className="mt-12 mb-4 text-2xl font-medium text-w-500">
+              <h3
+                data-aos="fade-up"
+                className="mt-12 mb-4 text-2xl font-medium text-w-500"
+              >
                 The Evolution of Neurolinx
               </h3>
-              <p className="text-base text-w-100">
+              <p data-aos="fade-up" className="text-base text-w-100">
                 We started our journey in 2014, focused on enhancing AI
                 assistance for smart speakers. Over time, we’ve evolved into
                 industry experts, expanding our expertise across various
@@ -92,10 +113,13 @@ export default function page() {
                 enabling AI to understand users even with limited data. This
                 marks a significant milestone in our evolution.
               </p>
-              <h3 className="mt-12 mb-4 text-2xl font-medium text-w-500">
+              <h3
+                data-aos="fade-up"
+                className="mt-12 mb-4 text-2xl font-medium text-w-500"
+              >
                 Who We Serve
               </h3>
-              <p className="text-base text-w-100">
+              <p data-aos="fade-up" className="text-base text-w-100">
                 Since our inception in 2016, we’ve forged strong partnerships
                 with leading consumer brands across diverse industries. Our
                 collaborations include industry giants like Booking.com, Sephora
@@ -105,10 +129,13 @@ export default function page() {
                 us as the go-to choice for businesses seeking AI-enhanced
                 solutions.
               </p>
-              <h3 className="mt-12 mb-4 text-2xl font-medium text-w-500">
+              <h3
+                data-aos="fade-up"
+                className="mt-12 mb-4 text-2xl font-medium text-w-500"
+              >
                 Our Vision and Mission
               </h3>
-              <p className="text-base text-w-100">
+              <p data-aos="fade-up" className="text-base text-w-100">
                 At Neurolinx, our vision is clear: we’re simplifying
                 applications and naturalizing AI interactions. Our mission is to
                 make AI effortlessly understand you. We achieve this by
@@ -119,7 +146,10 @@ export default function page() {
             </div>
 
             <div className="w-full md:max-w-[380px]">
-              <div className="relative flex items-center justify-between w-full gap-2 px-4 py-3 border rounded-full border-b-600">
+              <div
+                data-aos="fade-up"
+                className="relative flex items-center justify-between w-full gap-2 px-4 py-3 border rounded-full border-b-600"
+              >
                 <input
                   className="w-full text-base bg-transparent focus:outline-none md:text-base text-w-900 placeholder:text-b-100"
                   type="text"
@@ -141,55 +171,86 @@ export default function page() {
                   </svg>
                 </Link>
               </div>
-              <h3 className="mt-12 mb-6 text-xl font-medium text-w-500">
+              <h3
+                data-aos="fade-up"
+                className="mt-12 mb-6 text-xl font-medium text-w-500"
+              >
                 Related Articles
               </h3>
-              <div className="flex items-center gap-4 mb-4">
-                <Image
-                  width={80}
-                  height={80}
-                  src="/img/blog-article1.png"
-                  alt="blog article"
-                />
+              <div data-aos="fade-up" className="flex items-center gap-4 mb-4">
+                <div className="relative w-full lg:w-[80px] lg:h-[80px]">
+                  <Image
+                    className="rounded-lg"
+                    src="/img/blog-article1.png"
+                    alt="prompts-img"
+                    layout="fill"
+                    objectFit="contain"
+                  />
+                </div>
                 <div>
-                  <Link href="/blog-single" className="text-base text-w-500">
+                  <Link
+                    data-aos="fade-up"
+                    href="/blog-single"
+                    className="text-base text-w-500"
+                  >
                     Enhanced Product Discovery through AI Merchandising
                   </Link>
-                  <p className="mt-2 text-xs text-w-100">December 19, 2023</p>
+                  <p data-aos="fade-up" className="mt-2 text-xs text-w-100">
+                    December 19, 2023
+                  </p>
                 </div>
               </div>
-              <div className="flex items-center gap-4 mb-4">
-                <Image
-                  width={80}
-                  height={80}
-                  src="/img/blog-article2.png"
-                  alt="blog article"
-                />
+              <div data-aos="fade-up" className="flex items-center gap-4 mb-4">
+                <div className="relative w-full lg:w-[80px] lg:h-[80px]">
+                  <Image
+                    className="rounded-lg"
+                    src="/img/blog-article2.png"
+                    alt="prompts-img"
+                    layout="fill"
+                    objectFit="contain"
+                  />
+                </div>
                 <div>
-                  <Link href="/blog-single" className="text-base text-w-500">
+                  <Link
+                    data-aos="fade-up"
+                    href="/blog-single"
+                    className="text-base text-w-500"
+                  >
                     AI&#39;s Revolutionary Impact Transforming Drama Discovery
                   </Link>
                   <p className="mt-2 text-xs text-w-100">September 28, 2023</p>
                 </div>
               </div>
-              <div className="flex items-center gap-4 mb-4">
-                <Image
-                  width={80}
-                  height={80}
-                  src="/img/blog-article3.png"
-                  alt="blog article"
-                />
+              <div data-aos="fade-up" className="flex items-center gap-4 mb-4">
+                <div className="relative w-full lg:w-[80px] lg:h-[80px]">
+                  <Image
+                    className="rounded-lg"
+                    src="/img/blog-article3.png"
+                    alt="prompts-img"
+                    layout="fill"
+                    objectFit="contain"
+                  />
+                </div>
                 <div>
-                  <Link href="/blog-single" className="text-base text-w-500">
+                  <Link
+                    data-aos="fade-up"
+                    href="/blog-single"
+                    className="text-base text-w-500"
+                  >
                     AI Partners with Megazone Cloud to Enhance GenAI Adoption
                   </Link>
-                  <p className="mt-2 text-xs text-w-100">July 27, 2023</p>
+                  <p data-aos="fade-up" className="mt-2 text-xs text-w-100">
+                    July 27, 2023
+                  </p>
                 </div>
               </div>
-              <h3 className="mt-12 mb-6 text-xl font-medium text-w-500">
+              <h3
+                data-aos="fade-up"
+                className="mt-12 mb-6 text-xl font-medium text-w-500"
+              >
                 Tags
               </h3>
-              <div className="flex flex-wrap gap-2">
+              <div data-aos="fade-up" className="flex flex-wrap gap-2">
                 <Link
                   href="#"
                   className="px-4 py-2 text-sm border rounded-full border-b-400 text-w-100 bg-b-600 hover:bg-tropical-indigo hover:text-w-900"
@@ -197,103 +258,158 @@ export default function page() {
                   AI Automation
                 </Link>
                 <Link
+                  data-aos="fade-up"
                   href="#"
                   className="px-4 py-2 text-sm border rounded-full border-b-400 text-w-100 bg-b-600 hover:bg-tropical-indigo hover:text-w-900"
                 >
                   Generative AI Use Cases
                 </Link>
                 <Link
+                  data-aos="fade-up"
                   href="#"
                   className="px-4 py-2 text-sm border rounded-full border-b-400 text-w-100 bg-b-600 hover:bg-tropical-indigo hover:text-w-900"
                 >
                   AI Prompt Engineering
                 </Link>
                 <Link
+                  data-aos="fade-up"
                   href="#"
                   className="px-4 py-2 text-sm border rounded-full border-b-400 text-w-100 bg-b-600 hover:bg-tropical-indigo hover:text-w-900"
                 >
                   AI Tools For Business
                 </Link>
                 <Link
+                  data-aos="fade-up"
                   href="#"
                   className="px-4 py-2 text-sm border rounded-full border-b-400 text-w-100 bg-b-600 hover:bg-tropical-indigo hover:text-w-900"
                 >
                   AI Ops
                 </Link>
                 <Link
+                  data-aos="fade-up"
                   href="#"
                   className="px-4 py-2 text-sm border rounded-full border-b-400 text-w-100 bg-b-600 hover:bg-tropical-indigo hover:text-w-900"
                 >
                   Generative AI Solution
                 </Link>
               </div>
-              <h3 className="mt-12 mb-6 text-xl font-medium text-w-500">
+              <h3
+                data-aos="fade-up"
+                className="mt-12 mb-6 text-xl font-medium text-w-500"
+              >
                 Categories
               </h3>
-              <div className="flex flex-col items-start justify-start gap-2">
+              <div
+                data-aos="fade-up"
+                className="flex flex-col items-start justify-start gap-2"
+              >
                 <Link
+                  data-aos="fade-up"
                   href="#"
                   className="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
                 >
-                  <span className="text-base text-w-100">AI Planning</span>
-                  <span className="text-base text-w-100">23</span>
+                  <span data-aos="fade-up" className="text-base text-w-100">
+                    AI Planning
+                  </span>
+                  <span data-aos="fade-up" className="text-base text-w-100">
+                    23
+                  </span>
                 </Link>
                 <Link
+                  data-aos="fade-up"
                   href="#"
                   className="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
                 >
-                  <span className="text-base text-w-100">Computer Vision</span>
-                  <span className="text-base text-w-100">47</span>
+                  <span data-aos="fade-up" className="text-base text-w-100">
+                    Computer Vision
+                  </span>
+                  <span data-aos="fade-up" className="text-base text-w-100">
+                    47
+                  </span>
                 </Link>
                 <Link
+                  data-aos="fade-up"
                   href="#"
                   className="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
                 >
-                  <span className="text-base text-w-100">
+                  <span data-aos="fade-up" className="text-base text-w-100">
                     Speech Recognition
                   </span>
-                  <span className="text-base text-w-100">89</span>
+                  <span data-aos="fade-up" className="text-base text-w-100">
+                    89
+                  </span>
                 </Link>
                 <Link
+                  data-aos="fade-up"
                   href="#"
                   className="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
                 >
-                  <span className="text-base text-w-100">Machine Learning</span>
-                  <span className="text-base text-w-100">12</span>
+                  <span data-aos="fade-up" className="text-base text-w-100">
+                    Machine Learning
+                  </span>
+                  <span data-aos="fade-up" className="text-base text-w-100">
+                    12
+                  </span>
                 </Link>
                 <Link
+                  data-aos="fade-up"
                   href="#"
                   className="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
                 >
-                  <span className="text-base text-w-100">Deep Learning</span>
-                  <span className="text-base text-w-100">56</span>
+                  <span data-aos="fade-up" className="text-base text-w-100">
+                    Deep Learning
+                  </span>
+                  <span data-aos="fade-up" className="text-base text-w-100">
+                    56
+                  </span>
                 </Link>
                 <Link
+                  data-aos="fade-up"
                   href="#"
                   className="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
                 >
-                  <span className="text-base text-w-100">Neural Networks</span>
-                  <span className="text-base text-w-100">34</span>
+                  <span data-aos="fade-up" className="text-base text-w-100">
+                    Neural Networks
+                  </span>
+                  <span data-aos="fade-up" className="text-base text-w-100">
+                    34
+                  </span>
                 </Link>
                 <Link
+                  data-aos="fade-up"
                   href="#"
                   className="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
                 >
-                  <span className="text-base text-w-100">Expert Systems</span>
-                  <span className="text-base text-w-100">78</span>
+                  <span data-aos="fade-up" className="text-base text-w-100">
+                    Expert Systems
+                  </span>
+                  <span data-aos="fade-up" className="text-base text-w-100">
+                    78
+                  </span>
                 </Link>
                 <Link
+                  data-aos="fade-up"
                   href="#"
                   className="flex justify-between items-center pb-2 border-b border-b-600 w-full md:max-w-[270px]"
                 >
-                  <span className="text-base text-w-100">Virtual Agents</span>
-                  <span className="text-base text-w-100">91</span>
+                  <span data-aos="fade-up" className="text-base text-w-100">
+                    Virtual Agents
+                  </span>
+                  <span data-aos="fade-up" className="text-base text-w-100">
+                    91
+                  </span>
                 </Link>
               </div>
-              <h3 className="mt-12 mb-6 text-xl font-medium text-w-500">
+              <h3
+                data-aos="fade-up"
+                className="mt-12 mb-6 text-xl font-medium text-w-500"
+              >
                 Share on Social
               </h3>
-              <div className="flex items-center justify-start gap-4">
+              <div
+                data-aos="fade-up"
+                className="flex items-center justify-start gap-4"
+              >
                 <Link href="https://www.facebook.com/">
                   <Image
                     width={24}
@@ -302,7 +418,7 @@ export default function page() {
                     alt="facebook"
                   />
                 </Link>
-                <Link href="https://x.com/home?lang=en">
+                <Link data-aos="fade-up" href="https://x.com/home?lang=en">
                   <Image
                     width={24}
                     height={24}
@@ -310,7 +426,7 @@ export default function page() {
                     alt="x"
                   />
                 </Link>
-                <Link href="https://www.linkedin.com/feed/">
+                <Link data-aos="fade-up" href="https://www.linkedin.com/feed/">
                   <Image
                     width={24}
                     height={24}
@@ -318,7 +434,7 @@ export default function page() {
                     alt="linkedin"
                   />
                 </Link>
-                <Link href="https://mail.google.com/mail/">
+                <Link data-aos="fade-up" href="https://mail.google.com/mail/">
                   <Image
                     width={24}
                     height={24}

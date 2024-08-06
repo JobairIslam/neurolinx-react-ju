@@ -11,7 +11,10 @@ const UpdateCard = ({
   tag2Href,
 }) => {
   return (
-    <div className="p-6 border rounded-lg border-b-600 bg-gd-tertiary">
+    <div
+      data-aos="fade-up"
+      className="p-6 border rounded-lg border-b-600 bg-gd-tertiary"
+    >
       <Image
         className="w-full rounded-lg"
         src={imageSrc}

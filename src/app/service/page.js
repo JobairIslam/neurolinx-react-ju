@@ -11,27 +11,39 @@ export default function page() {
       <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24  bg-center bg-no-repeat bg-cover bg-primary-hero">
         <div className="container px-5 mx-auto xl:px-0">
-          <h1 className="gd-title tracking-[-0.02em] text-center text-3xl md:text-4xl lg:text-64x leading-tight md:leading-relaxed lg:leading-[84px] font-semibold">
+          <h1
+            data-aos="fade-up"
+            className="gd-title tracking-[-0.02em] text-center text-3xl md:text-4xl lg:text-64x leading-tight md:leading-relaxed lg:leading-[84px] font-semibold"
+          >
             Services Powered
             <span className="inline-block lg:block"></span>
             by Neurolinx
           </h1>
-          <p className="mt-6 text-base text-center md:text-xl text-w-100">
+          <p
+            data-aos="fade-up"
+            className="mt-6 text-base text-center md:text-xl text-w-100"
+          >
             Neurolinx operates services across various industries, both
             independently<span className="inline-block lg:block"></span>
             and in partnership with global leaders in their respective fields.
           </p>
         </div>
       </div>
-      <div className="lg:py-24  bg-center bg-no-repeat bg-cover bg-powered">
+      <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-powered">
         <div className="container px-5 mx-auto xl:px-0">
-          <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
+          <h2
+            data-aos="fade-down"
+            className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold"
+          >
             Transformative Services
             <span className="inline-block lg:block">Expand Your Business</span>
           </h2>
           <div className="flex flex-col">
             <div className="flex flex-col gap-[30px]">
-              <div className="flex flex-col-reverse lg:flex-row justify-start lg:justify-between gap-[30px] lg:gap-[126px] p-6 md:p-12 rounded-lg border border-b-600 bg-gd-tertiary">
+              <div
+                data-aos="fade-up-right"
+                className="flex flex-col-reverse lg:flex-row justify-start lg:justify-between gap-[30px] lg:gap-[126px] p-6 md:p-12 rounded-lg border border-b-600 bg-gd-tertiary"
+              >
                 <div className="flex flex-col items-start justify-center">
                   <h3 className="mb-4 md:leading-[42px] text-2xl md:text-32x font-medium text-w-500">
                     Revolutionizing Hotel Booking
@@ -44,17 +56,20 @@ export default function page() {
                     hotel prices.
                   </p>
                 </div>
-                <div className="rounded-lg">
+                <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
-                    className="w-full rounded-lg"
+                    className="rounded-lg"
                     src="/img/service-card1.png"
-                    alt="service"
-                    width={534}
-                    height={464}
+                    alt="prompts-img"
+                    layout="fill"
+                    objectFit="contain"
                   />
                 </div>
               </div>
-              <div className="flex flex-col-reverse lg:flex-row-reverse justify-start lg:justify-between gap-[30px] lg:gap-[126px] p-6 md:p-12 rounded-lg border border-b-600 bg-gd-tertiary">
+              <div
+                data-aos="fade-up-left"
+                className="flex flex-col-reverse lg:flex-row-reverse justify-start lg:justify-between gap-[30px] lg:gap-[126px] p-6 md:p-12 rounded-lg border border-b-600 bg-gd-tertiary"
+              >
                 <div className="flex flex-col items-start justify-center">
                   <h3 className="mb-4 md:leading-[42px] text-2xl md:text-32x font-medium text-w-500">
                     Transforming Movie Search
@@ -66,7 +81,7 @@ export default function page() {
                     explore new movies from a database of over 760,000 titles.
                   </p>
                 </div>
-                <div className="rounded-lg">
+                <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
                     className="w-full rounded-lg"
                     src="/img/service-card2.png"
@@ -76,7 +91,10 @@ export default function page() {
                   />
                 </div>
               </div>
-              <div className="flex flex-col-reverse lg:flex-row justify-start lg:justify-between gap-[30px] lg:gap-[126px] p-6 md:p-12 rounded-lg border border-b-600 bg-gd-tertiary">
+              <div
+                data-aos="fade-up-right"
+                className="flex flex-col-reverse lg:flex-row justify-start lg:justify-between gap-[30px] lg:gap-[126px] p-6 md:p-12 rounded-lg border border-b-600 bg-gd-tertiary"
+              >
                 <div className="flex flex-col items-start justify-center">
                   <h3 className="mb-4 md:leading-[42px] text-2xl md:text-32x font-medium text-w-500">
                     AI-driven Beauty Assistant
@@ -88,7 +106,7 @@ export default function page() {
                     tones, and awards, is updated in real-time through AI.
                   </p>
                 </div>
-                <div className="rounded-lg">
+                <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
                     className="w-full rounded-lg"
                     src="/img/service-card3.png"
@@ -98,7 +116,10 @@ export default function page() {
                   />
                 </div>
               </div>
-              <div className="flex flex-col-reverse lg:flex-row-reverse justify-start lg:justify-between gap-[30px] lg:gap-[126px] p-6 md:p-12 rounded-lg border border-b-600 bg-gd-tertiary">
+              <div
+                data-aos="fade-up-left"
+                className="flex flex-col-reverse lg:flex-row-reverse justify-start lg:justify-between gap-[30px] lg:gap-[126px] p-6 md:p-12 rounded-lg border border-b-600 bg-gd-tertiary"
+              >
                 <div className="flex flex-col items-start justify-center">
                   <h3 className="mb-4 md:leading-[42px] text-2xl md:text-32x font-medium text-w-500">
                     AI-Powered Destination Search
@@ -120,7 +141,10 @@ export default function page() {
                   />
                 </div>
               </div>
-              <div className="flex flex-col-reverse lg:flex-row justify-start lg:justify-between gap-[30px] lg:gap-[126px] p-6 md:p-12 rounded-lg border border-b-600 bg-gd-tertiary">
+              <div
+                data-aos="fade-up-right"
+                className="flex flex-col-reverse lg:flex-row justify-start lg:justify-between gap-[30px] lg:gap-[126px] p-6 md:p-12 rounded-lg border border-b-600 bg-gd-tertiary"
+              >
                 <div className="flex flex-col items-start justify-center">
                   <h3 className="mb-4 md:leading-[42px] text-2xl md:text-32x font-medium text-w-500">
                     Explore Live Celebrity Personas

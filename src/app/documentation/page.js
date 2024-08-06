@@ -11,11 +11,17 @@ export default function page() {
       <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24  bg-center bg-no-repeat bg-cover bg-primary-hero">
         <div className="container px-5 mx-auto xl:px-0">
-          <h1 className="gd-title tracking-[-0.02em] text-center text-3xl md:text-4xl lg:text-64x leading-tight md:leading-relaxed lg:leading-[84px] font-semibold">
+          <h1
+            data-aos="fade-up"
+            className="gd-title tracking-[-0.02em] text-center text-3xl md:text-4xl lg:text-64x leading-tight md:leading-relaxed lg:leading-[84px] font-semibold"
+          >
             Neurolinx
             <span className="block"></span>Documentation
           </h1>
-          <p className="mt-6 text-base text-center md:text-xl text-w-100">
+          <p
+            data-aos="fade-up"
+            className="mt-6 text-base text-center md:text-xl text-w-100"
+          >
             Welcome to the documentation for Neurolinx! Our mission is to
             empower
             <span className="inline-block lg:block"></span>users to make smarter
@@ -27,81 +33,158 @@ export default function page() {
         <div className="container px-5 pb-24 mx-auto lg:py-24 xl:px-0 ">
           <div className="flex flex-col md:flex-row gap-[30px]">
             <div className="w-full md:max-w-[380px]">
-              <h4 className="mb-6 text-xl font-medium text-w-500">Overview</h4>
-              <a href="#" className="block mb-4 text-base text-w-100">
+              <h4
+                data-aos="fade-up"
+                className="mb-6 text-xl font-medium text-w-500"
+              >
+                Overview
+              </h4>
+              <a
+                data-aos="fade-up"
+                href="#"
+                className="block mb-4 text-base text-w-100"
+              >
                 Introduction
               </a>
-              <a href="#" className="block text-base gd-title">
+              <a
+                data-aos="fade-up"
+                href="#"
+                className="block text-base gd-title"
+              >
                 How it Works
               </a>
               <div className="my-6 w-full h-[1px] bg-b-600"></div>
-              <h4 className="mb-6 text-xl font-medium text-w-500">
+              <h4
+                data-aos="fade-up"
+                className="mb-6 text-xl font-medium text-w-500"
+              >
                 Getting Started
               </h4>
-              <a href="#" className="block text-base text-w-100">
+              <a
+                data-aos="fade-up"
+                href="#"
+                className="block text-base text-w-100"
+              >
                 How to Integrate
               </a>
               <div className="my-6 w-full h-[1px] bg-b-600"></div>
-              <h4 className="mb-6 text-xl font-medium text-w-500">
+              <h4
+                data-aos="fade-up"
+                className="mb-6 text-xl font-medium text-w-500"
+              >
                 API Reference
               </h4>
-              <a href="#" className="block mb-4 text-base text-w-100">
+              <a
+                data-aos="fade-up"
+                href="#"
+                className="block mb-4 text-base text-w-100"
+              >
                 Introduction
               </a>
-              <a href="#" className="block mb-4 text-base text-w-100">
+              <a
+                data-aos="fade-up"
+                href="#"
+                className="block mb-4 text-base text-w-100"
+              >
                 Common
               </a>
-              <a href="#" className="block mb-4 text-base text-w-100">
+              <a
+                data-aos="fade-up"
+                href="#"
+                className="block mb-4 text-base text-w-100"
+              >
                 Movie
               </a>
-              <a href="#" className="block mb-4 text-base text-w-100">
+              <a
+                data-aos="fade-up"
+                href="#"
+                className="block mb-4 text-base text-w-100"
+              >
                 TV Show
               </a>
               <div className="my-6 w-full h-[1px] bg-b-600"></div>
-              <h4 className="mb-6 text-xl font-medium text-w-500">
+              <h4
+                data-aos="fade-up"
+                className="mb-6 text-xl font-medium text-w-500"
+              >
                 Admin Guide
               </h4>
-              <a href="#" className="block mb-4 text-base text-w-100">
+              <a
+                data-aos="fade-up"
+                href="#"
+                className="block mb-4 text-base text-w-100"
+              >
                 Introduction
               </a>
-              <a href="#" className="block mb-4 text-base text-w-100">
+              <a
+                data-aos="fade-up"
+                href="#"
+                className="block mb-4 text-base text-w-100"
+              >
                 Dashboard
               </a>
-              <a href="#" className="block mb-4 text-base text-w-100">
+              <a
+                data-aos="fade-up"
+                href="#"
+                className="block mb-4 text-base text-w-100"
+              >
                 Neurolinx Configurator
               </a>
-              <a href="#" className="block mb-4 text-base text-w-100">
+              <a
+                data-aos="fade-up"
+                href="#"
+                className="block mb-4 text-base text-w-100"
+              >
                 Neurolinx Simulator
               </a>
-              <a href="#" className="blocktext-base text-w-100">
+              <a
+                data-aos="fade-up"
+                href="#"
+                className="blocktext-base text-w-100"
+              >
                 Items
               </a>
               <div className="my-6 w-full h-[1px] bg-b-600"></div>
-              <h4 className="mb-6 text-xl font-medium text-w-500">Support</h4>
-              <a href="#" className="block mb-4 text-base text-w-100">
+              <h4
+                data-aos="fade-up"
+                className="mb-6 text-xl font-medium text-w-500"
+              >
+                Support
+              </h4>
+              <a
+                data-aos="fade-up"
+                href="#"
+                className="block mb-4 text-base text-w-100"
+              >
                 Frequently Asked Questions
               </a>
             </div>
             <div className="ps-[30px] border-s border-b-600 w-full md:max-w-[850px]">
-              <h3 className="pb-4 text-2xl font-medium text-w-500">
+              <h3
+                data-aos="fade-up"
+                className="pb-4 text-2xl font-medium text-w-500"
+              >
                 How it Works
               </h3>
-              <p className="pb-12 text-base text-w-100">
+              <p data-aos="fade-up" className="pb-12 text-base text-w-100">
                 At Neurolinx, we leverage advanced artificial intelligence and
                 machine learning algorithms to deliver personalized
                 recommendations and search results across various industries.
                 Our technology works by analyzing vast amounts of data,
                 including user interactions, reviews, and product descriptions.
               </p>
-              <h3 className="pb-4 text-2xl font-medium text-w-500">
+              <h3
+                data-aos="fade-up"
+                className="pb-4 text-2xl font-medium text-w-500"
+              >
                 Source Data
               </h3>
-              <p className="text-base text-w-100">
+              <p data-aos="fade-up" className="text-base text-w-100">
                 We source our data from trusted suppliers and categorize it into
                 three main categories:
               </p>
               <div className="pl-5 mb-6">
-                <ul className="list-decimal">
+                <ul data-aos="fade-up" className="list-decimal">
                   <li className="text-base text-w-100">
                     Social Data: This encompasses online reviews, blogs,
                     Twitter, and other social media platforms.
@@ -118,11 +201,11 @@ export default function page() {
                   </li>
                 </ul>
               </div>
-              <p className="text-base text-w-100">
+              <p data-aos="fade-up" className="text-base text-w-100">
                 Our data is categorized into three main types:
               </p>
               <div className="pl-5 mb-6">
-                <ul className="list-decimal">
+                <ul data-aos="fade-up" className="list-decimal">
                   <li className="text-base text-w-100">
                     Item Metadata: This category includes unique ID values for
                     each item, item names, review data, and other relevant
@@ -139,7 +222,7 @@ export default function page() {
                   </li>
                 </ul>
               </div>
-              <p className="pb-12 text-base text-w-100">
+              <p data-aos="fade-up" className="pb-12 text-base text-w-100">
                 We prioritize data privacy and security. Your information is
                 kept private and secure, accessible only to authorized personnel
                 within our company. Your data will not be used for any other
@@ -155,10 +238,13 @@ export default function page() {
                 needed to build a powerful and effective recommendation engine
                 tailored to your business needs.
               </p>
-              <h3 className="pb-4 text-2xl font-medium text-w-500">
+              <h3
+                data-aos="fade-up"
+                className="pb-4 text-2xl font-medium text-w-500"
+              >
                 The Simple Steps Needed
               </h3>
-              <p className="pb-6 text-base text-w-100">
+              <p data-aos="fade-up" className="pb-6 text-base text-w-100">
                 We have pre-collected data from three industries: Beauty &
                 Cosmetics, Movies & TV, and Travel. If your business is included
                 in any of these three categories, the process should take
@@ -166,7 +252,7 @@ export default function page() {
                 industries, the entire process should take around three months
                 to complete.
               </p>
-              <ul className="pl-5 mb-12 list-decimal">
+              <ul data-aos="fade-up" className="pl-5 mb-12 list-decimal">
                 <li className="pb-6 text-base text-w-100">
                   Transmit Your Item Library:
                   <span className="inline-block md:block"></span>
@@ -221,6 +307,7 @@ export default function page() {
               <div className="w-full h-[1px] mb-5 border border-b-600"></div>
               <div className="flex flex-row items-center justify-between">
                 <a
+                  data-aos="fade-up"
                   className="flex items-center gap-2 px-4 py-2 text-sm font-medium border rounded-full border-tropical-indigo text-w-900 hover:bg-tropical-indigo"
                   href="#"
                 >
@@ -233,6 +320,7 @@ export default function page() {
                   Introduction
                 </a>
                 <a
+                  data-aos="fade-up"
                   className="flex items-center gap-2 px-4 py-2 text-sm font-medium border rounded-full x border-tropical-indigo text-w-900 hover:bg-tropical-indigo"
                   href="#"
                 >

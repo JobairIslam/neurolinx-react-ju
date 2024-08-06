@@ -11,11 +11,17 @@ export default function page() {
       <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24  bg-center bg-no-repeat bg-cover bg-primary-hero">
         <div className="container px-5 mx-auto xl:px-0">
-          <h1 className="gd-title tracking-[-0.02em] text-center text-3xl md:text-4xl lg:text-64x leading-tight md:leading-relaxed lg:leading-[84px] font-semibold">
+          <h1
+            data-aos="fade-up"
+            className="gd-title tracking-[-0.02em] text-center text-3xl md:text-4xl lg:text-64x leading-tight md:leading-relaxed lg:leading-[84px] font-semibold"
+          >
             Blog &amp; Updates
             <span className="block"></span>by Neurolinx
           </h1>
-          <p className="mt-6 text-base text-center md:text-xl text-w-100">
+          <p
+            data-aos="fade-up"
+            className="mt-6 text-base text-center md:text-xl text-w-100"
+          >
             Neurolinx blog for the latest news, tips, tricks, and how-to
             articles
             <span className="inline-block lg:block"></span>on Neurolinx&apos;s
@@ -23,9 +29,12 @@ export default function page() {
           </p>
         </div>
       </div>
-      <div className="lg:py-24  bg-center bg-no-repeat bg-cover bg-blog">
+      <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-blog">
         <div className="container px-5 mx-auto xl:px-0">
-          <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
+          <h2
+            data-aos="fade-down"
+            className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold"
+          >
             Explore Neurolinx&apos;s
             <span className="block"></span>Engineering Approach
           </h2>

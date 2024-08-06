@@ -110,13 +110,19 @@ const GlobalPatentSection = () => {
   };
 
   return (
-    <div className="lg:py-24 bg-center bg-no-repeat bg-cover bg-patent">
+    <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-patent">
       <div className="container px-5 mx-auto xl:px-0">
-        <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
+        <h2
+          data-aos="fade-down"
+          className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold"
+        >
           Global Patent
           <span className="block"></span>Portfolios
         </h2>
-        <div className="p-6 rounded-lg md:p-12 bg-gd-tertiary">
+        <div
+          data-aos="fade-up"
+          className="p-6 rounded-lg md:p-12 bg-gd-tertiary"
+        >
           <h3 className="mb-6 text-xl font-medium md:mb-12 md:text-2xl text-w-500">
             Patents 32 &amp; Patent Applications 88 across the world.
           </h3>
@@ -127,7 +133,10 @@ const GlobalPatentSection = () => {
             height={573}
           />
         </div>
-        <div className="flex justify-center gap-3 mt-16 mb-12">
+        <div
+          data-aos="fade-up"
+          className="flex justify-center gap-3 mt-16 mb-12"
+        >
           <a
             href="#"
             className="px-6 py-[14px] rounded-full border border-tropical-indigo text-base font-medium bg-transparent text-tropical-indigo"
@@ -143,7 +152,10 @@ const GlobalPatentSection = () => {
             Patents Applications
           </a>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]">
+        <div
+          data-aos="fade-up"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]"
+        >
           {cards.map((card) => (
             <div
               key={card.id}
@@ -171,7 +183,10 @@ const GlobalPatentSection = () => {
             </div>
           ))}
         </div>
-        <div className="flex items-center justify-center mt-6 md:mt-12">
+        <div
+          data-aos="fade-up"
+          className="flex items-center justify-center mt-6 md:mt-12"
+        >
           <a
             href="#"
             className="px-6 py-[14px] rounded-full border border-tropical-indigo text-base font-medium text-w-900 bg-gd-secondary"

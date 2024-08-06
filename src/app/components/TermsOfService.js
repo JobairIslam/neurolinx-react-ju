@@ -24,7 +24,7 @@ const TermsSection = () => {
   };
 
   return (
-    <div className="lg:py-24 pb-24 bg-center bg-no-repeat bg-cover bg-terms">
+    <div className="pb-24 bg-center bg-no-repeat bg-cover lg:py-24 bg-terms ">
       <div className="container px-5 mx-auto xl:px-0">
         <div className="flex flex-col md:flex-row justify-start items-start gap-[30px]">
           <div
@@ -73,10 +73,14 @@ const TermsSection = () => {
             ))}
           </div>
           <div className="ps-[30px] w-full md:max-w-[810px] border-s border-b-600">
-            <h2 className="mb-4 text-2xl font-medium text-w-500" id="intro">
+            <h2
+              data-aos="fade-up"
+              className="mb-4 text-2xl font-medium text-w-500"
+              id="intro"
+            >
               Introduction
             </h2>
-            <p className="text-base text-w-100">
+            <p data-aos="fade-up" className="text-base text-w-100">
               Welcome to Neurolinx! These Terms of Service (&rdquo;Terms&rdquo;)
               govern your use of our website located at
               <a href="http://www.neurolinx.ai/">www.neurolinx.ai</a> and our
@@ -86,55 +90,60 @@ const TermsSection = () => {
               &rdquo;our&rdquo;).
             </p>
             <h2
+              data-aos="fade-up"
               className="pt-12 mb-4 text-2xl font-medium text-w-500"
               id="acceptance-of-terms"
             >
               Acceptance of Terms
             </h2>
-            <p className="text-base text-w-100">
+            <p data-aos="fade-up" className="text-base text-w-100">
               By accessing or using our Service, you agree to be bound by these
               Terms and all terms incorporated by reference. If you do not agree
               to all these Terms, then you may not access or use the Service.
             </p>
             <h2
+              data-aos="fade-up"
               className="pt-12 mb-4 text-2xl font-medium text-w-500"
               id="changes-to-terms-or-service"
             >
               Changes to Terms or Service
             </h2>
-            <p className="text-base text-w-100">
+            <p data-aos="fade-up" className="text-base text-w-100">
               We reserve the right to update or modify these Terms at any time
               without prior notice. Your use of the Service after any such
               changes constitutes your acceptance of the new Terms. It is your
               responsibility to review these Terms regularly.
             </p>
             <h2
+              data-aos="fade-up"
               className="pt-12 mb-4 text-2xl font-medium text-w-500"
               id="privacy-policy"
             >
               Privacy Policy
             </h2>
-            <p className="text-base text-w-100">
+            <p data-aos="fade-up" className="text-base text-w-100">
               Please review our Privacy Policy, which also governs your use of
               the Service, to understand our practices.
             </p>
             <h2
+              data-aos="fade-up"
               className="pt-12 mb-4 text-2xl font-medium text-w-500"
               id="access-to-the-service"
             >
               Access to the Service
             </h2>
-            <p className="text-base text-w-100">
+            <p data-aos="fade-up" className="text-base text-w-100">
               Please review our Privacy Policy, which also governs your use of
               the Service, to understand our practices.
             </p>
             <h2
+              data-aos="fade-up"
               className="pt-12 mb-4 text-2xl font-medium text-w-500"
               id="user-content"
             >
               User Content
             </h2>
-            <p className="text-base text-w-100">
+            <p data-aos="fade-up" className="text-base text-w-100">
               Our Service may allow you to post, link, store, share, and
               otherwise make available certain information, text, graphics,
               videos, or other material (&rdquo;Content&rdquo;). You are
@@ -142,16 +151,20 @@ const TermsSection = () => {
               including its legality, reliability, and appropriateness.
             </p>
             <h2
+              data-aos="fade-up"
               className="pt-12 mb-4 text-2xl font-medium text-w-500"
               id="prohibited-conduct"
             >
               Prohibited Conduct
             </h2>
-            <p className="text-base text-w-100">
+            <p data-aos="fade-up" className="text-base text-w-100">
               When using the Service, you agree not to engage in any of the
               following prohibited activities:
             </p>
-            <ul className="flex flex-col text-base list-disc ms-5 text-w-100">
+            <ul
+              data-aos="fade-up"
+              className="flex flex-col text-base list-disc ms-5 text-w-100"
+            >
               <li>Violating any law, regulation, or our policies.</li>
               <li>
                 Using the Service in any manner that could interfere with,
@@ -169,12 +182,13 @@ const TermsSection = () => {
               </li>
             </ul>
             <h2
+              data-aos="fade-up"
               className="pt-12 mb-4 text-2xl font-medium text-w-500"
               id="intellectual-property"
             >
               Intellectual Property
             </h2>
-            <p className="text-base text-w-100">
+            <p data-aos="fade-up" className="text-base text-w-100">
               All Content on the Service, including but not limited to text,
               graphics, logos, button icons, images, audio clips, digital
               downloads, data compilations, and software, is the property of
@@ -182,41 +196,47 @@ const TermsSection = () => {
               trademark, and other intellectual property laws.
             </p>
             <h2
+              data-aos="fade-up"
               className="pt-12 mb-4 text-2xl font-medium text-w-500"
               id="termination"
             >
               Termination
             </h2>
-            <p className="text-base text-w-100">
+            <p data-aos="fade-up" className="text-base text-w-100">
               We may terminate or suspend access to our Service immediately,
               without prior notice or liability, for any reason whatsoever,
               including without limitation if you breach these Terms.
             </p>
             <h2
+              data-aos="fade-up"
               className="pt-12 mb-4 text-2xl font-medium text-w-500"
               id="disclaimer"
             >
               Disclaimer
             </h2>
-            <p className="text-base text-w-100">
+            <p data-aos="fade-up" className="text-base text-w-100">
               The Service is provided &rdquo;as is&rdquo; and &rdquo;as
               available&rdquo; without warranties of any kind, either express or
               implied.
             </p>
             <h2
+              data-aos="fade-up"
               className="pt-12 mb-4 text-2xl font-medium text-w-500"
               id="limitation-of-liability"
             >
               Limitation of Liability
             </h2>
-            <p className="text-base text-w-100">
+            <p data-aos="fade-up" className="text-base text-w-100">
               Neurolinx and its affiliates, officers, directors, employees,
               agents, and suppliers shall not be liable for any indirect,
               incidental, special, consequential, or punitive damages, including
               without limitation, loss of profits, data, use, goodwill, or other
               intangible losses, resulting from:
             </p>
-            <ul className="flex flex-col text-base list-disc ms-5 text-w-100">
+            <ul
+              data-aos="fade-up"
+              className="flex flex-col text-base list-disc ms-5 text-w-100"
+            >
               <li>
                 your access to or use of or inability to access or use the
                 Service;
@@ -233,23 +253,25 @@ const TermsSection = () => {
               </li>
             </ul>
             <h2
+              data-aos="fade-up"
               className="pt-12 mb-4 text-2xl font-medium text-w-500"
               id="governing-law"
             >
               Governing Law
             </h2>
-            <p className="text-base text-w-100">
+            <p data-aos="fade-up" className="text-base text-w-100">
               These Terms shall be governed and construed in accordance with the
               laws of the State of California, without regard to its conflict of
               law provisions.
             </p>
             <h2
+              data-aos="fade-up"
               className="pt-12 mb-4 text-2xl font-medium text-w-500"
               id="contact-us"
             >
               Contact Us
             </h2>
-            <p className="text-base text-w-100">
+            <p data-aos="fade-up" className="text-base text-w-100">
               if you have any questions about these Terms, please contact us at
               <a href="mailto:business@neurolinx.com">business@neurolinx.com</a>
             </p>

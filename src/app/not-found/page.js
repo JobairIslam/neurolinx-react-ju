@@ -8,12 +8,16 @@ export default function page() {
         <h1 className="text-center leading-tight md:leading-[42px] lg:leading-[84px] text-3xl md:text-32x lg:text-64x font-medium gd-title">
           404 <span className="block"></span> Page Not Found
         </h1>
-        <p className="mt-6 mb-8 text-base text-center md:text-xl text-w-100">
+        <p
+          data-aos="fade-up"
+          className="mt-6 mb-8 text-base text-center md:text-xl text-w-100"
+        >
           The page you are trying to access does not exist. Please check the
           address <span className="inline-block lg:block"></span> you entered or
           try navigating to a different page.
         </p>
         <a
+          data-aos="fade-up"
           href="/"
           className="flex justify-center items-center gap-2 px-6 py-[14px] rounded-full text-base font-medium text-w-900 bg-gd-secondary"
         >

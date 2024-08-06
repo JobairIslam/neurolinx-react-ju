@@ -9,7 +9,11 @@ export default function page() {
         <div className="container px-5 mx-auto xl:px-0">
           <div className="flex flex-col lg:flex-row justify-center items-center gap-[30px] h-full lg:h-screen">
             <div className="w-full lg:max-w-[850px]">
-              <Link href="/" className="flex items-center justify-start gap-2">
+              <Link
+                data-aos="fade-up"
+                href="/"
+                className="flex items-center justify-start gap-2"
+              >
                 <Image
                   width={35.49}
                   height={32}
@@ -20,17 +24,23 @@ export default function page() {
                   Neurolinx
                 </span>
               </Link>
-              <h2 className="mt-6 lg:mt-12 mb-4 leading-8 md:leading-[42px] text-2xl lg:text-32x font-medium gd-title">
+              <h2
+                data-aos="fade-up"
+                className="mt-6 lg:mt-12 mb-4 leading-8 md:leading-[42px] text-2xl lg:text-32x font-medium gd-title"
+              >
                 Unlock AI Potential with
                 <span className="inline-block lg:block"></span> Context-Rich
                 Prompts
               </h2>
-              <p className="text-base text-w-100">
+              <p data-aos="fade-up" className="text-base text-w-100">
                 Discover the power of AI with our context-rich, non-binary
                 <span className="inline-block lg:block"></span> prompts crafted
                 from your unique data sources.
               </p>
-              <ul className="flex flex-col gap-2 my-6 lg:my-12">
+              <ul
+                data-aos="fade-up"
+                className="flex flex-col gap-2 my-6 lg:my-12"
+              >
                 <li className="flex items-start justify-start gap-2 text-base font-medium text-w-900">
                   <Image
                     width={24}
@@ -69,7 +79,10 @@ export default function page() {
                 alt="brand"
               />
             </div>
-            <div className="p-6 lg:p-12 rounded-lg w-full md:max-w-[410px] bg-gd-tertiary">
+            <div
+              data-aos="fade-up"
+              className="p-6 lg:p-12 rounded-lg w-full md:max-w-[410px] bg-gd-tertiary"
+            >
               <Link href="/">
                 <Image
                   width={53.24}
