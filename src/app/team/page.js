@@ -13,24 +13,36 @@ const Page = () => {
       <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24 bg-center bg-no-repeat bg-cover bg-primary-hero">
         <div className="container px-5 mx-auto xl:px-0">
-          <h1 className="gd-title tracking-[-0.02em] text-center text-3xl md:text-4xl lg:text-64x leading-tight md:leading-relaxed lg:leading-[84px] font-semibold">
+          <h1
+            data-aos="fade-up"
+            className="gd-title tracking-[-0.02em] text-center text-3xl md:text-4xl lg:text-64x leading-tight md:leading-relaxed lg:leading-[84px] font-semibold"
+          >
             Meet Our Exceptional
             <span className="inline-block lg:block"></span>Team of Data Experts
           </h1>
-          <p className="mt-6 text-base text-center md:text-xl text-w-100">
+          <p
+            data-aos="fade-up"
+            className="mt-6 text-base text-center md:text-xl text-w-100"
+          >
             Harnessing data science for public preference curation facilitating
             discovery<span className="inline-block lg:block"></span>and
             communication for similar tastes.
           </p>
         </div>
       </div>
-      <div className="lg:py-24 bg-center bg-no-repeat bg-cover bg-team">
+      <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-team">
         <div className="container px-5 mx-auto xl:px-0">
-          <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
+          <h2
+            data-aos="fade-down"
+            className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold"
+          >
             Our Proficient
             <span className="inline-block lg:block"></span>Business Team
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-[30px]">
+          <div
+            data-aos="fade-up"
+            className="grid grid-cols-1 sm:grid-cols-2 gap-[30px]"
+          >
             {teamCardData.map((item, index) => (
               <TeamCard
                 key={index}
@@ -47,13 +59,19 @@ const Page = () => {
       </div>
       <div className="py-24 bg-center bg-no-repeat bg-cover bg-data-science">
         <div className="container px-5 mx-auto xl:px-0">
-          <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
+          <h2
+            data-aos="fade-down"
+            className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold"
+          >
             Accomplishments in Data
             <span className="inline-block lg:block"></span>Science &amp;
             Engineering
           </h2>
           <div>
-            <div className="flex flex-col md:flex-row justify-between gap-8 lg:gap-[126px] p-6 md:p-12 rounded-lg border border-b-600 bg-gd-tertiary">
+            <div
+              data-aos="fade-up"
+              className="flex flex-col md:flex-row justify-between gap-8 lg:gap-[126px] p-6 md:p-12 rounded-lg border border-b-600 bg-gd-tertiary"
+            >
               <div className="flex flex-col items-start justify-between">
                 <span className="px-4 py-2 border rounded-full border-tropical-indigo text-tropical-indigo">
                   2023
@@ -79,14 +97,20 @@ const Page = () => {
           </div>
         </div>
       </div>
-      <div className="lg:py-24 bg-center bg-no-repeat bg-cover bg-milestone">
+      <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-milestone">
         <div className="container px-5 mx-auto xl:px-0">
-          <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
+          <h2
+            data-aos="fade-down"
+            className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold"
+          >
             Milestones and
             <span className="inline-block lg:block"></span>Accomplishments
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-[30px]">
-            <div className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
+            <div
+              data-aos="fade-up-right"
+              className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary"
+            >
               <div className="inline-block p-6 rounded-full bg-primary btn-border">
                 <Image
                   width={48}
@@ -102,7 +126,10 @@ const Page = () => {
                 <p className="text-sm text-w-100">Amazon Web Services (AWS)</p>
               </div>
             </div>
-            <div className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
+            <div
+              data-aos="fade-up-left"
+              className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary"
+            >
               <div className="inline-block p-6 rounded-full bg-primary btn-border">
                 <Image
                   width={48}
@@ -118,7 +145,10 @@ const Page = () => {
                 <p className="text-sm text-w-100">Amazon Web Service (AWS)</p>
               </div>
             </div>
-            <div className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
+            <div
+              data-aos="fade-up-right"
+              className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary"
+            >
               <div className="inline-block p-6 rounded-full bg-primary btn-border">
                 <Image
                   width={48}
@@ -134,7 +164,10 @@ const Page = () => {
                 <p className="text-sm text-w-100">Amazon Web Service (AWS)</p>
               </div>
             </div>
-            <div className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
+            <div
+              data-aos="fade-up-left"
+              className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary"
+            >
               <div className="inline-block p-6 rounded-full bg-primary btn-border">
                 <Image
                   width={48}
@@ -150,7 +183,10 @@ const Page = () => {
                 <p className="text-sm text-w-100">NVIDIA (2019)</p>
               </div>
             </div>
-            <div className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
+            <div
+              data-aos="fade-up-right"
+              className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary"
+            >
               <div className="inline-block p-6 rounded-full bg-primary btn-border">
                 <Image
                   width={48}
@@ -168,7 +204,10 @@ const Page = () => {
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary">
+            <div
+              data-aos="fade-up-left"
+              className="flex items-center gap-6 p-6 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary"
+            >
               <div className="inline-block p-6 rounded-full bg-primary btn-border">
                 <Image
                   width={48}
@@ -191,12 +230,18 @@ const Page = () => {
       </div>
       <div className="py-24 bg-center bg-no-repeat bg-cover bg-lead-ai">
         <div className="container px-5 mx-auto xl:px-0">
-          <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
+          <h2
+            data-aos="fade-down"
+            className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold"
+          >
             Join the Neurolinx AI Family
             <span className="inline-block lg:block">Lead AI Innovation</span>
           </h2>
           <div className="flex flex-col gap-6">
-            <div className="flex flex-col items-start justify-start gap-6 p-6 border rounded-lg md:flex-row md:items-center md:justify-between lg:p-12 border-b-600 bg-gd-tertiary">
+            <div
+              data-aos="fade-up-right"
+              className="flex flex-col items-start justify-start gap-6 p-6 border rounded-lg md:flex-row md:items-center md:justify-between lg:p-12 border-b-600 bg-gd-tertiary"
+            >
               <div>
                 <h3 className="mb-2 text-2xl font-medium text-w-500">
                   Forward Deployed Software Engineer
@@ -215,7 +260,10 @@ const Page = () => {
                 </a>
               </Link>
             </div>
-            <div className="flex flex-col items-start justify-start gap-6 p-6 border rounded-lg md:flex-row md:items-center md:justify-between lg:p-12 border-b-600 bg-gd-tertiary">
+            <div
+              data-aos="fade-up-left"
+              className="flex flex-col items-start justify-start gap-6 p-6 border rounded-lg md:flex-row md:items-center md:justify-between lg:p-12 border-b-600 bg-gd-tertiary"
+            >
               <div>
                 <h3 className="mb-2 text-2xl font-medium text-w-500">
                   Senior AI Infrastructure Engineer
@@ -234,7 +282,10 @@ const Page = () => {
                 </a>
               </Link>
             </div>
-            <div className="flex flex-col items-start justify-start gap-6 p-6 border rounded-lg md:flex-row md:items-center md:justify-between lg:p-12 border-b-600 bg-gd-tertiary">
+            <div
+              data-aos="fade-up-right"
+              className="flex flex-col items-start justify-start gap-6 p-6 border rounded-lg md:flex-row md:items-center md:justify-between lg:p-12 border-b-600 bg-gd-tertiary"
+            >
               <div>
                 <h3 className="mb-2 text-2xl font-medium text-w-500">
                   Systems Research Engineer, GPU Programming
@@ -253,7 +304,10 @@ const Page = () => {
                 </a>
               </Link>
             </div>
-            <div className="flex flex-col items-start justify-start gap-6 p-6 border rounded-lg md:flex-row md:items-center md:justify-between lg:p-12 border-b-600 bg-gd-tertiary">
+            <div
+              data-aos="fade-up-left"
+              className="flex flex-col items-start justify-start gap-6 p-6 border rounded-lg md:flex-row md:items-center md:justify-between lg:p-12 border-b-600 bg-gd-tertiary"
+            >
               <div>
                 <h3 className="mb-2 text-2xl font-medium text-w-500">
                   Sales Development Representative
@@ -275,14 +329,20 @@ const Page = () => {
           </div>
         </div>
       </div>
-      <div className="lg:py-24 bg-center bg-no-repeat bg-cover bg-corporate">
+      <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-corporate">
         <div className="container px-5 mx-auto xl:px-0">
-          <h2 className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold">
+          <h2
+            data-aos="fade-down"
+            className="gd-title mb-16 text-center tracking-[-0.02em] lg:leading-[64px] text-3xl md:text-5xl font-semibold"
+          >
             Supported by
             <span className="inline-block lg:block">Remarkable Investors</span>
           </h2>
           <div className="flex flex-col gap-6">
-            <div className="flex flex-wrap justify-center items-center gap-[30px]">
+            <div
+              data-aos="fade-up"
+              className="flex flex-wrap justify-center items-center gap-[30px]"
+            >
               <Image
                 src="/img/brand/6.svg"
                 alt="brand"
@@ -308,7 +368,10 @@ const Page = () => {
                 height={70}
               />
             </div>
-            <div className="flex flex-wrap justify-center items-center gap-[30px]">
+            <div
+              data-aos="fade-up"
+              className="flex flex-wrap justify-center items-center gap-[30px]"
+            >
               <Image
                 src="/img/brand/10.svg"
                 alt="brand"
@@ -328,7 +391,10 @@ const Page = () => {
                 height={76}
               />
             </div>
-            <div className="flex flex-wrap justify-center items-center gap-[30px]">
+            <div
+              data-aos="fade-up"
+              className="flex flex-wrap justify-center items-center gap-[30px]"
+            >
               <Image
                 src="/img/brand/13.svg"
                 alt="brand"
