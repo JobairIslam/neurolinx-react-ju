@@ -4,11 +4,9 @@ import { useState } from "react";
 import Image from "next/image";
 
 const FAQAccordion = () => {
-  // Initialize activeIndex to 0 to have the first box open by default
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleToggle = (index) => {
-    // Toggle the accordion; if the clicked index is the currently active one, close it; otherwise, open the new one
     setActiveIndex(activeIndex === index ? null : index);
   };
 
@@ -76,7 +74,9 @@ const FAQAccordion = () => {
                     height={28}
                     src="/img/faq-icon.svg"
                     alt="icon"
-                    className={activeIndex === index ? "rotate-90" : ""}
+                    className={`transform transition-transform duration-300 ${
+                      activeIndex === index ? "rotate-90" : "rotate-0"
+                    }`}
                   />
                   {faq.question}
                 </div>
