@@ -87,13 +87,15 @@ const Page = () => {
                   </p>
                 </div>
               </div>
-
-              <Image
-                width={424}
-                height={276}
-                src="/img/accom-card.png"
-                alt="science engineering"
-              />
+              <div className="relative w-full lg:w-[810px] lg:h-[276px]">
+                <Image
+                  className="rounded-lg"
+                  src="/img/accom-card.png"
+                  alt="prompts-img"
+                  layout="fill"
+                  objectFit="contain"
+                />
+              </div>
             </div>
           </div>
         </div>
