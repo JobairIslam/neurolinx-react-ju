@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 import Link from "next/link";
 export default function page() {
   return (
-    <div className="font-normal bg-center bg-no-repeat bg-cover bg-body-gd lg:bg-contact">
+    <div className="font-normal bg-b-900">
       <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24 bg-center bg-no-repeat bg-cover bg-primary-hero">
         <div className="container px-5 mx-auto xl:px-0">

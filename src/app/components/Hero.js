@@ -38,7 +38,7 @@ const Hero = () => {
           <Link href="sign-in" legacyBehavior>
             <a
               data-aos="fade-up"
-              className="flex justify-center items-center gap-2 mb-8 lg:mb-16 px-6 py-3.5 rounded-full border border-black text-base font-medium bg-gd-secondary bg-blue-500 text-w-900 "
+              className="flex justify-center items-center gap-2 mb-8 lg:mb-16 px-6 py-3.5 rounded-full border border-tropical-indigo text-base font-medium bg-gd-secondary bg-blue-500 text-w-900 "
             >
               Get Started Now
               <Image

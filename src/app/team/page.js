@@ -87,6 +87,7 @@ const Page = () => {
                   </p>
                 </div>
               </div>
+
               <Image
                 width={424}
                 height={276}

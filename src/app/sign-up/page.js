@@ -81,7 +81,7 @@ export default function page() {
             </div>
             <div
               data-aos="fade-up"
-              className="p-6 lg:p-12 rounded-lg w-full md:max-w-[410px] bg-gd-tertiary"
+              className="p-6 lg:p-12 rounded-lg w-full md:max-w-[410px] bg-gd-tertiary border border-b-600"
             >
               <a href="/">
                 <Image
@@ -136,7 +136,7 @@ export default function page() {
                 <Link href="#" className="text-sm gd-title">
                   Forgot Password?
                 </Link>
-                <button className="flex justify-center items-center gap-2 mt-6 mb-3 py-[14px] px-6 rounded-full w-full text-base font-medium text-w-900 bg-gd-secondary">
+                <button className="flex justify-center items-center gap-2 mt-6 mb-3 py-[14px] px-6 rounded-full w-full text-base font-medium text-w-900 bg-gd-secondary border border-tropical-indigo">
                   Continue
                   <Image
                     width={24}
