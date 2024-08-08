@@ -131,7 +131,7 @@ export default function page() {
                     explore new movies from a database of over 760,000 titles.
                   </p>
                 </div>
-                <div className="rounded-lg">
+                <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
                     className="w-full rounded-lg"
                     src="/img/service-card4.png"
@@ -156,7 +156,7 @@ export default function page() {
                     reflected in Circle Chart&#39;s &#39;Hot Star Awards&#39;.
                   </p>
                 </div>
-                <div className="rounded-lg">
+                <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
                     className="w-full rounded-lg"
                     src="/img/service-card5.png"

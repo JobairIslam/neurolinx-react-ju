@@ -178,7 +178,7 @@ export default function page() {
                 Related Articles
               </h3>
               <div data-aos="fade-up" className="flex items-center gap-4 mb-4">
-                <div className="relative w-full lg:w-[80px] lg:h-[80px]">
+                <div className="relative w-full lg:w-[125px] lg:h-[80px]">
                   <Image
                     className="rounded-lg"
                     src="/img/blog-article1.png"
@@ -201,7 +201,7 @@ export default function page() {
                 </div>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4 mb-4">
-                <div className="relative w-full lg:w-[80px] lg:h-[80px]">
+                <div className="relative w-full lg:w-[128px] lg:h-[80px]">
                   <Image
                     className="rounded-lg"
                     src="/img/blog-article2.png"
@@ -222,7 +222,7 @@ export default function page() {
                 </div>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4 mb-4">
-                <div className="relative w-full lg:w-[80px] lg:h-[80px]">
+                <div className="relative w-full lg:w-[138px] lg:h-[80px]">
                   <Image
                     className="rounded-lg"
                     src="/img/blog-article3.png"
