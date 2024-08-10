@@ -11,7 +11,7 @@ import enhancingCardData from "/src/data/enhancingCardData.json";
 import customCardData from "/src/data/customCardData.json";
 export default function page() {
   return (
-    <div className="font-normal bg-b-900">
+    <div className="overflow-hidden font-normal bg-b-900">
       <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24 bg-secondary-hero  bg-cover bg-no-repeat bg-center">
         <div className="container px-5 mx-auto xl:px-0">
@@ -32,7 +32,7 @@ export default function page() {
           </p>
         </div>
       </div>
-      <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-enhance">
+      <div className="py-8 bg-center bg-no-repeat bg-cover lg:py-24 bg-enhance">
         <div className="container px-5 mx-auto xl:px-0">
           <h2
             data-aos="fade-up"
@@ -57,7 +57,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="py-24 bg-center bg-no-repeat bg-cover bg-problems">
+      <div className="py-8 bg-center bg-no-repeat bg-cover lg:py-24 bg-problems">
         <div className="container px-5 mx-auto xl:px-0">
           <h2
             data-aos="fade-up"
@@ -80,7 +80,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-diverse">
+      <div className="py-8 bg-center bg-no-repeat bg-cover lg:py-24 bg-diverse">
         <div className="container px-5 mx-auto xl:px-0">
           <h2
             data-aos="fade-up"
@@ -173,7 +173,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="py-24 bg-center bg-no-repeat bg-cover bg-ai-solution">
+      <div className="py-8 bg-center bg-no-repeat bg-cover lg:py-24 bg-ai-solution">
         <div className="container px-5 mx-auto xl:px-0">
           <h2
             data-aos="fade-down"
@@ -201,7 +201,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-counter ">
+      <div className="py-8 bg-center bg-no-repeat bg-cover lg:py-24 bg-counter ">
         <div className="container px-5 mx-auto xl:px-0">
           <h2
             data-aos="fade-down"
@@ -248,7 +248,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="py-24 bg-center bg-no-repeat bg-cover bg-source">
+      <div className="py-8 bg-center bg-no-repeat bg-cover lg:py-24 bg-source">
         <div className="container px-5 mx-auto xl:px-0">
           <h2
             data-aos="fade-down"

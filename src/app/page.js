@@ -18,10 +18,10 @@ export default function Home() {
     AOS.init({});
   }, []);
   return (
-    <div className="font-normal bg-b-900">
+    <div className="overflow-hidden font-normal bg-b-900">
       <Header />
       <Hero />
-      <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-semantic">
+      <div className="py-8 bg-center bg-no-repeat bg-cover lg:py-24 bg-semantic">
         <div className="container px-5 mx-auto xl:px-0">
           <div className="flex flex-col items-center justify-center">
             <h2
@@ -122,7 +122,7 @@ export default function Home() {
         </div>
       </div>
       <VideoSection />
-      <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-linked">
+      <div className="py-8 bg-center bg-no-repeat bg-cover lg:py-24 bg-linked">
         <div className="container px-5 mx-auto xl:px-0">
           <h2
             data-aos="fade-up"

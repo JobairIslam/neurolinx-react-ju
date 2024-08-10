@@ -43,7 +43,7 @@ const FAQAccordion = () => {
   ];
 
   return (
-    <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-according">
+    <div className="py-8 bg-center bg-no-repeat bg-cover lg:py-24 bg-according">
       <div className="container px-5 mx-auto xl:px-0">
         <div className="flex flex-col items-center justify-center">
           <h2
