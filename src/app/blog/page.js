@@ -7,7 +7,7 @@ import updateCardData from "/src/data/updateCardData.json";
 
 export default function page() {
   return (
-    <div className="font-normal bg-b-900">
+    <div className="overflow-hidden font-normal bg-b-900">
       <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24  bg-center bg-no-repeat bg-cover bg-primary-hero">
         <div className="container px-5 mx-auto xl:px-0">
@@ -29,7 +29,7 @@ export default function page() {
           </p>
         </div>
       </div>
-      <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-blog">
+      <div className="py-8 bg-center bg-no-repeat bg-cover lg:py-24 bg-blog">
         <div className="container px-5 mx-auto xl:px-0">
           <h2
             data-aos="fade-down"

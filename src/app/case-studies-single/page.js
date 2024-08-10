@@ -7,7 +7,7 @@ import customCardData from "/src/data/customCardData.json";
 import CustomCard from "../components/CustomCard";
 export default function page() {
   return (
-    <div className="font-normal bg-b-900">
+    <div className="overflow-hidden font-normal bg-b-900">
       <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24  bg-center bg-no-repeat bg-cover bg-secondary-hero">
         <div className="container px-5 mx-auto xl:px-0">
@@ -27,7 +27,7 @@ export default function page() {
           </p>
         </div>
       </div>
-      <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-case-single">
+      <div className="py-8 bg-center bg-no-repeat bg-cover lg:py-24 bg-case-single">
         <div className="container px-5 mx-auto xl:px-0">
           <div className="flex flex-col md:flex-row gap-[30px]">
             <div className="w-full md:max-w-[850px]">

@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 export default function page() {
   return (
-    <div className="font-normal bg-b-900">
+    <div className="overflow-hidden font-normal bg-b-900">
       <Header />
       <div className="pt-[135px] lg:pt-[164px] pb-24 bg-primary-hero  bg-cover bg-no-repeat bg-center">
         <div className="container px-5 mx-auto xl:px-0">
@@ -29,7 +29,7 @@ export default function page() {
           </p>
         </div>
       </div>
-      <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-ai">
+      <div className="py-8 bg-center bg-no-repeat bg-cover lg:py-24 bg-ai">
         <div className="container px-5 mx-auto text-center lg:px-0">
           <h2
             data-aos="fade-down"

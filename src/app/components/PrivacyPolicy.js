@@ -31,7 +31,7 @@ const PolicySection = () => {
   }, []);
 
   return (
-    <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-privacy-bg">
+    <div className="py-8 bg-center bg-no-repeat bg-cover lg:py-24 bg-privacy-bg">
       <div className="container px-5 mx-auto xl:px-0">
         <div className="flex flex-col md:flex-row justify-start items-start gap-[30px]">
           <div

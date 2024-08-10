@@ -34,7 +34,7 @@ export default function FormSection() {
   };
 
   return (
-    <div className="bg-center bg-no-repeat bg-cover lg:py-24 bg-form">
+    <div className="py-8 overflow-hidden bg-center bg-no-repeat bg-cover lg:py-24 bg-form">
       <div className="container px-5 mx-auto xl:px-0">
         <div className="flex flex-col md:flex-row justify-start md:justify-center items-start md:items-center gap-[30px]">
           <div data-aos="fade-up" className="px-6 md:px-12">

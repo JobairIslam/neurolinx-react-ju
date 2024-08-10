@@ -29,7 +29,7 @@ export default function page() {
           </p>
         </div>
       </div>
-      <div className="bg-center bg-no-repeat bg-cover bg-doc">
+      <div className="py-8 bg-center bg-no-repeat bg-cover bg-doc">
         <div className="container px-5 pb-24 mx-auto lg:py-24 xl:px-0 ">
           <div className="flex flex-col md:flex-row gap-[30px]">
             <div className="w-full md:max-w-[380px]">
@@ -308,7 +308,7 @@ export default function page() {
               <div className="flex flex-row items-center justify-between">
                 <a
                   data-aos="fade-up"
-                  className="flex items-center gap-2 px-4 py-2 text-sm font-medium border rounded-full border-tropical-indigo text-w-900 hover:bg-tropical-indigo"
+                  className="flex items-center gap-2 px-4 py-2 font-medium border rounded-full text-[10px] lg:text-sm border-tropical-indigo text-w-900 hover:bg-tropical-indigo"
                   href="#"
                 >
                   <Image
@@ -321,7 +321,7 @@ export default function page() {
                 </a>
                 <a
                   data-aos="fade-up"
-                  className="flex items-center gap-2 px-4 py-2 text-sm font-medium border rounded-full x border-tropical-indigo text-w-900 hover:bg-tropical-indigo"
+                  className="flex items-center gap-2 px-4 py-2 font-medium border rounded-full text-[10px] x border-tropical-indigo text-w-900 hover:bg-tropical-indigo lg:text-sm"
                   href="#"
                 >
                   How to Integrate
