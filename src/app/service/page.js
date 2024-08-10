@@ -58,11 +58,11 @@ export default function page() {
                 </div>
                 <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
-                    className="rounded-lg"
+                    className="w-full rounded-lg"
                     src="/img/service-card1.png"
-                    alt="prompts-img"
-                    layout="fill"
-                    objectFit="contain"
+                    alt="service"
+                    width={534}
+                    height={464}
                   />
                 </div>
               </div>
