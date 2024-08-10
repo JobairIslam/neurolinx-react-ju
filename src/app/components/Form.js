@@ -24,13 +24,12 @@ export default function FormSection() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent the default form submission
+    e.preventDefault();
 
-    console.log("Form data:", formData); // Log form data to console
+    console.log("Form data:", formData);
 
-    alert("Information is submitted"); // Show alert message
+    alert("Information is submitted");
 
-    // Refresh the page
     window.location.reload();
   };
 
@@ -101,8 +100,7 @@ export default function FormSection() {
                   value={formData.firstName}
                   onChange={handleChange}
                   placeholder="First Name"
-                  className="px-6 py-[14px] w-full outline-none rounded-full border border-b-500 capitalize text-base bg-transparent text-w-900"
-                  style={{ backgroundColor: "transparent" }}
+                  className="px-6 py-[14px] w-full outline-none rounded-full border border-b-500 placeholder-b-100 capitalize text-base bg-transparent text-b-100"
                   required
                 />
                 <input
@@ -111,7 +109,7 @@ export default function FormSection() {
                   value={formData.lastName}
                   onChange={handleChange}
                   placeholder="Last Name"
-                  className="px-6 py-[14px] w-full outline-none rounded-full border border-b-500 capitalize text-base bg-transparent text-w-900"
+                  className="px-6 py-[14px] w-full outline-none rounded-full border border-b-500 placeholder-b-100 capitalize text-base bg-transparent text-b-100"
                   required
                 />
               </div>
@@ -122,7 +120,7 @@ export default function FormSection() {
                   value={formData.email}
                   onChange={handleChange}
                   placeholder="Email Address"
-                  className="px-6 py-[14px] w-full outline-none rounded-full border border-b-500 capitalize text-base bg-transparent text-w-900"
+                  className="px-6 py-[14px] w-full outline-none rounded-full border border-b-500 placeholder-b-100 capitalize text-base bg-transparent text-b-100"
                   required
                 />
                 <input
@@ -131,7 +129,7 @@ export default function FormSection() {
                   value={formData.phoneNumber}
                   onChange={handleChange}
                   placeholder="Phone Number"
-                  className="px-6 py-[14px] w-full outline-none rounded-full border border-b-500 capitalize text-base bg-transparent text-w-900"
+                  className="px-6 py-[14px] w-full outline-none rounded-full border border-b-500 placeholder-b-100 capitalize text-base bg-transparent text-b-100"
                   required
                 />
               </div>
@@ -142,7 +140,7 @@ export default function FormSection() {
                   value={formData.companyName}
                   onChange={handleChange}
                   placeholder="Company Name"
-                  className="px-6 py-[14px] w-full outline-none rounded-full border border-b-500 capitalize text-base bg-transparent text-w-900"
+                  className="px-6 py-[14px] w-full outline-none rounded-full border border-b-500 placeholder-b-100 capitalize text-base bg-transparent text-b-100"
                   required
                 />
                 <div className="px-6 py-[14px] w-full rounded-full border border-b-500 bg-transparent">
@@ -151,7 +149,7 @@ export default function FormSection() {
                     id="company-size"
                     value={formData.companySize}
                     onChange={handleChange}
-                    className="w-full text-base capitalize bg-transparent outline-none text-w-100"
+                    className="w-full text-base capitalize bg-transparent outline-none text-b-100"
                     required
                   >
                     <option value="">Company Size</option>
@@ -167,7 +165,7 @@ export default function FormSection() {
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
-                className="px-6 py-[14px] w-full h-[120px] md:h-[240px] outline-none rounded-3xl border border-b-500 capitalize text-base bg-transparent text-w-900"
+                className="px-6 py-[14px] w-full h-[120px] md:h-[240px] outline-none rounded-3xl border border-b-500 placeholder-b-100 capitalize text-base bg-transparent text-b-100"
                 placeholder="Enter your message here"
                 required
               ></textarea>
@@ -178,19 +176,19 @@ export default function FormSection() {
                   id="check"
                   checked={formData.agree}
                   onChange={handleChange}
-                  className="text-base text-w-100"
+                  className="text-base text-b-100"
                   required
                 />
-                <p className="text-base text-w-100">
-                  I agree to Neurolinx&#39;s
+                <p className="text-base text-b-100">
+                  I agree to Neurolinx&#39;s{" "}
                   <Link href="/privacy-policy" legacyBehavior>
-                    <a className="gd-title hover:underline transi">
+                    <a className="underline !important transition-all gd-title hover:underline">
                       Privacy Policy
                     </a>
-                  </Link>
-                  and
+                  </Link>{" "}
+                  and{" "}
                   <Link href="/terms-of-service" legacyBehavior>
-                    <a className="gd-title hover:underline transi">
+                    <a className="underline !important transition-all gd-title hover:underline">
                       Terms of Service
                     </a>
                   </Link>

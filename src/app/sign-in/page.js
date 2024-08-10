@@ -122,7 +122,7 @@ export default function page() {
                   name="email"
                   id="email"
                   placeholder="Email Address"
-                  className="mt-6 mb-3 py-[14px] px-6 rounded-full border border-b-500 w-full outline-none capitalize text-left text-w-900 bg-transparent"
+                  className="mt-6 mb-3 py-[14px] px-6 rounded-full border border-b-500 w-full outline-none capitalize text-left text-b-100 placeholder-b-100 bg-transparent"
                   required
                 />
                 <input
@@ -130,10 +130,10 @@ export default function page() {
                   name="password"
                   id="password"
                   placeholder="Password"
-                  className="mb-3 py-[14px] px-6 rounded-full border border-b-500 w-full outline-none capitalize text-left text-w-900 bg-transparent"
+                  className="mb-3 py-[14px] px-6 rounded-full border border-b-500 w-full outline-none capitalize text-left text-b-100 placeholder-b-100 bg-transparent"
                   required
                 />
-                <Link href="#" className="text-sm gd-title">
+                <Link href="#" className="text-sm underline gd-title">
                   Forgot Password?
                 </Link>
                 <button className="flex justify-center items-center gap-2 mt-6 mb-3 py-[14px] px-6 rounded-full w-full text-base font-medium text-w-900 bg-gd-secondary border border-tropical-indigo">
@@ -146,7 +146,7 @@ export default function page() {
                   />
                 </button>
                 <h4 className="text-sm text-w-100">
-                  Don&apos;t have an account?
+                  Don&apos;t have an account?{" "}
                   <Link
                     href="/sign-up"
                     className="underline capitalize gd-title"
