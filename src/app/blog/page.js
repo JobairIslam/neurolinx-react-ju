@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import FooterTop from "../components/FooterTop";
+import Cta from "../components/Cta";
 import Footer from "../components/Footer";
 import UpdateCard from "../components/UpdateCard";
 import updateCardData from "/src/data/updateCardData.json";
@@ -120,7 +120,8 @@ export default function page() {
           </div>
         </div>
       </div>
-      <FooterTop />
+      <Cta />
+
       <Footer />
     </div>
   );

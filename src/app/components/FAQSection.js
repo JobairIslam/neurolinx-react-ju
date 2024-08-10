@@ -1,5 +1,4 @@
 "use client";
-// components/FAQAccordion.js
 import { useState } from "react";
 import Image from "next/image";
 
@@ -66,7 +65,7 @@ const FAQAccordion = () => {
                 }`}
               >
                 <div
-                  className="flex items-start gap-2 text-base font-medium cursor-pointer according-header text-w-500"
+                  className="flex items-start gap-2 text-xl font-medium cursor-pointer according-header text-w-500"
                   onClick={() => handleToggle(index)}
                 >
                   <Image

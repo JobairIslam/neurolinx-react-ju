@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "../components/Header";
-import FooterTop from "../components/FooterTop";
+import Cta from "../components/Cta";
 import Footer from "../components/Footer";
 export default function page() {
   return (
@@ -447,7 +447,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <FooterTop />
+      <Cta />
       <Footer />
     </div>
   );

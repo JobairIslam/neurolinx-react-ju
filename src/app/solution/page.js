@@ -162,7 +162,7 @@ export default function page() {
                 <div className="relative w-full lg:w-[534px] lg:h-[464px]">
                   <Image
                     className="rounded-lg"
-                    src="/img/diverse1.png"
+                    src="/img/diverse3.png"
                     alt="diverse"
                     layout="fill"
                     objectFit="contain"
