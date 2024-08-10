@@ -122,7 +122,7 @@ export default function page() {
                   name="email"
                   id="email"
                   placeholder="Email Address"
-                  className="mt-6 mb-3 py-[14px] px-6 rounded-full border border-b-500 w-full outline-none capitalize text-left text-w-900 bg-transparent"
+                  className="mt-6 mb-3 py-[14px] px-6 rounded-full border border-b-500 w-full outline-none capitalize text-left text-b-100 placeholder-b-100 bg-transparent"
                   required
                 />
                 <input
@@ -130,7 +130,7 @@ export default function page() {
                   name="password"
                   id="password"
                   placeholder="Password"
-                  className="mb-3 py-[14px] px-6 rounded-full border border-b-500 w-full outline-none capitalize text-left text-w-900 bg-transparent"
+                  className="mb-3 py-[14px] px-6 rounded-full border border-b-500 w-full outline-none capitalize text-left text-b-100 placeholder-b-100 bg-transparent"
                   required
                 />
                 <Link href="#" className="text-sm gd-title">
