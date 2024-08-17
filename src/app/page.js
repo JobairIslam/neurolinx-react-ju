@@ -34,7 +34,7 @@ export default function Home() {
             <div className="flex flex-col gap-[30px] overflow-x-hidden">
               <div className="flex flex-col lg:flex-row gap-[30px]">
                 <div
-                  data-aos="fade-right"
+                  data-aos="fade-up-right"
                   data-aos-offset="300"
                   data-aos-easing="ease-in-sine"
                   className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[740px] max-h-[640px]"
@@ -54,7 +54,7 @@ export default function Home() {
                   />
                 </div>
                 <div
-                  data-aos="fade-left"
+                  data-aos="fade-up-left"
                   data-aos-offset="300"
                   data-aos-easing="ease-in-sine"
                   className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[520px] max-h-[640px]"
@@ -76,7 +76,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col-reverse lg:flex-row-reverse gap-[30px]">
                 <div
-                  data-aos="fade-left"
+                  data-aos="fade-up-left"
                   data-aos-offset="300"
                   data-aos-easing="ease-in-sine"
                   className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[740px] max-h-[640px]"
@@ -97,7 +97,7 @@ export default function Home() {
                   />
                 </div>
                 <div
-                  data-aos="fade-right"
+                  data-aos="fade-up-right"
                   data-aos-offset="300"
                   data-aos-easing="ease-in-sine"
                   className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[520px] max-h-[640px]"
