@@ -34,9 +34,7 @@ export default function Home() {
             <div className="flex flex-col gap-[30px] overflow-x-hidden">
               <div className="flex flex-col lg:flex-row gap-[30px]">
                 <div
-                  data-aos="fade-up-right"
-                  data-aos-offset="300"
-                  data-aos-easing="ease-in-sine"
+                  data-aos="fade-up"
                   className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[740px] max-h-[640px]"
                 >
                   <h3 className="mb-4 md:leading-[42px] text-2xl md:text-32x font-medium text-w-500">
@@ -54,9 +52,7 @@ export default function Home() {
                   />
                 </div>
                 <div
-                  data-aos="fade-up-left"
-                  data-aos-offset="300"
-                  data-aos-easing="ease-in-sine"
+                  data-aos="fade-up"
                   className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[520px] max-h-[640px]"
                 >
                   <h3 className="mb-4 md:leading-[42px] text-2xl md:text-32x font-medium text-w-500">
@@ -76,9 +72,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col-reverse lg:flex-row-reverse gap-[30px]">
                 <div
-                  data-aos="fade-up-left"
-                  data-aos-offset="300"
-                  data-aos-easing="ease-in-sine"
+                  data-aos="fade-up"
                   className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[740px] max-h-[640px]"
                 >
                   <h3 className="mb-4 md:leading-[42px] text-3xl md:text-32x font-medium text-w-500">
@@ -97,9 +91,7 @@ export default function Home() {
                   />
                 </div>
                 <div
-                  data-aos="fade-up-right"
-                  data-aos-offset="300"
-                  data-aos-easing="ease-in-sine"
+                  data-aos="fade-up"
                   className="p-8 border rounded-lg md:p-12 border-b-600 bg-gd-tertiary max-w-[520px] max-h-[640px]"
                 >
                   <h3 className="mb-4 md:leading-[42px] text-3xl md:text-32x font-medium text-w-500">
