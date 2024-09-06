@@ -26,7 +26,7 @@ export default function Header() {
   const handleMouseLeave = () => {
     timeoutRef.current = setTimeout(() => {
       setActiveDropdown(null);
-    }, 300); // 300ms delay before closing
+    }, 300);
   };
 
   useEffect(() => {
@@ -58,7 +58,7 @@ export default function Header() {
                 </li>
                 <li className="relative group">
                   <Link
-                    href="solution.html"
+                    href="solution"
                     className="inline-block text-sm font-semibold capitalize transition-all duration-300 text-w-100 hover:text-w-900"
                   >
                     solutions
@@ -110,7 +110,7 @@ export default function Header() {
                       </div>
 
                       <div className="p-6 w-1/2">
-                        <Link href="blog.html">
+                        <Link href="blog">
                           <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                             <div>
                               <Image
@@ -132,7 +132,7 @@ export default function Header() {
                             </div>
                           </div>
                         </Link>
-                        <Link href="case-studies.html">
+                        <Link href="case-studies">
                           <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                             <div>
                               <Image
@@ -154,7 +154,7 @@ export default function Header() {
                             </div>
                           </div>
                         </Link>
-                        <Link href="documentation.html">
+                        <Link href="documentation">
                           <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                             <div>
                               <Image
@@ -226,7 +226,7 @@ export default function Header() {
                       </div>
 
                       <div className="p-6 w-1/2">
-                        <Link href="story.html">
+                        <Link href="story">
                           <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                             <div>
                               <Image
@@ -248,7 +248,7 @@ export default function Header() {
                             </div>
                           </div>
                         </Link>
-                        <Link href="team.html">
+                        <Link href="team">
                           <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                             <div>
                               <Image
@@ -270,7 +270,7 @@ export default function Header() {
                             </div>
                           </div>
                         </Link>
-                        <Link href="service.html">
+                        <Link href="service">
                           <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                             <div>
                               <Image
@@ -292,7 +292,7 @@ export default function Header() {
                             </div>
                           </div>
                         </Link>
-                        <Link href="patent.html">
+                        <Link href="patent">
                           <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                             <div>
                               <Image
@@ -314,7 +314,7 @@ export default function Header() {
                             </div>
                           </div>
                         </Link>
-                        <Link href="media-kit.html">
+                        <Link href="media-kit">
                           <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                             <div>
                               <Image
@@ -344,13 +344,13 @@ export default function Header() {
             </nav>
             <div className="flex gap-2 justify-end items-center">
               <Link
-                href="sign-in.html"
+                href="sign-in"
                 className="inline-block px-4 py-2 text-sm font-medium capitalize bg-transparent rounded-full border border-transparent transition-all duration-300 text-w-900"
               >
                 sign in
               </Link>
               <Link
-                href="sign-up.html"
+                href="sign-up"
                 className="inline-block px-4 py-2 text-sm font-medium capitalize rounded-full border transition-all duration-300 btn-border bg-gd-secondary hover:bg-transparent text-w-900"
               >
                 sign up
@@ -395,7 +395,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="solution.html"
+                    href="solution"
                     className="inline-block text-sm font-semibold capitalize transition-all duration-300 text-w-100 hover:text-w-900"
                   >
                     solutions
@@ -430,7 +430,7 @@ export default function Header() {
                       activeSubMenu === "resources" ? "flex" : "hidden"
                     }`}
                   >
-                    <Link href="blog.html">
+                    <Link href="blog">
                       <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                         <div>
                           <Image
@@ -452,7 +452,7 @@ export default function Header() {
                         </div>
                       </div>
                     </Link>
-                    <Link href="case-studies.html">
+                    <Link href="case-studies">
                       <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                         <div>
                           <Image
@@ -474,7 +474,7 @@ export default function Header() {
                         </div>
                       </div>
                     </Link>
-                    <Link href="documentation.html">
+                    <Link href="documentation">
                       <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                         <div>
                           <Image
@@ -526,7 +526,7 @@ export default function Header() {
                       activeSubMenu === "company" ? "flex" : "hidden"
                     }`}
                   >
-                    <Link href="story.html">
+                    <Link href="story">
                       <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                         <div>
                           <Image
@@ -548,7 +548,7 @@ export default function Header() {
                         </div>
                       </div>
                     </Link>
-                    <Link href="team.html">
+                    <Link href="team">
                       <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                         <div>
                           <Image
@@ -570,7 +570,7 @@ export default function Header() {
                         </div>
                       </div>
                     </Link>
-                    <Link href="service.html">
+                    <Link href="service">
                       <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                         <div>
                           <Image
@@ -592,7 +592,7 @@ export default function Header() {
                         </div>
                       </div>
                     </Link>
-                    <Link href="patent.html">
+                    <Link href="patent">
                       <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                         <div>
                           <Image
@@ -614,7 +614,7 @@ export default function Header() {
                         </div>
                       </div>
                     </Link>
-                    <Link href="media-kit.html">
+                    <Link href="media-kit">
                       <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                         <div>
                           <Image
@@ -642,13 +642,13 @@ export default function Header() {
             </nav>
             <div className="flex gap-2 items-center mt-8">
               <Link
-                href="sign-in.html"
+                href="sign-in"
                 className="inline-block px-4 py-2 rounded-full border border-w-500 hover:border-tropical-indigo border-opacity-[8%] capitalize text-sm font-medium bg-transparent hover:bg-gd-secondary text-w-900 transition-all duration-300"
               >
                 sign in
               </Link>
               <Link
-                href="sign-up.html"
+                href="sign-up"
                 className="inline-block px-4 py-2 rounded-full border border-tropical-indigo hover:border-transparent border-opacity-[8%] capitalize text-sm font-medium bg-gd-secondary hover:bg-transparent text-w-900 transition-all duration-300"
               >
                 sign up
