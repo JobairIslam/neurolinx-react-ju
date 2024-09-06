@@ -42,36 +42,36 @@ export default function Header() {
       <header className="absolute top-0 left-0 right-0 z-[9999] py-4 border border-w-900 border-opacity-[8%] bg-opacity-5 backdrop-blur-lg bg-w-900">
         <div className="container px-5 mx-auto xl:px-0">
           <div className="hidden justify-between items-center md:flex">
-            <a href="/" className="flex gap-2 justify-start items-center">
+            <Link href="/" className="flex gap-2 justify-start items-center">
               <Image width={27} height={24} src="/img/logo.svg" alt="logo" />
               <span className="text-xl font-medium text-w-900">Neurolinx</span>
-            </a>
+            </Link>
             <nav>
               <ul className="flex justify-center items-center md:gap-4 lg:gap-8">
                 <li className="relative group">
-                  <a
+                  <Link
                     href="/"
                     className="inline-block text-sm font-semibold capitalize transition-all duration-300 text-w-100 hover:text-w-900"
                   >
                     home
-                  </a>
+                  </Link>
                 </li>
                 <li className="relative group">
-                  <a
+                  <Link
                     href="solution.html"
                     className="inline-block text-sm font-semibold capitalize transition-all duration-300 text-w-100 hover:text-w-900"
                   >
                     solutions
-                  </a>
+                  </Link>
                 </li>
                 <li
                   className="relative group"
                   onMouseEnter={() => handleMouseEnter("resources")}
                   onMouseLeave={handleMouseLeave}
                 >
-                  <a
+                  <Link
                     href="#"
-                    className="flex gap-2 items-center text-sm font-semibold capitalize transition-all duration-300 text-w-100"
+                    className="flex gap-2 items-center text-sm font-semibold capitalize transition-all duration-300 hover:text-w-900 text-w-100"
                   >
                     resources
                     <svg
@@ -89,7 +89,7 @@ export default function Header() {
                         d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
                       />
                     </svg>
-                  </a>
+                  </Link>
 
                   <div
                     className={`absolute left-1/2 transform -translate-x-1/2 mt-9 w-[630px] rounded-lg shadow-lg bg-b-700 border border-b-500 ${
@@ -110,7 +110,7 @@ export default function Header() {
                       </div>
 
                       <div className="p-6 w-1/2">
-                        <a href="blog.html">
+                        <Link href="blog.html">
                           <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                             <div>
                               <Image
@@ -131,8 +131,8 @@ export default function Header() {
                               </span>
                             </div>
                           </div>
-                        </a>
-                        <a href="case-studies.html">
+                        </Link>
+                        <Link href="case-studies.html">
                           <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                             <div>
                               <Image
@@ -153,8 +153,8 @@ export default function Header() {
                               </span>
                             </div>
                           </div>
-                        </a>
-                        <a href="documentation.html">
+                        </Link>
+                        <Link href="documentation.html">
                           <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                             <div>
                               <Image
@@ -175,7 +175,7 @@ export default function Header() {
                               </span>
                             </div>
                           </div>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -185,9 +185,9 @@ export default function Header() {
                   onMouseEnter={() => handleMouseEnter("company")}
                   onMouseLeave={handleMouseLeave}
                 >
-                  <a
+                  <Link
                     href="#"
-                    className="flex gap-2 items-center text-sm font-semibold capitalize transition-all duration-300 text-w-100"
+                    className="flex gap-2 items-center text-sm font-semibold capitalize transition-all duration-300 hover:text-w-900 text-w-100"
                   >
                     company
                     <svg
@@ -205,7 +205,7 @@ export default function Header() {
                         d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
                       />
                     </svg>
-                  </a>
+                  </Link>
 
                   <div
                     className={`absolute left-1/2 transform -translate-x-1/2 mt-9 w-[630px] rounded-lg shadow-lg bg-b-700 border border-b-500 ${
@@ -226,7 +226,7 @@ export default function Header() {
                       </div>
 
                       <div className="p-6 w-1/2">
-                        <a href="story.html">
+                        <Link href="story.html">
                           <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                             <div>
                               <Image
@@ -247,8 +247,8 @@ export default function Header() {
                               </span>
                             </div>
                           </div>
-                        </a>
-                        <a href="team.html">
+                        </Link>
+                        <Link href="team.html">
                           <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                             <div>
                               <Image
@@ -269,8 +269,8 @@ export default function Header() {
                               </span>
                             </div>
                           </div>
-                        </a>
-                        <a href="service.html">
+                        </Link>
+                        <Link href="service.html">
                           <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                             <div>
                               <Image
@@ -291,8 +291,8 @@ export default function Header() {
                               </span>
                             </div>
                           </div>
-                        </a>
-                        <a href="patent.html">
+                        </Link>
+                        <Link href="patent.html">
                           <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                             <div>
                               <Image
@@ -313,8 +313,8 @@ export default function Header() {
                               </span>
                             </div>
                           </div>
-                        </a>
-                        <a href="media-kit.html">
+                        </Link>
+                        <Link href="media-kit.html">
                           <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                             <div>
                               <Image
@@ -335,7 +335,7 @@ export default function Header() {
                               </span>
                             </div>
                           </div>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -343,27 +343,27 @@ export default function Header() {
               </ul>
             </nav>
             <div className="flex gap-2 justify-end items-center">
-              <a
+              <Link
                 href="sign-in.html"
                 className="inline-block px-4 py-2 text-sm font-medium capitalize bg-transparent rounded-full border border-transparent transition-all duration-300 text-w-900"
               >
                 sign in
-              </a>
-              <a
+              </Link>
+              <Link
                 href="sign-up.html"
                 className="inline-block px-4 py-2 text-sm font-medium capitalize rounded-full border transition-all duration-300 btn-border bg-gd-secondary hover:bg-transparent text-w-900"
               >
                 sign up
-              </a>
+              </Link>
             </div>
           </div>
         </div>
         <div className="overflow-hidden md:hidden">
           <div className="container flex justify-between items-center px-5 mx-auto xl:px-0">
-            <a href="/" className="flex gap-2">
+            <Link href="/" className="flex gap-2">
               <Image width={38} height={38} src="/img/logo.svg" alt="logo" />
               <span className="text-xl font-medium text-w-900">Neurolinx</span>
-            </a>
+            </Link>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               onClick={toggleMenu}
@@ -386,23 +386,23 @@ export default function Header() {
             <nav>
               <ul className="flex flex-col gap-4 justify-start items-start">
                 <li>
-                  <a
+                  <Link
                     href="/"
                     className="inline-block text-sm font-semibold capitalize transition-all duration-300 text-w-100 hover:text-w-900"
                   >
                     home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="solution.html"
                     className="inline-block text-sm font-semibold capitalize transition-all duration-300 text-w-100 hover:text-w-900"
                   >
                     solutions
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="#"
                     className="flex gap-1 items-center text-sm font-semibold capitalize transition-all duration-300 text-w-100 hover:text-w-900"
                     onClick={() => toggleSubMenu("resources")}
@@ -423,14 +423,14 @@ export default function Header() {
                         d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
                       />
                     </svg>
-                  </a>
+                  </Link>
 
                   <ul
                     className={`flex-col gap-2 mt-2 ${
                       activeSubMenu === "resources" ? "flex" : "hidden"
                     }`}
                   >
-                    <a href="blog.html">
+                    <Link href="blog.html">
                       <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                         <div>
                           <Image
@@ -451,8 +451,8 @@ export default function Header() {
                           </span>
                         </div>
                       </div>
-                    </a>
-                    <a href="case-studies.html">
+                    </Link>
+                    <Link href="case-studies.html">
                       <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                         <div>
                           <Image
@@ -473,8 +473,8 @@ export default function Header() {
                           </span>
                         </div>
                       </div>
-                    </a>
-                    <a href="documentation.html">
+                    </Link>
+                    <Link href="documentation.html">
                       <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                         <div>
                           <Image
@@ -495,11 +495,11 @@ export default function Header() {
                           </span>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </ul>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="#"
                     className="flex gap-1 items-center text-sm font-semibold capitalize transition-all duration-300 text-w-100 hover:text-w-900"
                     onClick={() => toggleSubMenu("company")}
@@ -520,13 +520,13 @@ export default function Header() {
                         d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
                       />
                     </svg>
-                  </a>
+                  </Link>
                   <ul
                     className={`flex-col gap-2 mt-2 ${
                       activeSubMenu === "company" ? "flex" : "hidden"
                     }`}
                   >
-                    <a href="story.html">
+                    <Link href="story.html">
                       <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                         <div>
                           <Image
@@ -547,8 +547,8 @@ export default function Header() {
                           </span>
                         </div>
                       </div>
-                    </a>
-                    <a href="team.html">
+                    </Link>
+                    <Link href="team.html">
                       <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                         <div>
                           <Image
@@ -569,8 +569,8 @@ export default function Header() {
                           </span>
                         </div>
                       </div>
-                    </a>
-                    <a href="service.html">
+                    </Link>
+                    <Link href="service.html">
                       <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                         <div>
                           <Image
@@ -591,8 +591,8 @@ export default function Header() {
                           </span>
                         </div>
                       </div>
-                    </a>
-                    <a href="patent.html">
+                    </Link>
+                    <Link href="patent.html">
                       <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                         <div>
                           <Image
@@ -613,8 +613,8 @@ export default function Header() {
                           </span>
                         </div>
                       </div>
-                    </a>
-                    <a href="media-kit.html">
+                    </Link>
+                    <Link href="media-kit.html">
                       <div className="flex gap-2 items-center p-1 mb-1 rounded-lg hover:bg-b-500">
                         <div>
                           <Image
@@ -635,24 +635,24 @@ export default function Header() {
                           </span>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </ul>
                 </li>
               </ul>
             </nav>
             <div className="flex gap-2 items-center mt-8">
-              <a
+              <Link
                 href="sign-in.html"
                 className="inline-block px-4 py-2 rounded-full border border-w-500 hover:border-tropical-indigo border-opacity-[8%] capitalize text-sm font-medium bg-transparent hover:bg-gd-secondary text-w-900 transition-all duration-300"
               >
                 sign in
-              </a>
-              <a
+              </Link>
+              <Link
                 href="sign-up.html"
                 className="inline-block px-4 py-2 rounded-full border border-tropical-indigo hover:border-transparent border-opacity-[8%] capitalize text-sm font-medium bg-gd-secondary hover:bg-transparent text-w-900 transition-all duration-300"
               >
                 sign up
-              </a>
+              </Link>
             </div>
             <svg
               onClick={toggleMenu}
